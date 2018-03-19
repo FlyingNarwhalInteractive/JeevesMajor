@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{b4dfb9bd-2e40-445c-8549-e168c4ab1249}">
+        <property name="assetPath">
+            <value>brooming1.mp3</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>6.5044897959183672</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{1eee557e-c306-4429-9968-719dfe06ac29}</destination>
+        </relationship>
+    </object>
+</objects>

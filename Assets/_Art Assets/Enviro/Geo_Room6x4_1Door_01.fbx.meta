@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 53569a7ecc698ea46830b20bb61c3e73
+timeCreated: 1510467559
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BackWall
+    100002: frontwall
+    100004: G_DoubleDoor_03
+    100006: G_DoubleDoorCulled_01
+    100008: G_DoubleDoorFull_01
+    100010: G_Room6x4_1Door_01
+    100012: geo_door_01
+    100014: geo_door_02
+    100016: geo_doorFrameBase_01
+    100018: geo_doorFrameSide_01
+    100020: geo_doorFrameSide_02
+    100022: geo_doorFrameSide_03
+    100024: geo_doorFrameSide_04
+    100026: geo_doorFrameSide_05
+    100028: geo_doorFrameSide_06
+    100030: geo_doorFrameSide_07
+    100032: geo_doorFrameSide_08
+    100034: geo_doorFrameTop_01
+    100036: //RootNode
+    100038: geo_wallCulledx4_01
+    100040: geo_wallCulledx4_02
+    100042: geo_wallCulledx6_01
+    100044: geo_wallCulledx6_01 1
+    100046: geo_wallTopx4_01
+    100048: geo_wallTopx4_02
+    100050: geo_wallTopx6_01
+    100052: geo_wallTopx6_01 1
+    100054: GeoRightKnobBase3
+    100056: GeoRightKnobBase4
+    100058: GeoRightKnobBase5
+    100060: GeoRightKnobBase6
+    100062: GeoRightKnobHandle3
+    100064: GeoRightKnobHandle4
+    100066: GeoRightKnobHandle5
+    100068: GeoRightKnobHandle6
+    100070: LeftWall
+    100072: RightWall
+    100074: G_door_L
+    100076: G_door_R
+    100078: G_doorFrame
+    100080: G_doorHandle_L
+    100082: G_doorHandle_R
+    100084: geo_door_L
+    100086: geo_door_R
+    400000: BackWall
+    400002: frontwall
+    400004: G_DoubleDoor_03
+    400006: G_DoubleDoorCulled_01
+    400008: G_DoubleDoorFull_01
+    400010: G_Room6x4_1Door_01
+    400012: geo_door_01
+    400014: geo_door_02
+    400016: geo_doorFrameBase_01
+    400018: geo_doorFrameSide_01
+    400020: geo_doorFrameSide_02
+    400022: geo_doorFrameSide_03
+    400024: geo_doorFrameSide_04
+    400026: geo_doorFrameSide_05
+    400028: geo_doorFrameSide_06
+    400030: geo_doorFrameSide_07
+    400032: geo_doorFrameSide_08
+    400034: geo_doorFrameTop_01
+    400036: //RootNode
+    400038: geo_wallCulledx4_01
+    400040: geo_wallCulledx4_02
+    400042: geo_wallCulledx6_01
+    400044: geo_wallCulledx6_01 1
+    400046: geo_wallTopx4_01
+    400048: geo_wallTopx4_02
+    400050: geo_wallTopx6_01
+    400052: geo_wallTopx6_01 1
+    400054: GeoRightKnobBase3
+    400056: GeoRightKnobBase4
+    400058: GeoRightKnobBase5
+    400060: GeoRightKnobBase6
+    400062: GeoRightKnobHandle3
+    400064: GeoRightKnobHandle4
+    400066: GeoRightKnobHandle5
+    400068: GeoRightKnobHandle6
+    400070: LeftWall
+    400072: RightWall
+    400074: G_door_L
+    400076: G_door_R
+    400078: G_doorFrame
+    400080: G_doorHandle_L
+    400082: G_doorHandle_R
+    400084: geo_door_L
+    400086: geo_door_R
+    2300000: geo_door_01
+    2300002: geo_door_02
+    2300004: geo_doorFrameBase_01
+    2300006: geo_doorFrameSide_01
+    2300008: geo_doorFrameSide_02
+    2300010: geo_doorFrameSide_03
+    2300012: geo_doorFrameSide_04
+    2300014: geo_doorFrameSide_05
+    2300016: geo_doorFrameSide_06
+    2300018: geo_doorFrameSide_07
+    2300020: geo_doorFrameSide_08
+    2300022: geo_doorFrameTop_01
+    2300024: geo_wallCulledx4_01
+    2300026: geo_wallCulledx4_02
+    2300028: geo_wallCulledx6_01
+    2300030: geo_wallCulledx6_01 1
+    2300032: geo_wallTopx4_01
+    2300034: geo_wallTopx4_02
+    2300036: geo_wallTopx6_01
+    2300038: geo_wallTopx6_01 1
+    2300040: GeoRightKnobBase3
+    2300042: GeoRightKnobBase4
+    2300044: GeoRightKnobBase5
+    2300046: GeoRightKnobBase6
+    2300048: GeoRightKnobHandle3
+    2300050: GeoRightKnobHandle4
+    2300052: GeoRightKnobHandle5
+    2300054: GeoRightKnobHandle6
+    2300056: geo_door_L
+    2300058: geo_door_R
+    3300000: geo_door_01
+    3300002: geo_door_02
+    3300004: geo_doorFrameBase_01
+    3300006: geo_doorFrameSide_01
+    3300008: geo_doorFrameSide_02
+    3300010: geo_doorFrameSide_03
+    3300012: geo_doorFrameSide_04
+    3300014: geo_doorFrameSide_05
+    3300016: geo_doorFrameSide_06
+    3300018: geo_doorFrameSide_07
+    3300020: geo_doorFrameSide_08
+    3300022: geo_doorFrameTop_01
+    3300024: geo_wallCulledx4_01
+    3300026: geo_wallCulledx4_02
+    3300028: geo_wallCulledx6_01
+    3300030: geo_wallCulledx6_01 1
+    3300032: geo_wallTopx4_01
+    3300034: geo_wallTopx4_02
+    3300036: geo_wallTopx6_01
+    3300038: geo_wallTopx6_01 1
+    3300040: GeoRightKnobBase3
+    3300042: GeoRightKnobBase4
+    3300044: GeoRightKnobBase5
+    3300046: GeoRightKnobBase6
+    3300048: GeoRightKnobHandle3
+    3300050: GeoRightKnobHandle4
+    3300052: GeoRightKnobHandle5
+    3300054: GeoRightKnobHandle6
+    3300056: geo_door_L
+    3300058: geo_door_R
+    4300000: geo_wallCulledx6_01
+    4300002: geo_wallTopx6_01
+    4300004: geo_wallCulledx4_01
+    4300006: geo_wallTopx4_01
+    4300008: geo_doorFrameSide_06
+    4300010: geo_doorFrameSide_05
+    4300012: geo_doorFrameSide_07
+    4300014: geo_doorFrameTop_01
+    4300016: geo_doorFrameSide_03
+    4300018: geo_doorFrameSide_01
+    4300020: geo_doorFrameSide_02
+    4300022: geo_door_01
+    4300024: geo_door_02
+    4300026: GeoRightKnobHandle3
+    4300028: GeoRightKnobBase3
+    4300030: GeoRightKnobBase4
+    4300032: GeoRightKnobHandle4
+    4300034: GeoRightKnobHandle5
+    4300036: GeoRightKnobBase5
+    4300038: GeoRightKnobBase6
+    4300040: GeoRightKnobHandle6
+    4300042: geo_doorFrameSide_08
+    4300044: geo_doorFrameBase_01
+    4300046: geo_doorFrameSide_04
+    4300048: geo_wallTopx4_02
+    4300050: geo_wallCulledx4_02
+    4300052: geo_wallCulledx6_01
+    4300054: geo_wallTopx6_01
+    4300056: geo_door_R
+    4300058: geo_door_L
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_WallTexture_1
+    second: {fileID: 2100000, guid: cbd62a9109dd72346b3b1915ec1a6237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_WoodDoor_L
+    second: {fileID: 2100000, guid: 90ab0d3ef1a066848b7ba8cd7c0c6d14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wood_L
+    second: {fileID: 2100000, guid: c56f5c60f0259254890096f45bae42e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wood_L1
+    second: {fileID: 2100000, guid: b0e7d6a2490f38b4eb01c3686bf7a3f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_gold_L
+    second: {fileID: 2100000, guid: b06b5592e4a003e46933d555efed7ce8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

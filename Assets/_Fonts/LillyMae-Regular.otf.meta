@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b6c24b8ed00997847ba7b3179b4184e5
+timeCreated: 1520231230
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Lilly Mae
+  fontNames:
+  - Lilly Mae
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

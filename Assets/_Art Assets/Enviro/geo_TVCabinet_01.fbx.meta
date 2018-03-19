@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: ad9f7b3b9e671604da50c41a80db28cc
+timeCreated: 1521448676
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cabinet
+    100002: geo_Book_0
+    100004: geo_Book_1
+    100006: geo_Book_2
+    100008: geo_Book_3
+    100010: geo_Book_4
+    100012: geo_Book_5
+    100014: geo_Book_6
+    100016: geo_Book_7
+    100018: geo_candle_04
+    100020: geo_candle_05
+    100022: geo_candle_06
+    100024: geo_candle_07
+    100026: geo_H_Props
+    100028: geo_L_Props
+    100030: geo_PlantContainer_01
+    100032: geo_PlantContainer_02
+    100034: geo_plantShrub_01
+    100036: geo_plantShrub_02
+    100038: geo_plantShrub_03
+    100040: geo_plantShrub_04
+    100042: geo_tableRunner_02
+    100044: geo_TV_01
+    100046: //RootNode
+    100048: geo_TVStand_01
+    100050: TV
+    400000: Cabinet
+    400002: geo_Book_0
+    400004: geo_Book_1
+    400006: geo_Book_2
+    400008: geo_Book_3
+    400010: geo_Book_4
+    400012: geo_Book_5
+    400014: geo_Book_6
+    400016: geo_Book_7
+    400018: geo_candle_04
+    400020: geo_candle_05
+    400022: geo_candle_06
+    400024: geo_candle_07
+    400026: geo_H_Props
+    400028: geo_L_Props
+    400030: geo_PlantContainer_01
+    400032: geo_PlantContainer_02
+    400034: geo_plantShrub_01
+    400036: geo_plantShrub_02
+    400038: geo_plantShrub_03
+    400040: geo_plantShrub_04
+    400042: geo_tableRunner_02
+    400044: geo_TV_01
+    400046: //RootNode
+    400048: geo_TVStand_01
+    400050: TV
+    2300000: Cabinet
+    2300002: geo_Book_0
+    2300004: geo_Book_1
+    2300006: geo_Book_2
+    2300008: geo_Book_3
+    2300010: geo_Book_4
+    2300012: geo_Book_5
+    2300014: geo_Book_6
+    2300016: geo_Book_7
+    2300018: geo_candle_04
+    2300020: geo_candle_05
+    2300022: geo_candle_06
+    2300024: geo_candle_07
+    2300026: geo_PlantContainer_01
+    2300028: geo_PlantContainer_02
+    2300030: geo_plantShrub_01
+    2300032: geo_plantShrub_02
+    2300034: geo_plantShrub_03
+    2300036: geo_plantShrub_04
+    2300038: geo_tableRunner_02
+    2300040: geo_TV_01
+    2300042: geo_TVStand_01
+    3300000: Cabinet
+    3300002: geo_Book_0
+    3300004: geo_Book_1
+    3300006: geo_Book_2
+    3300008: geo_Book_3
+    3300010: geo_Book_4
+    3300012: geo_Book_5
+    3300014: geo_Book_6
+    3300016: geo_Book_7
+    3300018: geo_candle_04
+    3300020: geo_candle_05
+    3300022: geo_candle_06
+    3300024: geo_candle_07
+    3300026: geo_PlantContainer_01
+    3300028: geo_PlantContainer_02
+    3300030: geo_plantShrub_01
+    3300032: geo_plantShrub_02
+    3300034: geo_plantShrub_03
+    3300036: geo_plantShrub_04
+    3300038: geo_tableRunner_02
+    3300040: geo_TV_01
+    3300042: geo_TVStand_01
+    4300000: geo_TVStand_01
+    4300002: geo_TV_01
+    4300004: geo_PlantContainer_01
+    4300006: geo_plantShrub_02
+    4300008: geo_candle_06
+    4300010: geo_candle_07
+    4300012: geo_PlantContainer_02
+    4300014: geo_plantShrub_04
+    4300016: geo_plantShrub_01
+    4300018: geo_candle_04
+    4300020: geo_candle_05
+    4300022: geo_plantShrub_03
+    4300024: Cabinet
+    4300026: geo_tableRunner_02
+    4300028: geo_Book_0
+    4300030: geo_Book_1
+    4300032: geo_Book_2
+    4300034: geo_Book_3
+    4300036: geo_Book_4
+    4300038: geo_Book_5
+    4300040: geo_Book_6
+    4300042: geo_Book_7
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Black_01
+    second: {fileID: 2100000, guid: 0583739bffa018f4c9a62fc4c2e1d237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Blue_02
+    second: {fileID: 2100000, guid: 133ee9d778b43c444809a01dc930744b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Blue_03
+    second: {fileID: 2100000, guid: adb85a1058d3a1a41b6ffea41b2f9aed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_GreenPlant_03
+    second: {fileID: 2100000, guid: d6868bf558503b043a00f53f326581fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_GreenPlant_04
+    second: {fileID: 2100000, guid: ed647d440875bd54da0617930c9b6d79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Pink_01
+    second: {fileID: 2100000, guid: 66ad0341027e97244aaffc0572291db6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Pink_02
+    second: {fileID: 2100000, guid: 02c880aa4c06878499b0deef385f9ab0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Pink_03
+    second: {fileID: 2100000, guid: d5a6c243df5d2904ba779c5f7733e41c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Yellow_03
+    second: {fileID: 2100000, guid: 360245d80a09638418102d2054ec0962, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Yellow_04
+    second: {fileID: 2100000, guid: 41010a6ffe910554bab10843bc4b3eec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_baronsdesk_01_M_Brown_01
+    second: {fileID: 2100000, guid: 13136750749622a4eb73af9cbb75a04c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

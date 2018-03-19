@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1448989245880348}
+  m_IsPrefabParent: 1
+--- !u!1 &1448989245880348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4264995461033656}
+  - component: {fileID: 114140289891772000}
+  m_Layer: 0
+  m_Name: Dummy_Real
+  m_TagString: Dummy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4264995461033656
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1448989245880348}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.738083, y: -0.00006997585, z: 8.293853}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114140289891772000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1448989245880348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08099c8b496ff4c45a480497e30cd339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroy: 0
+  isBaron: 0
+  isAI: 0
+  isDummy: 1
+  isRandDummy: 0
+  isFetch: 0
+  FetchObj: {fileID: 1809793964982450, guid: 7721fbe5c428bce4cb340872f93dafe8, type: 2}
+  baronFetchLocation: {fileID: 4879444664645342, guid: 0a69c142c9bb31846b20c5458bdb281f,
+    type: 2}
+  isCompleted: 0
+  isRandom: 0
+  randomTaskList: []
+  spawnLocations: []
+  chanceNum: 
+  points: 0
+  spawnTime: {x: 0, y: 0}
+  spawnRangeStart: {x: 0, y: 0}
+  spawnRangeEnd: {x: 0, y: 0}
+  Ring: {fileID: 0}
+  Blink: {fileID: 0}
+  taskObject: {fileID: 0}
+  baronAngerIcon: {fileID: 0}
+  workingIcon: {fileID: 0}
+  subTasks: []
+  spawnLocation: {fileID: 0}
+  timeToComplete: 0
+  timeToCompleteStore: 0
+  priority: 0
+  isDisturbance: 0
+  unfinishedRage: 0
+  completedRageReduction: 0
+  detectCooldown: 0
+  cdCounter: 0
+  isDetect: 0
+  isVisibleToBaron: 0
+  baronHasSeenBefore: 0
+  ragedOnce: 0
+  mess: {fileID: 0}
+  messSpawnMode: 0
+  messPos: {fileID: 0}
+  messRadius: 0
+  messAmmount: 0

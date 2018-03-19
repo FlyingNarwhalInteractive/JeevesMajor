@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: d1712ac872c41434387d69a385d50be0
+timeCreated: 1512287045
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CHAR_PH_Baron_MeshPart0
+    100004: CHAR_PH_Baron_MeshPart1
+    100006: CHAR_PH_Baron_MeshPart10
+    100008: CHAR_PH_Baron_MeshPart2
+    100010: CHAR_PH_Baron_MeshPart3
+    100012: CHAR_PH_Baron_MeshPart4
+    100014: CHAR_PH_Baron_MeshPart5
+    100016: CHAR_PH_Baron_MeshPart6
+    100018: CHAR_PH_Baron_MeshPart7
+    100020: CHAR_PH_Baron_MeshPart8
+    100022: CHAR_PH_Baron_MeshPart9
+    400000: //RootNode
+    400002: CHAR_PH_Baron_MeshPart0
+    400004: CHAR_PH_Baron_MeshPart1
+    400006: CHAR_PH_Baron_MeshPart10
+    400008: CHAR_PH_Baron_MeshPart2
+    400010: CHAR_PH_Baron_MeshPart3
+    400012: CHAR_PH_Baron_MeshPart4
+    400014: CHAR_PH_Baron_MeshPart5
+    400016: CHAR_PH_Baron_MeshPart6
+    400018: CHAR_PH_Baron_MeshPart7
+    400020: CHAR_PH_Baron_MeshPart8
+    400022: CHAR_PH_Baron_MeshPart9
+    2300000: CHAR_PH_Baron_MeshPart0
+    2300002: CHAR_PH_Baron_MeshPart1
+    2300004: CHAR_PH_Baron_MeshPart10
+    2300006: CHAR_PH_Baron_MeshPart2
+    2300008: CHAR_PH_Baron_MeshPart3
+    2300010: CHAR_PH_Baron_MeshPart4
+    2300012: CHAR_PH_Baron_MeshPart5
+    2300014: CHAR_PH_Baron_MeshPart6
+    2300016: CHAR_PH_Baron_MeshPart7
+    2300018: CHAR_PH_Baron_MeshPart8
+    2300020: CHAR_PH_Baron_MeshPart9
+    3300000: CHAR_PH_Baron_MeshPart0
+    3300002: CHAR_PH_Baron_MeshPart1
+    3300004: CHAR_PH_Baron_MeshPart10
+    3300006: CHAR_PH_Baron_MeshPart2
+    3300008: CHAR_PH_Baron_MeshPart3
+    3300010: CHAR_PH_Baron_MeshPart4
+    3300012: CHAR_PH_Baron_MeshPart5
+    3300014: CHAR_PH_Baron_MeshPart6
+    3300016: CHAR_PH_Baron_MeshPart7
+    3300018: CHAR_PH_Baron_MeshPart8
+    3300020: CHAR_PH_Baron_MeshPart9
+    4300000: CHAR_PH_Baron_MeshPart0
+    4300002: CHAR_PH_Baron_MeshPart1
+    4300004: CHAR_PH_Baron_MeshPart2
+    4300006: CHAR_PH_Baron_MeshPart3
+    4300008: CHAR_PH_Baron_MeshPart4
+    4300010: CHAR_PH_Baron_MeshPart5
+    4300012: CHAR_PH_Baron_MeshPart6
+    4300014: CHAR_PH_Baron_MeshPart7
+    4300016: CHAR_PH_Baron_MeshPart8
+    4300018: CHAR_PH_Baron_MeshPart9
+    4300020: CHAR_PH_Baron_MeshPart10
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 86d48466bb6396b43892bf00292bd498, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
