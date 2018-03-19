@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: fc979b8901c65884792bcc5387b4675f
+timeCreated: 1501466882
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: DoorBits
+    100004: DoorBits1
+    100006: DoorKnobSide1
+    100008: DoorKnobSide2
+    100010: DoubleDoor
+    100012: DoubleDoorCut
+    100014: GeoBottomHingeOuter
+    100016: GeoBottomHingeOuter 1
+    100018: GeoBottomHinheInner
+    100020: GeoBottomHinheInner 1
+    100022: GeoDoubleDoorCutBottom
+    100024: GeoDoubleDoorCutTop
+    100026: GeoDoubleDoorFrame
+    100028: GeoDoubleDoorWall
+    100030: GeoKnobBase1
+    100032: GeoKnobBase2
+    100034: GeoKnobHandle1
+    100036: GeoKnobHandle2
+    100038: GeoLeftDoubleDoor
+    100040: GeoLeftDoubleDoor1
+    100042: GeoLeftKnobBase
+    100044: GeoLeftKnobBase 1
+    100046: GeoLeftKnobBase1
+    100048: GeoLeftKnobBase2
+    100050: GeoLeftKnobHandle
+    100052: GeoLeftKnobHandle 1
+    100054: GeoLeftKnobHandle1
+    100056: GeoLeftKnobHandle2
+    100058: GeoRightBottomHingeOuter
+    100060: GeoRightBottomHinheInner
+    100062: GeoRightDoubleDoor
+    100064: GeoRightDoubleDoor1
+    100066: GeoRightKnobBase1
+    100068: GeoRightKnobBase2
+    100070: GeoRightKnobBase3
+    100072: GeoRightKnobBase4
+    100074: GeoRightKnobHandle1
+    100076: GeoRightKnobHandle2
+    100078: GeoRightKnobHandle3
+    100080: GeoRightKnobHandle4
+    100082: GeoRightTopHingeOuter
+    100084: GeoRightTopHinheInner
+    100086: GeoSingleCutDoor
+    100088: GeoSIngleCutDoorBottom
+    100090: GeoSingleDoorCutTop
+    100092: GeoSingleDoorFrame
+    100094: GeoSingleDoorWall
+    100096: GeoTopHingeOuter
+    100098: GeoTopHingeOuter 1
+    100100: GeoTopHinheInner
+    100102: GeoTopHinheInner 1
+    100104: hinges
+    100106: LeftDoor
+    100108: LeftDoorKnobSide1
+    100110: LeftDoorKnobSide2
+    100112: LeftHinges1
+    100114: RightDoor
+    100116: RightDoorKnobSide1
+    100118: Righthinges
+    100120: RighttDoorKnobSide2
+    100122: SingleDoor
+    100124: SingleDoor 1
+    100126: SingleDoorCut
+    400000: //RootNode
+    400002: DoorBits
+    400004: DoorBits1
+    400006: DoorKnobSide1
+    400008: DoorKnobSide2
+    400010: DoubleDoor
+    400012: DoubleDoorCut
+    400014: GeoBottomHingeOuter
+    400016: GeoBottomHingeOuter 1
+    400018: GeoBottomHinheInner
+    400020: GeoBottomHinheInner 1
+    400022: GeoDoubleDoorCutBottom
+    400024: GeoDoubleDoorCutTop
+    400026: GeoDoubleDoorFrame
+    400028: GeoDoubleDoorWall
+    400030: GeoKnobBase1
+    400032: GeoKnobBase2
+    400034: GeoKnobHandle1
+    400036: GeoKnobHandle2
+    400038: GeoLeftDoubleDoor
+    400040: GeoLeftDoubleDoor1
+    400042: GeoLeftKnobBase
+    400044: GeoLeftKnobBase 1
+    400046: GeoLeftKnobBase1
+    400048: GeoLeftKnobBase2
+    400050: GeoLeftKnobHandle
+    400052: GeoLeftKnobHandle 1
+    400054: GeoLeftKnobHandle1
+    400056: GeoLeftKnobHandle2
+    400058: GeoRightBottomHingeOuter
+    400060: GeoRightBottomHinheInner
+    400062: GeoRightDoubleDoor
+    400064: GeoRightDoubleDoor1
+    400066: GeoRightKnobBase1
+    400068: GeoRightKnobBase2
+    400070: GeoRightKnobBase3
+    400072: GeoRightKnobBase4
+    400074: GeoRightKnobHandle1
+    400076: GeoRightKnobHandle2
+    400078: GeoRightKnobHandle3
+    400080: GeoRightKnobHandle4
+    400082: GeoRightTopHingeOuter
+    400084: GeoRightTopHinheInner
+    400086: GeoSingleCutDoor
+    400088: GeoSIngleCutDoorBottom
+    400090: GeoSingleDoorCutTop
+    400092: GeoSingleDoorFrame
+    400094: GeoSingleDoorWall
+    400096: GeoTopHingeOuter
+    400098: GeoTopHingeOuter 1
+    400100: GeoTopHinheInner
+    400102: GeoTopHinheInner 1
+    400104: hinges
+    400106: LeftDoor
+    400108: LeftDoorKnobSide1
+    400110: LeftDoorKnobSide2
+    400112: LeftHinges1
+    400114: RightDoor
+    400116: RightDoorKnobSide1
+    400118: Righthinges
+    400120: RighttDoorKnobSide2
+    400122: SingleDoor
+    400124: SingleDoor 1
+    400126: SingleDoorCut
+    2300000: GeoBottomHingeOuter
+    2300002: GeoBottomHingeOuter 1
+    2300004: GeoBottomHinheInner
+    2300006: GeoBottomHinheInner 1
+    2300008: GeoDoubleDoorCutBottom
+    2300010: GeoDoubleDoorCutTop
+    2300012: GeoDoubleDoorFrame
+    2300014: GeoDoubleDoorWall
+    2300016: GeoKnobBase1
+    2300018: GeoKnobBase2
+    2300020: GeoKnobHandle1
+    2300022: GeoKnobHandle2
+    2300024: GeoLeftDoubleDoor
+    2300026: GeoLeftDoubleDoor1
+    2300028: GeoLeftKnobBase
+    2300030: GeoLeftKnobBase 1
+    2300032: GeoLeftKnobBase1
+    2300034: GeoLeftKnobBase2
+    2300036: GeoLeftKnobHandle
+    2300038: GeoLeftKnobHandle 1
+    2300040: GeoLeftKnobHandle1
+    2300042: GeoLeftKnobHandle2
+    2300044: GeoRightBottomHingeOuter
+    2300046: GeoRightBottomHinheInner
+    2300048: GeoRightDoubleDoor
+    2300050: GeoRightDoubleDoor1
+    2300052: GeoRightKnobBase1
+    2300054: GeoRightKnobBase2
+    2300056: GeoRightKnobBase3
+    2300058: GeoRightKnobBase4
+    2300060: GeoRightKnobHandle1
+    2300062: GeoRightKnobHandle2
+    2300064: GeoRightKnobHandle3
+    2300066: GeoRightKnobHandle4
+    2300068: GeoRightTopHingeOuter
+    2300070: GeoRightTopHinheInner
+    2300072: GeoSingleCutDoor
+    2300074: GeoSIngleCutDoorBottom
+    2300076: GeoSingleDoorCutTop
+    2300078: GeoSingleDoorFrame
+    2300080: GeoSingleDoorWall
+    2300082: GeoTopHingeOuter
+    2300084: GeoTopHingeOuter 1
+    2300086: GeoTopHinheInner
+    2300088: GeoTopHinheInner 1
+    2300090: SingleDoor 1
+    3300000: GeoBottomHingeOuter
+    3300002: GeoBottomHingeOuter 1
+    3300004: GeoBottomHinheInner
+    3300006: GeoBottomHinheInner 1
+    3300008: GeoDoubleDoorCutBottom
+    3300010: GeoDoubleDoorCutTop
+    3300012: GeoDoubleDoorFrame
+    3300014: GeoDoubleDoorWall
+    3300016: GeoKnobBase1
+    3300018: GeoKnobBase2
+    3300020: GeoKnobHandle1
+    3300022: GeoKnobHandle2
+    3300024: GeoLeftDoubleDoor
+    3300026: GeoLeftDoubleDoor1
+    3300028: GeoLeftKnobBase
+    3300030: GeoLeftKnobBase 1
+    3300032: GeoLeftKnobBase1
+    3300034: GeoLeftKnobBase2
+    3300036: GeoLeftKnobHandle
+    3300038: GeoLeftKnobHandle 1
+    3300040: GeoLeftKnobHandle1
+    3300042: GeoLeftKnobHandle2
+    3300044: GeoRightBottomHingeOuter
+    3300046: GeoRightBottomHinheInner
+    3300048: GeoRightDoubleDoor
+    3300050: GeoRightDoubleDoor1
+    3300052: GeoRightKnobBase1
+    3300054: GeoRightKnobBase2
+    3300056: GeoRightKnobBase3
+    3300058: GeoRightKnobBase4
+    3300060: GeoRightKnobHandle1
+    3300062: GeoRightKnobHandle2
+    3300064: GeoRightKnobHandle3
+    3300066: GeoRightKnobHandle4
+    3300068: GeoRightTopHingeOuter
+    3300070: GeoRightTopHinheInner
+    3300072: GeoSingleCutDoor
+    3300074: GeoSIngleCutDoorBottom
+    3300076: GeoSingleDoorCutTop
+    3300078: GeoSingleDoorFrame
+    3300080: GeoSingleDoorWall
+    3300082: GeoTopHingeOuter
+    3300084: GeoTopHingeOuter 1
+    3300086: GeoTopHinheInner
+    3300088: GeoTopHinheInner 1
+    3300090: SingleDoor 1
+    4300000: GeoKnobBase1
+    4300002: GeoKnobHandle1
+    4300004: GeoKnobBase2
+    4300006: GeoKnobHandle2
+    4300008: GeoTopHingeOuter
+    4300010: GeoTopHinheInner
+    4300012: GeoBottomHingeOuter
+    4300014: GeoBottomHinheInner
+    4300016: SingleDoor
+    4300018: GeoSingleDoorFrame
+    4300020: GeoSingleDoorWall
+    4300022: GeoSIngleCutDoorBottom
+    4300024: GeoSingleCutDoor
+    4300026: GeoSingleDoorCutTop
+    4300028: GeoDoubleDoorFrame
+    4300030: GeoDoubleDoorWall
+    4300032: GeoRightKnobBase1
+    4300034: GeoRightKnobHandle1
+    4300036: GeoRightKnobBase3
+    4300038: GeoRightKnobHandle3
+    4300040: GeoRightKnobBase2
+    4300042: GeoRightKnobHandle2
+    4300044: GeoRightKnobBase4
+    4300046: GeoRightKnobHandle4
+    4300048: GeoRightDoubleDoor
+    4300050: GeoRightTopHingeOuter
+    4300052: GeoRightTopHinheInner
+    4300054: GeoRightBottomHingeOuter
+    4300056: GeoRightBottomHinheInner
+    4300058: GeoRightDoubleDoor1
+    4300060: GeoLeftKnobBase
+    4300062: GeoLeftKnobHandle
+    4300064: GeoLeftKnobBase1
+    4300066: GeoLeftKnobHandle1
+    4300068: GeoLeftKnobBase
+    4300070: GeoLeftKnobHandle
+    4300072: GeoLeftKnobBase2
+    4300074: GeoLeftKnobHandle2
+    4300076: GeoTopHingeOuter
+    4300078: GeoTopHinheInner
+    4300080: GeoBottomHingeOuter
+    4300082: GeoBottomHinheInner
+    4300084: GeoLeftDoubleDoor
+    4300086: GeoLeftDoubleDoor1
+    4300088: GeoDoubleDoorCutTop
+    4300090: GeoDoubleDoorCutBottom
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
