@@ -76,8 +76,15 @@ public class Task : MonoBehaviour
     bool        baronFirstSighting = false;
     public bool ragedOnce;
 
-    //task creating task
-    public GameObject mess;
+	//enable/disable objects
+
+	//On Spawn
+[SerializeField] GameObject	ObjectEnable;
+[SerializeField] GameObject ObjectDisable;
+
+
+	//task creating task
+	public GameObject mess;
     public int messSpawnMode;
     public Transform messPos;
     [SerializeField] float messRadius;
@@ -138,6 +145,12 @@ public class Task : MonoBehaviour
         tutRef = GameObject.FindGameObjectWithTag("Tut").GetComponent<Tutorial>();
         }
 
+		//disable/enable object on spawn
+		if(ObjectDisable != null && ObjectEnable != null)
+		{
+			ObjectEnable.SetActive(true);
+			ObjectDisable.SetActive(false);
+		}
   
 
         isDetect = false;
@@ -556,8 +569,16 @@ public class Task : MonoBehaviour
                         //Stop animation
                         //other.GetComponent<Animator>().StopPlayback();
                         isCompleted = true;
-                        //spawn mess on completion
-                        if (messSpawnMode != 0)
+
+						//reset objects that changed during tasks
+						if (ObjectDisable != null && ObjectEnable != null)
+						{
+							ObjectEnable.SetActive(false);
+							ObjectDisable.SetActive(true);
+						}
+
+						//spawn mess on completion
+						if (messSpawnMode != 0)
                         {
                             print("START OBJECT SPAWN");
                             spawnMess();
@@ -623,8 +644,16 @@ public class Task : MonoBehaviour
 
                         //run task complete code, send stats to gameDataStore.cs / GameManager.cs
                         isCompleted = true;
-                        //reduce barons rage
-                        gameManagerRef.GetComponent<GameDataStore>().SetCurrentRage(-completedRageReduction);
+
+						//reset objects that changed during tasks
+						if (ObjectDisable != null && ObjectEnable != null)
+						{
+							ObjectEnable.SetActive(false);
+							ObjectDisable.SetActive(true);
+						}
+
+						//reduce barons rage
+						gameManagerRef.GetComponent<GameDataStore>().SetCurrentRage(-completedRageReduction);
                         gameManagerRef.GetComponent<GameDataStore>().SetCompletedTasks(1);
                         gameManagerRef.GetComponent<GameDataStore>().Stamina = points;
 
