@@ -354,7 +354,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1788926296847888}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.3120155, y: 0.000009536743, z: 9.809689}
+  m_LocalPosition: {x: 3.94, y: 0.2, z: 2.69}
   m_LocalScale: {x: 0.647259, y: 0.64725894, z: 0.64725894}
   m_Children:
   - {fileID: 4100343552144430}
@@ -940,7 +940,7 @@ Animator:
   m_GameObject: {fileID: 1788926296847888}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: d1712ac872c41434387d69a385d50be0, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9467e442ce412124c82981da719e83aa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -967,9 +967,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   m_waitTimeBetweenWaypoints: 5
   timeOut: 0
   timeOutCap: 5
+  wander: 0
 --- !u!114 &114162480772227588
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1013,6 +1015,7 @@ MonoBehaviour:
   m_knownObstacles: []
   m_arrivalDistanceThreshold: 1.2
   lastRenavTime: 0
+  m_agentAni: {fileID: 1788926296847888}
 --- !u!114 &114773977666618652
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1052,7 +1055,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1788926296847888}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0087954813bbcc46903e61d6c548757, type: 3}
   m_Name: 
@@ -1063,6 +1066,10 @@ MonoBehaviour:
   maxRage: 0
   currentRage: 0
   turnOnRaycasts: 1
+  currentAnnoyances: []
+  Ring: {fileID: 0}
+  Line: {fileID: 0}
+  protect: 0
   jeevesSpotted: 0
   isJeevesVisibleRightNow: 0
 --- !u!114 &114847335920055840
@@ -1079,7 +1086,11 @@ MonoBehaviour:
   sightRange: 0
   frequancyRage: 0
   amountRage: 0
+  maxRageOverLifetime: 0
+  totalRageDealt: 0
+  wait: 0
   clips: []
+  Ring: {fileID: 0}
 --- !u!114 &114961286823925264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1096,6 +1107,8 @@ MonoBehaviour:
   trappedAnnoyed: {fileID: 2800000, guid: dd44dae673d6f684e8bb75c46c6f2922, type: 3}
   defaultAngerIcon: {fileID: 2800000, guid: fbc157fd86568b540bbae17e04227458, type: 3}
   defaultTaskingIcon: {fileID: 2800000, guid: b593a3fe00e248c42a9db7dc8b2eefcb, type: 3}
+  doorTask: {fileID: 0}
+  fetchTask: {fileID: 0}
   m_currentAnnoyances: []
   iconSwapSpeed: 1
 --- !u!120 &120866136603408964

@@ -87,8 +87,10 @@ MonoBehaviour:
   isVisibleToBaron: 0
   baronHasSeenBefore: 0
   ragedOnce: 0
+  ObjectEnable: {fileID: 0}
+  ObjectDisable: {fileID: 0}
   mess: {fileID: 1086300463046444, guid: efbc777924c1723409c932dd3ac7ae9b, type: 2}
   messSpawnMode: 2
   messPos: {fileID: 4579964324760122}
-  messRadius: 0.5
+  messRadius: 1
   messAmmount: 5
