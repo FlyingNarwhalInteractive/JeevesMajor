@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
 	public Vector2 currentTime;
 	public int currentDay;
 	public string AmPm;
+	private Spin multiFX;
 
 	public Sprite angerFace1;
 	public Sprite angerFace2;
@@ -282,6 +283,8 @@ public class GameManager : MonoBehaviour
 		}
 	}
 
+
+
 	public int CurrentScore
 	{
 		get
@@ -306,6 +309,8 @@ public class GameManager : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
+
+		multiFX = GameObject.FindGameObjectWithTag("Multi").GetComponent<Spin>();
 
         stamBarOriginalColour = staminaBarBackground.color;
 
@@ -378,6 +383,28 @@ public class GameManager : MonoBehaviour
 
 	}
 
+	public void SetMultiplier(int amount)
+	{
+		if(amount == -1 && multiplyer != 1)
+		{
+			multiplyer = 1;
+			multiFX.PlayMulti(multiplyer);
+		}
+		else if(amount > 0)
+		{
+
+			multiplyer += amount;
+			if (multiplyer >= 5)
+			{
+				multiplyer = 5;
+			}
+			if(multiplyer < 6)
+			{
+            multiFX.PlayMulti(multiplyer);
+			}	
+		}
+	}
+
 
 	public bool GetIsTut()
 	{
@@ -404,7 +431,13 @@ public class GameManager : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-        float currentFlashTime = Time.time - stamBarLastFlash;
+		if (Input.GetKeyDown(KeyCode.Space))
+		{
+			SetMultiplier(1);
+		}
+
+
+		float currentFlashTime = Time.time - stamBarLastFlash;
         // flash bar stuff
         if (currentFlashTime < stamBarFlashSpeed)
         {
@@ -443,12 +476,11 @@ public class GameManager : MonoBehaviour
 		challangeText.text = currentChallangeStr;
 
 
-		if (multiplyer > 5)
-		{
-			multiplyer = 5;
-		}
 
-		multi.text = "X" + multiplyer.ToString();
+
+
+
+		//multi.text = "X" + multiplyer.ToString();
 
 
 		//Stamina

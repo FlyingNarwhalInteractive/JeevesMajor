@@ -15,9 +15,13 @@ public class Spin : MonoBehaviour {
 	public bool spawn;
 	Animation ani;
 	Camera c;
+
+	private GameManager GMRef;
+
 	// Use this for initialization
 	void Start ()
 	{
+		GMRef = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
 		spawn = false;
 		ani = gameObject.GetComponent<Animation>();
 		c = Camera.main;
@@ -28,50 +32,27 @@ public class Spin : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
-	
-
-
-		if (Input.GetKeyDown(KeyCode.Q))
-		{
-			speedUp = true;
-		}
-		if (Input.GetKeyDown(KeyCode.W))
-		{
-			speedUp = false;
-		}
-		if (Input.GetKeyDown(KeyCode.A))
-		{
-			slowDown = true;
-		}
-		if (Input.GetKeyDown(KeyCode.S))
-		{
-			slowDown = false;
-		}
-
-		
-
-		if (Input.GetKeyDown(KeyCode.Space))
-		{
-			ani.wrapMode = WrapMode.Once;
-			ani.Play();
-			Spawn();
-		}
 	}
 
-	public void Spawn()
+	public void PlayMulti(int multi)
 	{
-		
+		ani.wrapMode = WrapMode.Once;
+		ani.Play();
+		Spawn(multi);
+	}
 
+	public void Spawn(int multi)
+	{
 		ParticleSystem t = Instantiate(pa);
 		Destroy(t.transform.gameObject, 2.0f);
-		multi++;
-		Invoke("count", 0.25f);
+		count();
 
 	}
 
 	void count()
 	{
-		gameObject.GetComponent<Text>().text = "X" + multi;
+		gameObject.GetComponent<Text>().text = "X" + GMRef.multiplyer;
+		gameObject.GetComponent<Text>().fontSize = 15 + (GMRef.multiplyer * 2);
 	}
 
 	IEnumerator Wait()

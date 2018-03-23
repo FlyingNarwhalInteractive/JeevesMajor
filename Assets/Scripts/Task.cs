@@ -658,7 +658,7 @@ public class Task : MonoBehaviour
                         gameManagerRef.GetComponent<GameDataStore>().Stamina = points;
 
                         gameManagerRef.GetComponent<GameManager>().CurrentScore = points;
-                        gameManagerRef.GetComponent<GameManager>().multiplyer += 1;
+						gameManagerRef.GetComponent<GameManager>().SetMultiplier(1);
 
 
 

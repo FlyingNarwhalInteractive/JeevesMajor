@@ -28,6 +28,7 @@ TagManager:
   - Tut
   - BLight
   - ClosedDoor
+  - Multi
   layers:
   - Default
   - TransparentFX

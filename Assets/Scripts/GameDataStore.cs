@@ -159,7 +159,7 @@ public class GameDataStore : MonoBehaviour
         if(newCurrentRage > 0)
         {
         
-            gameManagerRef.multiplyer = 1;
+            gameManagerRef.SetMultiplier(-1);
             accumulatedRage += newCurrentRage;
 
             if(newCurrentRage <= rage)
