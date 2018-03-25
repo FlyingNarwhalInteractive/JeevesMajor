@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 026f183ab48cb164f918895a7bbaa8fd
+timeCreated: 1521961091
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: geo_CabinetDinning_01
+    100002: //RootNode
+    100004: geo_photoframe_14
+    100006: geo_photoframe_15
+    100008: geo_photoframe_16
+    100010: geo_photoframe_17
+    100012: geo_photoframe_18
+    100014: geo_photoframe_19
+    100016: geo_photoframe_20
+    100018: geo_photoframe_21
+    100020: geo_PlantPotted_03
+    100022: geo_plantShrub_04
+    100024: geo_plantShrub_05
+    100026: geo_plantShrub_06
+    100028: geo_plantShrub_07
+    100030: geo_plantShrub_08
+    100032: geo_plantShrub_09
+    100034: geo_Plate01
+    100036: geo_Plate010
+    100038: geo_Plate02
+    100040: geo_Plate03
+    100042: geo_Plate04
+    100044: geo_Plate05
+    100046: geo_Plate06
+    100048: geo_Plate07
+    100050: geo_Plate08
+    100052: geo_Plate09
+    100054: geo_tabledrawhandle_05
+    100056: geo_tabledrawhandle_06
+    100058: geo_tabledrawhandle_07
+    100060: geo_tabledrawhandle_08
+    100062: geo_TV_01:geo_PlantContainer_01
+    100064: PlatesandPhotos
+    400000: geo_CabinetDinning_01
+    400002: //RootNode
+    400004: geo_photoframe_14
+    400006: geo_photoframe_15
+    400008: geo_photoframe_16
+    400010: geo_photoframe_17
+    400012: geo_photoframe_18
+    400014: geo_photoframe_19
+    400016: geo_photoframe_20
+    400018: geo_photoframe_21
+    400020: geo_PlantPotted_03
+    400022: geo_plantShrub_04
+    400024: geo_plantShrub_05
+    400026: geo_plantShrub_06
+    400028: geo_plantShrub_07
+    400030: geo_plantShrub_08
+    400032: geo_plantShrub_09
+    400034: geo_Plate01
+    400036: geo_Plate010
+    400038: geo_Plate02
+    400040: geo_Plate03
+    400042: geo_Plate04
+    400044: geo_Plate05
+    400046: geo_Plate06
+    400048: geo_Plate07
+    400050: geo_Plate08
+    400052: geo_Plate09
+    400054: geo_tabledrawhandle_05
+    400056: geo_tabledrawhandle_06
+    400058: geo_tabledrawhandle_07
+    400060: geo_tabledrawhandle_08
+    400062: geo_TV_01:geo_PlantContainer_01
+    400064: PlatesandPhotos
+    2300000: geo_CabinetDinning_01
+    2300002: geo_photoframe_14
+    2300004: geo_photoframe_15
+    2300006: geo_photoframe_16
+    2300008: geo_photoframe_17
+    2300010: geo_photoframe_18
+    2300012: geo_photoframe_19
+    2300014: geo_photoframe_20
+    2300016: geo_photoframe_21
+    2300018: geo_plantShrub_04
+    2300020: geo_plantShrub_05
+    2300022: geo_plantShrub_06
+    2300024: geo_plantShrub_07
+    2300026: geo_plantShrub_08
+    2300028: geo_plantShrub_09
+    2300030: geo_Plate01
+    2300032: geo_Plate010
+    2300034: geo_Plate02
+    2300036: geo_Plate03
+    2300038: geo_Plate04
+    2300040: geo_Plate05
+    2300042: geo_Plate06
+    2300044: geo_Plate07
+    2300046: geo_Plate08
+    2300048: geo_Plate09
+    2300050: geo_tabledrawhandle_05
+    2300052: geo_tabledrawhandle_06
+    2300054: geo_tabledrawhandle_07
+    2300056: geo_tabledrawhandle_08
+    2300058: geo_TV_01:geo_PlantContainer_01
+    3300000: geo_CabinetDinning_01
+    3300002: geo_photoframe_14
+    3300004: geo_photoframe_15
+    3300006: geo_photoframe_16
+    3300008: geo_photoframe_17
+    3300010: geo_photoframe_18
+    3300012: geo_photoframe_19
+    3300014: geo_photoframe_20
+    3300016: geo_photoframe_21
+    3300018: geo_plantShrub_04
+    3300020: geo_plantShrub_05
+    3300022: geo_plantShrub_06
+    3300024: geo_plantShrub_07
+    3300026: geo_plantShrub_08
+    3300028: geo_plantShrub_09
+    3300030: geo_Plate01
+    3300032: geo_Plate010
+    3300034: geo_Plate02
+    3300036: geo_Plate03
+    3300038: geo_Plate04
+    3300040: geo_Plate05
+    3300042: geo_Plate06
+    3300044: geo_Plate07
+    3300046: geo_Plate08
+    3300048: geo_Plate09
+    3300050: geo_tabledrawhandle_05
+    3300052: geo_tabledrawhandle_06
+    3300054: geo_tabledrawhandle_07
+    3300056: geo_tabledrawhandle_08
+    3300058: geo_TV_01:geo_PlantContainer_01
+    4300000: geo_Plate01
+    4300002: geo_Plate02
+    4300004: geo_Plate03
+    4300006: geo_Plate04
+    4300008: geo_Plate05
+    4300010: geo_Plate06
+    4300012: geo_Plate07
+    4300014: geo_Plate08
+    4300016: geo_Plate09
+    4300018: geo_Plate010
+    4300020: geo_photoframe_14
+    4300022: geo_photoframe_15
+    4300024: geo_photoframe_16
+    4300026: geo_photoframe_17
+    4300028: geo_photoframe_18
+    4300030: geo_photoframe_19
+    4300032: geo_photoframe_20
+    4300034: geo_photoframe_21
+    4300036: geo_CabinetDinning_01
+    4300038: geo_TV_01:geo_PlantContainer_01
+    4300040: geo_plantShrub_04
+    4300042: geo_plantShrub_05
+    4300044: geo_plantShrub_06
+    4300046: geo_plantShrub_07
+    4300048: geo_plantShrub_08
+    4300050: geo_plantShrub_09
+    4300052: geo_tabledrawhandle_05
+    4300054: geo_tabledrawhandle_06
+    4300056: geo_tabledrawhandle_07
+    4300058: geo_tabledrawhandle_08
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Purple_01
+    second: {fileID: 2100000, guid: 74338b69e3f45174d8d56649bb981ce2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_RugYellow_01
+    second: {fileID: 2100000, guid: 2f0a84bada72a4e4eb1e54df8ca73bb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: e3d29d5f8d0f47f4ca16bc82d4a297e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_M_Red
+    second: {fileID: 2100000, guid: a99686b1b3e7aa84aab18314b9d981d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Blue_02
+    second: {fileID: 2100000, guid: 5dd2903e3612faf49911f9929a5dcc2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Blue_03
+    second: {fileID: 2100000, guid: 35d7cfa4989ff6049b7051d083d1d2c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_GreenPlant_02
+    second: {fileID: 2100000, guid: a02be2d85d69f4247adcd919340f9e75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_GreenPlant_03
+    second: {fileID: 2100000, guid: 9c05c900fda81cc46846bb58fc8067c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Pink_01
+    second: {fileID: 2100000, guid: 191934ad082821d408303dd6f53ab589, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Pink_02
+    second: {fileID: 2100000, guid: 63650748f1cc59543963e57803f61761, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Pink_03
+    second: {fileID: 2100000, guid: deeb5146d4003d64283dee6176b85914, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Yellow_01
+    second: {fileID: 2100000, guid: f6d5dd69774a8ed4cb0b5bf87d6dac74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Yellow_03
+    second: {fileID: 2100000, guid: e0a74688aca96ff43b4a30090fd91397, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Yellow_04
+    second: {fileID: 2100000, guid: 62d595447879e7449890b1196ceaae21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_woodtable
+    second: {fileID: 2100000, guid: dbe7d44d2a4b911458850c10b0ca61ed, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
