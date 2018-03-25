@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: e853e23bfea8cb640ad57f8d41736555
+timeCreated: 1521955330
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: geo_plantShrub_04
+    100004: geo_plantShrub_06
+    100006: geo_plantShrub_07
+    100008: geo_plantShrub_08
+    100010: geo_plantShrub_09
+    100012: geo_TV_01:geo_PlantContainer_01
+    400000: //RootNode
+    400002: geo_plantShrub_04
+    400004: geo_plantShrub_06
+    400006: geo_plantShrub_07
+    400008: geo_plantShrub_08
+    400010: geo_plantShrub_09
+    400012: geo_TV_01:geo_PlantContainer_01
+    2300000: geo_plantShrub_04
+    2300002: geo_plantShrub_06
+    2300004: geo_plantShrub_07
+    2300006: geo_plantShrub_08
+    2300008: geo_plantShrub_09
+    2300010: geo_TV_01:geo_PlantContainer_01
+    3300000: geo_plantShrub_04
+    3300002: geo_plantShrub_06
+    3300004: geo_plantShrub_07
+    3300006: geo_plantShrub_08
+    3300008: geo_plantShrub_09
+    3300010: geo_TV_01:geo_PlantContainer_01
+    4300000: geo_TV_01:geo_PlantContainer_01
+    4300002: geo_plantShrub_04
+    4300004: geo_plantShrub_06
+    4300006: geo_plantShrub_07
+    4300008: geo_plantShrub_08
+    4300010: geo_plantShrub_09
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Purple_01
+    second: {fileID: 2100000, guid: 74338b69e3f45174d8d56649bb981ce2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_M_Red
+    second: {fileID: 2100000, guid: a99686b1b3e7aa84aab18314b9d981d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Blue_03
+    second: {fileID: 2100000, guid: 35d7cfa4989ff6049b7051d083d1d2c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_GreenPlant_02
+    second: {fileID: 2100000, guid: a02be2d85d69f4247adcd919340f9e75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_GreenPlant_03
+    second: {fileID: 2100000, guid: 9c05c900fda81cc46846bb58fc8067c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Pink_02
+    second: {fileID: 2100000, guid: 63650748f1cc59543963e57803f61761, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Pink_03
+    second: {fileID: 2100000, guid: deeb5146d4003d64283dee6176b85914, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Yellow_04
+    second: {fileID: 2100000, guid: 62d595447879e7449890b1196ceaae21, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
