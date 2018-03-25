@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{0b4c5b67-48d7-4815-af3e-b5821e6e4bc5}">
         <property name="assetPath">
-            <value>Brandenburg No4-1 BWV1049.mp3</value>
+            <value>Music/Brandenburg No4-1 BWV1049.mp3</value>
         </property>
         <property name="isStreaming">
             <value>true</value>
