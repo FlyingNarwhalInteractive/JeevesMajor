@@ -327,6 +327,8 @@ MonoBehaviour:
   sightRange: 0
   frequancyRage: 0
   amountRage: 0
+  maxRageOverLifetime: 0
+  totalRageDealt: 0
   wait: 0
   clips: []
   Ring: {fileID: 0}
@@ -360,6 +362,9 @@ MonoBehaviour:
   spawnRangeEnd: {x: 0, y: 0}
   Ring: {fileID: 1693073549180516}
   Blink: {fileID: 1954068472983638}
+  spawnFX: {fileID: 198984745174105714, guid: 1e8d510bcb6df114ab1f2ea0ccdb620a, type: 2}
+  completeFX: {fileID: 198250283531537556, guid: 727649204ebbcd744a705b67964887ee,
+    type: 2}
   taskObject: {fileID: 4300000, guid: 3c435b365d9122544a49c0467e23315e, type: 3}
   baronAngerIcon: {fileID: 0}
   workingIcon: {fileID: 0}
@@ -377,6 +382,8 @@ MonoBehaviour:
   isVisibleToBaron: 0
   baronHasSeenBefore: 0
   ragedOnce: 0
+  ObjectEnable: {fileID: 0}
+  ObjectDisable: {fileID: 0}
   mess: {fileID: 0}
   messSpawnMode: 0
   messPos: {fileID: 0}

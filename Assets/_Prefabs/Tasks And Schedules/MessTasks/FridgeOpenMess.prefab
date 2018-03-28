@@ -361,6 +361,9 @@ MonoBehaviour:
   spawnRangeEnd: {x: 0, y: 0}
   Ring: {fileID: 1918356871109600}
   Blink: {fileID: 1968412983636578}
+  spawnFX: {fileID: 198984745174105714, guid: 1e8d510bcb6df114ab1f2ea0ccdb620a, type: 2}
+  completeFX: {fileID: 198250283531537556, guid: 727649204ebbcd744a705b67964887ee,
+    type: 2}
   taskObject: {fileID: 0}
   baronAngerIcon: {fileID: 0}
   workingIcon: {fileID: 0}

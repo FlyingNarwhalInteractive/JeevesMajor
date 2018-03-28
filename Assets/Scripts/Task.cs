@@ -45,7 +45,8 @@ public class Task : MonoBehaviour
     //Visual feedback
     public GameObject Ring;
     public GameObject Blink;
-
+	public ParticleSystem spawnFX;
+	public ParticleSystem completeFX;
     //assets
     public Mesh taskObject;
     public Texture baronAngerIcon;
@@ -156,6 +157,15 @@ public class Task : MonoBehaviour
         isDetect = false;
         isCompleted = false;
         ragedOnce = false;
+
+
+		//Spawn effect
+
+		if(spawnFX != null)
+		{
+			ParticleSystem pa =  Instantiate(spawnFX, gameObject.transform.position, spawnFX.transform.rotation);
+			Destroy(pa, 5.0f);
+		}
 
         //tutorial link
         if(tutRef != null)
@@ -644,7 +654,11 @@ public class Task : MonoBehaviour
 
                         //run task complete code, send stats to gameDataStore.cs / GameManager.cs
                         isCompleted = true;
-
+						if (completeFX != null)
+						{
+							ParticleSystem pa = Instantiate(completeFX, gameObject.transform.position, completeFX.transform.rotation);
+							Destroy(pa, 5.0f);
+						}
 						//reset objects that changed during tasks
 						if (ObjectDisable != null && ObjectEnable != null)
 						{
