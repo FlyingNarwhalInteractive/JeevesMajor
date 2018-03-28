@@ -657,7 +657,7 @@ public class Task : MonoBehaviour
 						if (completeFX != null)
 						{
 							ParticleSystem pa = Instantiate(completeFX, gameObject.transform.position, completeFX.transform.rotation);
-							Destroy(pa, 5.0f);
+							Destroy(pa, 3.0f);
 						}
 						//reset objects that changed during tasks
 						if (ObjectDisable != null && ObjectEnable != null)

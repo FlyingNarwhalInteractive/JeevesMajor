@@ -248,7 +248,7 @@ MonoBehaviour:
   Ring: {fileID: 0}
   Blink: {fileID: 0}
   spawnFX: {fileID: 198984745174105714, guid: 1e8d510bcb6df114ab1f2ea0ccdb620a, type: 2}
-  completeFX: {fileID: 198250283531537556, guid: 727649204ebbcd744a705b67964887ee,
+  completeFX: {fileID: 198499181269905376, guid: 46fc9758f686e6c41bb003861a1af3f2,
     type: 2}
   taskObject: {fileID: 4300000, guid: 3c435b365d9122544a49c0467e23315e, type: 3}
   baronAngerIcon: {fileID: 0}
