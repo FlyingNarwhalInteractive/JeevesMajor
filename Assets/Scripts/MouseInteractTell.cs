@@ -26,7 +26,7 @@ public class MouseInteractTell : MonoBehaviour {
                 TellOn(m_jeevesScript.m_mouseTarget.transform.position);
                 break;
             case "Task":
-                if(!m_jeevesScript.m_mouseTarget.GetComponent<Task>().isBaron)
+                if(!m_jeevesScript.m_mouseTarget.GetComponent<Task>().isBaron && !m_jeevesScript.m_mouseTarget.GetComponent<Task>().isAI)
                     TellOn(m_jeevesScript.m_mouseTarget.transform.position);
                 break;
             case "Fetch":
