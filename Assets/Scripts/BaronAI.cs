@@ -92,6 +92,9 @@ public class BaronAI : MonoBehaviour
         // Checking all tasks in Task Objects array
         foreach (GameObject task in taskObjects)
         {
+			if(!task.GetComponent<Task>().isAI)
+			{ 
+
             RaycastHit hit; // Object hit by Raycast
             Vector3 objBearing = Vector3.Normalize(task.GetComponent<BoxCollider>().ClosestPoint(transform.position) - rayOrigin); // Calculate bearing of current task
 
@@ -120,9 +123,9 @@ public class BaronAI : MonoBehaviour
                         if(dist.wait <= 0)
                             tempAnnoyances.Add(task);
             }
+			}
 
-
-        }
+		}
 
 
         // Checks if Jeeves has been detected.
