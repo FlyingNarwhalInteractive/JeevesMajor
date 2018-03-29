@@ -468,7 +468,7 @@ MonoBehaviour:
   fetchReward: 20
   fetchRage: 25
   wait: 15
-  fire: {fileID: 1669630807448528, guid: 34373915830fc6f4f8f39e2f8edbaa90, type: 2}
+  fire: {fileID: 0}
   fcount: 0
   lineEndArrow: {fileID: 1958935145236912}
   arrowAngle: 0

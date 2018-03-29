@@ -159,7 +159,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1453651004062192}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: -4.03, y: 0.523, z: -2.41}
+  m_LocalPosition: {x: -6.95, y: 0, z: -2.189}
   m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000002}
   m_Children: []
   m_Father: {fileID: 4247482433192922}
@@ -185,7 +185,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1312234361074898}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: -2.98, y: 0.523, z: 2.75}
+  m_LocalPosition: {x: -3.186, y: 0, z: 2.901}
   m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000002}
   m_Children: []
   m_Father: {fileID: 4247482433192922}
@@ -198,7 +198,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1659439767996392}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: -14.78, y: 0.523, z: 0.6}
+  m_LocalPosition: {x: 6.14, y: 0.523, z: -5.37}
   m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000002}
   m_Children: []
   m_Father: {fileID: 4247482433192922}
@@ -231,7 +231,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1972225172096348}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 4.02, y: 0.523, z: 5.75}
+  m_LocalPosition: {x: 4.02, y: 0, z: 5.75}
   m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000002}
   m_Children: []
   m_Father: {fileID: 4247482433192922}
@@ -244,7 +244,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1775080272605164}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 3.02, y: 0.523, z: -2.25}
+  m_LocalPosition: {x: 2.85, y: 0, z: -2.47}
   m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000002}
   m_Children: []
   m_Father: {fileID: 4247482433192922}
@@ -257,7 +257,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1419465318028210}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: -0.98, y: 0.523, z: 4.75}
+  m_LocalPosition: {x: -0.98, y: 0, z: 4.75}
   m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000002}
   m_Children: []
   m_Father: {fileID: 4247482433192922}
@@ -273,8 +273,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.45635462, z: 1}
+  m_Center: {x: 0, y: 0.24288476, z: 0}
 --- !u!65 &65322109352607500
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -285,8 +285,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.4762901, z: 1}
+  m_Center: {x: 0, y: 0.26185495, z: 0}
 --- !u!65 &65399532028188638
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -297,8 +297,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.49408627, z: 1}
+  m_Center: {x: 0, y: 0.25295687, z: 0}
 --- !u!65 &65557204846603602
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -309,8 +309,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.4937843, z: 1}
+  m_Center: {x: 0, y: 0.25310785, z: 0}
 --- !u!65 &65570748325754776
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -333,8 +333,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.38721168, z: 1}
+  m_Center: {x: 0, y: 0.27090043, z: 0}
 --- !u!65 &65853980135926000
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -362,6 +362,7 @@ MonoBehaviour:
   isBaron: 0
   isAI: 1
   isDummy: 0
+  isRandDummy: 0
   isFetch: 0
   FetchObj: {fileID: 0}
   baronFetchLocation: {fileID: 0}
@@ -374,6 +375,10 @@ MonoBehaviour:
   spawnTime: {x: 0, y: 0}
   spawnRangeStart: {x: 0, y: 0}
   spawnRangeEnd: {x: 0, y: 0}
+  Ring: {fileID: 0}
+  Blink: {fileID: 0}
+  spawnFX: {fileID: 0}
+  completeFX: {fileID: 0}
   taskObject: {fileID: 0}
   baronAngerIcon: {fileID: 0}
   workingIcon: {fileID: 0}
@@ -389,10 +394,15 @@ MonoBehaviour:
   cdCounter: 0
   isDetect: 0
   isVisibleToBaron: 0
+  baronHasSeenBefore: 0
   ragedOnce: 0
+  ObjectEnable: {fileID: 0}
+  ObjectDisable: {fileID: 0}
   mess: {fileID: 1658247571400874, guid: 1bc642bfb06822942a959fe8636069c8, type: 2}
   messSpawnMode: 1
   messPos: {fileID: 4135547728399904}
+  messRadius: 0
+  messAmmount: 0
 --- !u!114 &114136653167626668
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -408,6 +418,7 @@ MonoBehaviour:
   isBaron: 0
   isAI: 1
   isDummy: 0
+  isRandDummy: 0
   isFetch: 0
   FetchObj: {fileID: 0}
   baronFetchLocation: {fileID: 0}
@@ -420,6 +431,10 @@ MonoBehaviour:
   spawnTime: {x: 0, y: 0}
   spawnRangeStart: {x: 0, y: 0}
   spawnRangeEnd: {x: 0, y: 0}
+  Ring: {fileID: 0}
+  Blink: {fileID: 0}
+  spawnFX: {fileID: 0}
+  completeFX: {fileID: 0}
   taskObject: {fileID: 0}
   baronAngerIcon: {fileID: 0}
   workingIcon: {fileID: 0}
@@ -435,10 +450,15 @@ MonoBehaviour:
   cdCounter: 0
   isDetect: 0
   isVisibleToBaron: 0
+  baronHasSeenBefore: 0
   ragedOnce: 0
+  ObjectEnable: {fileID: 0}
+  ObjectDisable: {fileID: 0}
   mess: {fileID: 1658247571400874, guid: 1bc642bfb06822942a959fe8636069c8, type: 2}
   messSpawnMode: 1
   messPos: {fileID: 4837505103878780}
+  messRadius: 0
+  messAmmount: 0
 --- !u!114 &114336877858625770
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -453,7 +473,11 @@ MonoBehaviour:
   sightRange: 0
   frequancyRage: 0
   amountRage: 0
+  maxRageOverLifetime: 0
+  totalRageDealt: 0
+  wait: 0
   clips: []
+  Ring: {fileID: 0}
 --- !u!114 &114368434637174482
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -469,6 +493,7 @@ MonoBehaviour:
   isBaron: 0
   isAI: 1
   isDummy: 0
+  isRandDummy: 0
   isFetch: 0
   FetchObj: {fileID: 0}
   baronFetchLocation: {fileID: 0}
@@ -481,6 +506,10 @@ MonoBehaviour:
   spawnTime: {x: 0, y: 0}
   spawnRangeStart: {x: 0, y: 0}
   spawnRangeEnd: {x: 0, y: 0}
+  Ring: {fileID: 0}
+  Blink: {fileID: 0}
+  spawnFX: {fileID: 0}
+  completeFX: {fileID: 0}
   taskObject: {fileID: 0}
   baronAngerIcon: {fileID: 0}
   workingIcon: {fileID: 0}
@@ -496,10 +525,15 @@ MonoBehaviour:
   cdCounter: 0
   isDetect: 0
   isVisibleToBaron: 0
+  baronHasSeenBefore: 0
   ragedOnce: 0
+  ObjectEnable: {fileID: 0}
+  ObjectDisable: {fileID: 0}
   mess: {fileID: 1658247571400874, guid: 1bc642bfb06822942a959fe8636069c8, type: 2}
   messSpawnMode: 1
   messPos: {fileID: 4397217359780826}
+  messRadius: 0
+  messAmmount: 0
 --- !u!114 &114427895294916890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -514,7 +548,11 @@ MonoBehaviour:
   sightRange: 0
   frequancyRage: 0
   amountRage: 0
+  maxRageOverLifetime: 0
+  totalRageDealt: 0
+  wait: 0
   clips: []
+  Ring: {fileID: 0}
 --- !u!114 &114433323406774096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -530,6 +568,7 @@ MonoBehaviour:
   isBaron: 0
   isAI: 1
   isDummy: 0
+  isRandDummy: 0
   isFetch: 0
   FetchObj: {fileID: 0}
   baronFetchLocation: {fileID: 0}
@@ -542,6 +581,10 @@ MonoBehaviour:
   spawnTime: {x: 0, y: 0}
   spawnRangeStart: {x: 0, y: 0}
   spawnRangeEnd: {x: 0, y: 0}
+  Ring: {fileID: 0}
+  Blink: {fileID: 0}
+  spawnFX: {fileID: 0}
+  completeFX: {fileID: 0}
   taskObject: {fileID: 0}
   baronAngerIcon: {fileID: 0}
   workingIcon: {fileID: 2800000, guid: 20c05aae1754c164384ae3f482c103eb, type: 3}
@@ -557,10 +600,15 @@ MonoBehaviour:
   cdCounter: 0
   isDetect: 0
   isVisibleToBaron: 0
+  baronHasSeenBefore: 0
   ragedOnce: 0
+  ObjectEnable: {fileID: 0}
+  ObjectDisable: {fileID: 0}
   mess: {fileID: 0}
   messSpawnMode: 0
   messPos: {fileID: 4159061316034938}
+  messRadius: 0
+  messAmmount: 0
 --- !u!114 &114624084655565586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -575,7 +623,11 @@ MonoBehaviour:
   sightRange: 0
   frequancyRage: 0
   amountRage: 0
+  maxRageOverLifetime: 0
+  totalRageDealt: 0
+  wait: 0
   clips: []
+  Ring: {fileID: 0}
 --- !u!114 &114648733788955512
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -591,6 +643,7 @@ MonoBehaviour:
   isBaron: 0
   isAI: 1
   isDummy: 0
+  isRandDummy: 0
   isFetch: 0
   FetchObj: {fileID: 0}
   baronFetchLocation: {fileID: 0}
@@ -603,6 +656,10 @@ MonoBehaviour:
   spawnTime: {x: 0, y: 0}
   spawnRangeStart: {x: 0, y: 0}
   spawnRangeEnd: {x: 0, y: 0}
+  Ring: {fileID: 0}
+  Blink: {fileID: 0}
+  spawnFX: {fileID: 0}
+  completeFX: {fileID: 0}
   taskObject: {fileID: 0}
   baronAngerIcon: {fileID: 0}
   workingIcon: {fileID: 2800000, guid: 20c05aae1754c164384ae3f482c103eb, type: 3}
@@ -618,10 +675,15 @@ MonoBehaviour:
   cdCounter: 0
   isDetect: 0
   isVisibleToBaron: 0
+  baronHasSeenBefore: 0
   ragedOnce: 0
+  ObjectEnable: {fileID: 0}
+  ObjectDisable: {fileID: 0}
   mess: {fileID: 0}
   messSpawnMode: 0
   messPos: {fileID: 4112987863253102}
+  messRadius: 0
+  messAmmount: 0
 --- !u!114 &114736366847953396
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -636,7 +698,11 @@ MonoBehaviour:
   sightRange: 0
   frequancyRage: 0
   amountRage: 0
+  maxRageOverLifetime: 0
+  totalRageDealt: 0
+  wait: 0
   clips: []
+  Ring: {fileID: 0}
 --- !u!114 &114837561633825218
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -651,7 +717,11 @@ MonoBehaviour:
   sightRange: 0
   frequancyRage: 0
   amountRage: 0
+  maxRageOverLifetime: 0
+  totalRageDealt: 0
+  wait: 0
   clips: []
+  Ring: {fileID: 0}
 --- !u!114 &114908370613261866
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -667,6 +737,7 @@ MonoBehaviour:
   isBaron: 0
   isAI: 1
   isDummy: 0
+  isRandDummy: 0
   isFetch: 0
   FetchObj: {fileID: 0}
   baronFetchLocation: {fileID: 0}
@@ -679,6 +750,10 @@ MonoBehaviour:
   spawnTime: {x: 0, y: 0}
   spawnRangeStart: {x: 0, y: 0}
   spawnRangeEnd: {x: 0, y: 0}
+  Ring: {fileID: 0}
+  Blink: {fileID: 0}
+  spawnFX: {fileID: 0}
+  completeFX: {fileID: 0}
   taskObject: {fileID: 0}
   baronAngerIcon: {fileID: 0}
   workingIcon: {fileID: 0}
@@ -694,10 +769,15 @@ MonoBehaviour:
   cdCounter: 0
   isDetect: 0
   isVisibleToBaron: 0
+  baronHasSeenBefore: 0
   ragedOnce: 0
+  ObjectEnable: {fileID: 0}
+  ObjectDisable: {fileID: 0}
   mess: {fileID: 1658247571400874, guid: 1bc642bfb06822942a959fe8636069c8, type: 2}
   messSpawnMode: 1
   messPos: {fileID: 4039633781030524}
+  messRadius: 0
+  messAmmount: 0
 --- !u!114 &114925949175181888
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -713,6 +793,7 @@ MonoBehaviour:
   isBaron: 0
   isAI: 1
   isDummy: 0
+  isRandDummy: 0
   isFetch: 0
   FetchObj: {fileID: 0}
   baronFetchLocation: {fileID: 0}
@@ -725,6 +806,10 @@ MonoBehaviour:
   spawnTime: {x: 0, y: 0}
   spawnRangeStart: {x: 0, y: 0}
   spawnRangeEnd: {x: 0, y: 0}
+  Ring: {fileID: 0}
+  Blink: {fileID: 0}
+  spawnFX: {fileID: 0}
+  completeFX: {fileID: 0}
   taskObject: {fileID: 0}
   baronAngerIcon: {fileID: 0}
   workingIcon: {fileID: 0}
@@ -740,10 +825,15 @@ MonoBehaviour:
   cdCounter: 0
   isDetect: 0
   isVisibleToBaron: 0
+  baronHasSeenBefore: 0
   ragedOnce: 0
+  ObjectEnable: {fileID: 0}
+  ObjectDisable: {fileID: 0}
   mess: {fileID: 1658247571400874, guid: 1bc642bfb06822942a959fe8636069c8, type: 2}
   messSpawnMode: 1
   messPos: {fileID: 4804472933886350}
+  messRadius: 0
+  messAmmount: 0
 --- !u!114 &114968604521659286
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -758,7 +848,11 @@ MonoBehaviour:
   sightRange: 0
   frequancyRage: 0
   amountRage: 0
+  maxRageOverLifetime: 0
+  totalRageDealt: 0
+  wait: 0
   clips: []
+  Ring: {fileID: 0}
 --- !u!114 &114993953629394180
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -773,4 +867,8 @@ MonoBehaviour:
   sightRange: 0
   frequancyRage: 0
   amountRage: 0
+  maxRageOverLifetime: 0
+  totalRageDealt: 0
+  wait: 0
   clips: []
+  Ring: {fileID: 0}
