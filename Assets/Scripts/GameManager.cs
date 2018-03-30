@@ -81,6 +81,19 @@ public class GameManager : MonoBehaviour
 	[SerializeField] GameObject p4;
 	[SerializeField] GameObject p5;
 
+	//powerUps CD
+
+	[SerializeField] GameObject p1cdt;
+	[SerializeField] GameObject p1cdo;
+	[SerializeField] GameObject p2cdt;
+	[SerializeField] GameObject p2cdo;
+	[SerializeField] GameObject p3cdt;
+	[SerializeField] GameObject p3cdo;
+	[SerializeField] GameObject p4cdt;
+	[SerializeField] GameObject p4cdo;
+	[SerializeField] GameObject p5cd;
+
+
 	//(speed/duration/cost/coolDown)
 	public Vector4 speedUp;
 	public Vector4 taskSpeedUp;
@@ -767,11 +780,15 @@ public class GameManager : MonoBehaviour
 			if (speedUpCD < speedUp.w)
 			{
 				speedUpCD += Time.deltaTime;
+
+				p1cdt.GetComponent<Text>().text = (speedUp.w - (int)speedUpCD).ToString();
+				p1cdo.GetComponent<Image>().fillAmount = (speedUpCD / speedUp.w);
 				p1.SetActive(false);
 
 			}
 			else
 			{
+				p1cdo.SetActive(false);
 				p1.SetActive(true);
 			}
 
@@ -787,6 +804,8 @@ public class GameManager : MonoBehaviour
 				{
 					jeevesRef.GetComponent<NavMeshAgent>().speed = 3.5f;
 					active1 = false;
+					p1.SetActive(false);
+					p1cdo.SetActive(true);
 				}
 			}
 		}
@@ -832,12 +851,18 @@ public class GameManager : MonoBehaviour
 			if (taskSpeedUpCD < taskSpeedUp.w)
 			{
 				taskSpeedUpCD += Time.deltaTime;
+
+				p2cdt.GetComponent<Text>().text = (taskSpeedUp.w - (int)taskSpeedUpCD).ToString();
+				p2cdo.GetComponent<Image>().fillAmount = (taskSpeedUpCD / taskSpeedUp.w);
+
 				p2.SetActive(false);
+				p2cdo.SetActive(true);
 
 			}
 			else
 			{
 				p2.SetActive(true);
+				p2cdo.SetActive(false);
 			}
 
 
@@ -852,6 +877,7 @@ public class GameManager : MonoBehaviour
 				{
 					dataRef.TaskSpeed = 1;
 					active2 = false;
+					p2cdo.SetActive(true);
 				}
 			}
 		}
@@ -888,11 +914,17 @@ public class GameManager : MonoBehaviour
 		if (counter3 < power3.y)
 		{
 			counter3 += Time.deltaTime;
+
+			p3cdt.GetComponent<Text>().text = (power3.y - (int)counter3).ToString();
+			p3cdo.GetComponent<Image>().fillAmount = (power3.y - counter3);
+
 			p3.SetActive(false);
+			p3cdo.SetActive(true);
 		}
 		else
 		{
 			p3.SetActive(true);
+			p3cdo.SetActive(false);
 		}
 	}
 
@@ -924,11 +956,17 @@ public class GameManager : MonoBehaviour
 		if (counter4 < power4.y)
 		{
 			counter4 += Time.deltaTime;
+
+			p4cdt.GetComponent<Text>().text = ( power4.y - (int)counter4).ToString();
+			p4cdo.GetComponent<Image>().fillAmount = (  power4.y - counter4);
+
 			p4.SetActive(false);
+			p4cdo.SetActive(true);
 		}
 		else
 		{
 			p4.SetActive(true);
+			p4cdo.SetActive(false);
 		}
 	}
 }
