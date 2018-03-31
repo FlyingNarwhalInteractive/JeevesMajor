@@ -807,12 +807,33 @@ public class GameManager : MonoBehaviour
 					counter1 += Time.deltaTime;
 					if (active1 && active2)
 					{
+						if (counter1 >= speedUp.y - 3)
+						{
+							p1p2fx.GetComponent<rotTemp>().pulse = true;
+						}
+						else
+						{
+							p1p2fx.GetComponent<rotTemp>().pulse = false;
+						}
 						p1fx.SetActive(false);
 						p1p2fx.SetActive(true);
 					}
 					else
 					{
 						p1fx.SetActive(true);
+						p1p2fx.GetComponent<rotTemp>().pulse = false;
+
+
+						if (counter1 >= speedUp.y - 3)
+						{
+							p1fx.GetComponent<rotTemp>().pulse = true;
+						}
+						else
+						{
+							p1fx.GetComponent<rotTemp>().pulse = false;
+						}
+
+
 						p1p2fx.SetActive(false);
 					}
 				}
@@ -891,11 +912,30 @@ public class GameManager : MonoBehaviour
 					counter2 += Time.deltaTime;
 					if(active1 && active2)
 					{
-					   p2fx.SetActive(false);
+
+						if (counter2 >= speedUp.y - 3)
+						{
+							p1p2fx.GetComponent<rotTemp>().pulse = true;
+						}
+						else
+						{
+							p1p2fx.GetComponent<rotTemp>().pulse = false;
+						}
+
+						p2fx.SetActive(false);
 					   p1p2fx.SetActive(true);
 					}
 					else
 					{
+						if (counter2 >= speedUp.y - 3)
+						{
+							p2fx.GetComponent<rotTemp>().pulse = true;
+						}
+						else
+						{
+							p2fx.GetComponent<rotTemp>().pulse = false;
+						}
+
 						p2fx.SetActive(true);
 						p1p2fx.SetActive(false);
 					}
