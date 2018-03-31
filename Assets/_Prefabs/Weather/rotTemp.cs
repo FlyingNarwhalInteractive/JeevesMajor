@@ -27,7 +27,7 @@ public class rotTemp : MonoBehaviour {
 		var e = pa.emission;
 		if(pulse)
 		{
-        t.startLifetime = 2;
+        t.startLifetime = 0.25f;
 		e.rateOverTime = 100;
 			speed = new Vector3(0, 0, 1000);
 		}
