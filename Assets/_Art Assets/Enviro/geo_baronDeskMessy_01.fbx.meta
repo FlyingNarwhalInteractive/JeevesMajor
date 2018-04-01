@@ -1,0 +1,333 @@
+fileFormatVersion: 2
+guid: e9f4a1abaab74af4db4625ecc59308d7
+timeCreated: 1522583932
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: geo_book_010
+    100004: geo_book_011
+    100006: geo_book_03
+    100008: geo_book_04
+    100010: geo_book_05
+    100012: geo_book_06
+    100014: geo_book_07
+    100016: geo_book_08
+    100018: geo_book_09
+    100020: geo_Computer_01
+    100022: geo_ComputerStand_01
+    100024: geo_desk_01
+    100026: geo_DeskMatt_01
+    100028: geo_DrawHandle_01
+    100030: geo_DrawHandle_02
+    100032: geo_DrawHandle_03
+    100034: geo_DrawHandle_04
+    100036: geo_DrawHandle_05
+    100038: geo_DrawHandle_06
+    100040: geo_DrawHandle_07
+    100042: geo_DrawHandle_08
+    100044: geo_keyboard_01
+    100046: geo_lampbase_02
+    100048: geo_lampPole_02
+    100050: geo_lampShade_02
+    100052: geo_middlemousewheel_01
+    100054: geo_mouse_01
+    100056: geo_PaperMess_01
+    100058: geo_PaperMess_02
+    100060: geo_PaperMess_03
+    100062: geo_PaperMess_04
+    100064: geo_PaperMess_05
+    100066: geo_PaperMess_06
+    100068: geo_PaperMess_07
+    100070: pCylinder1
+    100072: pCylinder2
+    400000: //RootNode
+    400002: geo_book_010
+    400004: geo_book_011
+    400006: geo_book_03
+    400008: geo_book_04
+    400010: geo_book_05
+    400012: geo_book_06
+    400014: geo_book_07
+    400016: geo_book_08
+    400018: geo_book_09
+    400020: geo_Computer_01
+    400022: geo_ComputerStand_01
+    400024: geo_desk_01
+    400026: geo_DeskMatt_01
+    400028: geo_DrawHandle_01
+    400030: geo_DrawHandle_02
+    400032: geo_DrawHandle_03
+    400034: geo_DrawHandle_04
+    400036: geo_DrawHandle_05
+    400038: geo_DrawHandle_06
+    400040: geo_DrawHandle_07
+    400042: geo_DrawHandle_08
+    400044: geo_keyboard_01
+    400046: geo_lampbase_02
+    400048: geo_lampPole_02
+    400050: geo_lampShade_02
+    400052: geo_middlemousewheel_01
+    400054: geo_mouse_01
+    400056: geo_PaperMess_01
+    400058: geo_PaperMess_02
+    400060: geo_PaperMess_03
+    400062: geo_PaperMess_04
+    400064: geo_PaperMess_05
+    400066: geo_PaperMess_06
+    400068: geo_PaperMess_07
+    400070: pCylinder1
+    400072: pCylinder2
+    2300000: geo_book_010
+    2300002: geo_book_011
+    2300004: geo_book_03
+    2300006: geo_book_04
+    2300008: geo_book_05
+    2300010: geo_book_06
+    2300012: geo_book_07
+    2300014: geo_book_08
+    2300016: geo_book_09
+    2300018: geo_Computer_01
+    2300020: geo_ComputerStand_01
+    2300022: geo_desk_01
+    2300024: geo_DeskMatt_01
+    2300026: geo_DrawHandle_01
+    2300028: geo_DrawHandle_02
+    2300030: geo_DrawHandle_03
+    2300032: geo_DrawHandle_04
+    2300034: geo_DrawHandle_05
+    2300036: geo_DrawHandle_06
+    2300038: geo_DrawHandle_07
+    2300040: geo_DrawHandle_08
+    2300042: geo_keyboard_01
+    2300044: geo_lampbase_02
+    2300046: geo_lampPole_02
+    2300048: geo_lampShade_02
+    2300050: geo_middlemousewheel_01
+    2300052: geo_mouse_01
+    2300054: geo_PaperMess_01
+    2300056: geo_PaperMess_02
+    2300058: geo_PaperMess_03
+    2300060: geo_PaperMess_04
+    2300062: geo_PaperMess_05
+    2300064: geo_PaperMess_06
+    2300066: geo_PaperMess_07
+    2300068: pCylinder1
+    2300070: pCylinder2
+    3300000: geo_book_010
+    3300002: geo_book_011
+    3300004: geo_book_03
+    3300006: geo_book_04
+    3300008: geo_book_05
+    3300010: geo_book_06
+    3300012: geo_book_07
+    3300014: geo_book_08
+    3300016: geo_book_09
+    3300018: geo_Computer_01
+    3300020: geo_ComputerStand_01
+    3300022: geo_desk_01
+    3300024: geo_DeskMatt_01
+    3300026: geo_DrawHandle_01
+    3300028: geo_DrawHandle_02
+    3300030: geo_DrawHandle_03
+    3300032: geo_DrawHandle_04
+    3300034: geo_DrawHandle_05
+    3300036: geo_DrawHandle_06
+    3300038: geo_DrawHandle_07
+    3300040: geo_DrawHandle_08
+    3300042: geo_keyboard_01
+    3300044: geo_lampbase_02
+    3300046: geo_lampPole_02
+    3300048: geo_lampShade_02
+    3300050: geo_middlemousewheel_01
+    3300052: geo_mouse_01
+    3300054: geo_PaperMess_01
+    3300056: geo_PaperMess_02
+    3300058: geo_PaperMess_03
+    3300060: geo_PaperMess_04
+    3300062: geo_PaperMess_05
+    3300064: geo_PaperMess_06
+    3300066: geo_PaperMess_07
+    3300068: pCylinder1
+    3300070: pCylinder2
+    4300000: geo_lampShade_02
+    4300002: geo_lampPole_02
+    4300004: geo_lampbase_02
+    4300006: geo_book_04
+    4300008: geo_book_03
+    4300010: geo_PaperMess_01
+    4300012: geo_DrawHandle_02
+    4300014: geo_DrawHandle_01
+    4300016: geo_desk_01
+    4300018: geo_book_09
+    4300020: geo_book_010
+    4300022: geo_book_011
+    4300024: geo_book_05
+    4300026: geo_PaperMess_04
+    4300028: geo_keyboard_01
+    4300030: geo_ComputerStand_01
+    4300032: geo_Computer_01
+    4300034: geo_mouse_01
+    4300036: geo_middlemousewheel_01
+    4300038: geo_DrawHandle_05
+    4300040: geo_DrawHandle_04
+    4300042: geo_DrawHandle_03
+    4300044: geo_DeskMatt_01
+    4300046: geo_DrawHandle_08
+    4300048: geo_DrawHandle_07
+    4300050: geo_DrawHandle_06
+    4300052: geo_book_06
+    4300054: geo_book_07
+    4300056: geo_book_08
+    4300058: pCylinder1
+    4300060: geo_PaperMess_07
+    4300062: geo_PaperMess_06
+    4300064: geo_PaperMess_03
+    4300066: pCylinder2
+    4300068: geo_PaperMess_02
+    4300070: geo_PaperMess_05
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Black_01
+    second: {fileID: 2100000, guid: 0583739bffa018f4c9a62fc4c2e1d237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Brown_01
+    second: {fileID: 2100000, guid: f77faa64cc42f10458f91a26d1ea0eae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_DarkNavy_01
+    second: {fileID: 2100000, guid: 1aca41eba539e7241bd0570e0c6596fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_PaperMess1
+    second: {fileID: 2100000, guid: f1bb47f899e3b764ea444d5a9104c057, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Purple_01
+    second: {fileID: 2100000, guid: fdf45e2f6ea41784999e98f795fc9936, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_RugYellow_01
+    second: {fileID: 2100000, guid: 355584c3d5c6764489c7de0d34b7afc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Blue_01
+    second: {fileID: 2100000, guid: 734ed0fc6fa44fe408f2e6e73437076d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_GreenPlant_01
+    second: {fileID: 2100000, guid: eb9c65232b5179a4daaf7aa3e4917952, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Pink_01
+    second: {fileID: 2100000, guid: 66ad0341027e97244aaffc0572291db6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_M_Red
+    second: {fileID: 2100000, guid: c38411b3c39bbc54694c33aaae3f6dff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Blue_03
+    second: {fileID: 2100000, guid: 26499f778c10a3c4da11aaf9fd309ab3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_GreenPlant_01
+    second: {fileID: 2100000, guid: 42375f566d2c49c479f74a5d4be8d83e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Pink_01
+    second: {fileID: 2100000, guid: 79cadf2cf077729479ddf59cd9bd74f2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

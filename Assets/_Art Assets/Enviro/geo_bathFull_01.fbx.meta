@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: 7ec6680a6f157e04bb61f0d44e67d467
+timeCreated: 1522583924
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: geo_bathTowel_01
+    100004: geo_bathtub_01
+    100006: geo_bathtub_coldwater_01
+    100008: geo_bathtub_hotwater_01
+    100010: geo_BathTubTap_01
+    100012: geo_bathtubWood_01
+    100014: geo_candlebath_01
+    100016: geo_FloorMat_01
+    100018: geo_soap_01
+    100020: geo_soapDish_01
+    100022: geo_WaterMess_01
+    100024: geo_WaterMess_02
+    100026: geo_WaterMess_03
+    100028: pPlane1
+    400000: //RootNode
+    400002: geo_bathTowel_01
+    400004: geo_bathtub_01
+    400006: geo_bathtub_coldwater_01
+    400008: geo_bathtub_hotwater_01
+    400010: geo_BathTubTap_01
+    400012: geo_bathtubWood_01
+    400014: geo_candlebath_01
+    400016: geo_FloorMat_01
+    400018: geo_soap_01
+    400020: geo_soapDish_01
+    400022: geo_WaterMess_01
+    400024: geo_WaterMess_02
+    400026: geo_WaterMess_03
+    400028: pPlane1
+    2300000: geo_bathTowel_01
+    2300002: geo_bathtub_01
+    2300004: geo_bathtub_coldwater_01
+    2300006: geo_bathtub_hotwater_01
+    2300008: geo_BathTubTap_01
+    2300010: geo_bathtubWood_01
+    2300012: geo_candlebath_01
+    2300014: geo_FloorMat_01
+    2300016: geo_soap_01
+    2300018: geo_soapDish_01
+    2300020: geo_WaterMess_01
+    2300022: geo_WaterMess_02
+    2300024: geo_WaterMess_03
+    2300026: pPlane1
+    3300000: geo_bathTowel_01
+    3300002: geo_bathtub_01
+    3300004: geo_bathtub_coldwater_01
+    3300006: geo_bathtub_hotwater_01
+    3300008: geo_BathTubTap_01
+    3300010: geo_bathtubWood_01
+    3300012: geo_candlebath_01
+    3300014: geo_FloorMat_01
+    3300016: geo_soap_01
+    3300018: geo_soapDish_01
+    3300020: geo_WaterMess_01
+    3300022: geo_WaterMess_02
+    3300024: geo_WaterMess_03
+    3300026: pPlane1
+    4300000: geo_FloorMat_01
+    4300002: geo_bathTowel_01
+    4300004: pPlane1
+    4300006: geo_bathtub_hotwater_01
+    4300008: geo_WaterMess_02
+    4300010: geo_WaterMess_01
+    4300012: geo_WaterMess_03
+    4300014: geo_BathTubTap_01
+    4300016: geo_soap_01
+    4300018: geo_soapDish_01
+    4300020: geo_bathtub_coldwater_01
+    4300022: geo_bathtub_01
+    4300024: geo_candlebath_01
+    4300026: geo_bathtubWood_01
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_waterMess
+    second: {fileID: 2100000, guid: b2c98c397128abd4ba99991086ee7edc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Blue_03
+    second: {fileID: 2100000, guid: adb85a1058d3a1a41b6ffea41b2f9aed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_GreenPlant_03
+    second: {fileID: 2100000, guid: d6868bf558503b043a00f53f326581fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Pink_03
+    second: {fileID: 2100000, guid: d5a6c243df5d2904ba779c5f7733e41c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Yellow_02
+    second: {fileID: 2100000, guid: f73bf927e22ce9047926522802a49a42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 0e678df4aaefece49a747fbbae9bbcb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn9
+    second: {fileID: 2100000, guid: 8f53b85844b6c854ca556bf19d435062, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: woodtable2
+    second: {fileID: 2100000, guid: cf4219bd55008624a8e5c1cc7cd45fe2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
