@@ -789,7 +789,7 @@ public class GameManager : MonoBehaviour
 				speedUpCD += Time.deltaTime;
 
 				p1cdt.GetComponent<Text>().text = (speedUp.w - (int)speedUpCD).ToString();
-				p1cdo.GetComponent<Image>().fillAmount = (speedUpCD / speedUp.w);
+				p1cdo.GetComponent<Image>().fillAmount = 1 - (speedUpCD / speedUp.w);
 				p1.SetActive(false);
 
 			}
@@ -892,7 +892,7 @@ public class GameManager : MonoBehaviour
 				taskSpeedUpCD += Time.deltaTime;
 
 				p2cdt.GetComponent<Text>().text = (taskSpeedUp.w - (int)taskSpeedUpCD).ToString();
-				p2cdo.GetComponent<Image>().fillAmount = (taskSpeedUpCD / taskSpeedUp.w);
+				p2cdo.GetComponent<Image>().fillAmount = 1 - (taskSpeedUpCD / taskSpeedUp.w);
 
 				p2.SetActive(false);
 				p2cdo.SetActive(true);
@@ -985,7 +985,7 @@ public class GameManager : MonoBehaviour
 			counter3 += Time.deltaTime;
 
 			p3cdt.GetComponent<Text>().text = (power3.y - (int)counter3).ToString();
-			p3cdo.GetComponent<Image>().fillAmount = (power3.y - counter3);
+			p3cdo.GetComponent<Image>().fillAmount = ((power3.y - counter3)/ power3.y);
 
 			p3.SetActive(false);
 			p3cdo.SetActive(true);
@@ -1027,7 +1027,7 @@ public class GameManager : MonoBehaviour
 			counter4 += Time.deltaTime;
 
 			p4cdt.GetComponent<Text>().text = ( power4.y - (int)counter4).ToString();
-			p4cdo.GetComponent<Image>().fillAmount = (  power4.y - counter4);
+			p4cdo.GetComponent<Image>().fillAmount = ((power4.y - counter4)/power4.y);
 
 			p4.SetActive(false);
 			p4cdo.SetActive(true);
