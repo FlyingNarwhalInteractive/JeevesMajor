@@ -301,7 +301,7 @@ public class GameManager : MonoBehaviour
 
     public string GetCurrentChallenge()
     {
-        return currentChallangeStr.Replace("\n", ".");
+        return currentChallangeStr.Substring(0, currentChallangeStr.IndexOf("\n"));
     }
 
 	public int CumulativeScore

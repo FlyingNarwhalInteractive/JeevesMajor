@@ -74,7 +74,7 @@ public class GameClock : MonoBehaviour
         //Check if End of Day has been reached to reset day.
         if (timeDayCheck >= endDayCheck)
         {
-            string currentChallenge = gameManagerRef.GetCurrentChallenge();
+            string currentChallenge = gameManagerRef.GetCurrentChallenge(); // for the alert - SP
             gameObject.GetComponent<GameDataStore>().SetDaysSurvived(1);
             print("DAY REWARD");
             gameManagerRef.setChallangeScore(gameManagerRef.dayScore);
@@ -89,10 +89,10 @@ public class GameClock : MonoBehaviour
             gameManagerRef.chaRageMax = 0;
             gameManagerRef.chaTaskComplete = 0;
 
-            // alert player
+            // alert player - A SCRIPT by Scott Purcival :D
             GameObject.FindGameObjectWithTag("DayWonPanel").GetComponent<DayWonPanel>().Reveal
                 ("Day " + gameObject.GetComponent<GameDataStore>().GetDaysSurvived().ToString() + " Survived!",
-                currentChallenge, Color.white, didWin ? Color.green : Color.red, 5.0f);
+                currentChallenge, Color.black, didWin ? new Color(0,0.55f,0,1) : Color.red, 5.0f);
 
 
         }
