@@ -29,6 +29,7 @@ TagManager:
   - BLight
   - ClosedDoor
   - Multi
+  - DayWonPanel
   layers:
   - Default
   - TransparentFX

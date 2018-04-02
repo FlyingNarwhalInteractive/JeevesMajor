@@ -168,16 +168,17 @@ public class GameManager : MonoBehaviour
 		ButlerCoins += coins[num];
 	}
 
-	public void Check(int cha)
+	public bool Check(int cha)
 	{
-		//Challanges
-
+        //Challanges
+        bool didWin = false;
 
 		if (cha == 0)
 		{
 			if (chaTaskComplete > 10)
 			{
 				setChallangeStats(cha);
+                didWin = true;
 			}
 		}
 		else if (cha == 1)
@@ -185,57 +186,65 @@ public class GameManager : MonoBehaviour
 			if (chaTaskComplete > 20)
 			{
 				setChallangeStats(cha);
-			}
-		}
+                didWin = true;
+            }
+        }
 		else if (cha == 2)
 		{
 			if (chaTaskComplete > 30)
 			{
 				setChallangeStats(cha);
-			}
-		}
+                didWin = true;
+            }
+        }
 		else if (cha == 3)
 		{
 			if (chaLockComplete == 0)
 			{
 				setChallangeStats(cha);
-			}
-		}
+                didWin = true;
+            }
+        }
 		else if (cha == 4)
 		{
 			if (chaLockComplete < 3)
 			{
 				setChallangeStats(cha);
-			}
-		}
+                didWin = true;
+            }
+        }
 		else if (cha == 5)
 		{
 			if (chaLockComplete < 10)
 			{
 				setChallangeStats(cha);
-			}
-		}
+                didWin = true;
+            }
+        }
 		else if (cha == 6)
 		{
 			if (chaRageMax < 25)
 			{
 				setChallangeStats(cha);
-			}
-		}
+                didWin = true;
+            }
+        }
 		else if (cha == 7)
 		{
 			if (chaRageMax < 50)
 			{
 				setChallangeStats(cha);
-			}
-		}
+                didWin = true;
+            }
+        }
 		else if (cha == 8)
 		{
 			if (chaRageMax < 75)
 			{
 				setChallangeStats(cha);
-			}
-		}
+                didWin = true;
+            }
+        }
 
 
 
@@ -248,6 +257,7 @@ public class GameManager : MonoBehaviour
 		SetChallangeUI(currentChallange);
 		print("challange NUMBERRR  " + currentChallange);
 
+        return didWin;
 	}
 	void SetChallangeUI(int cha)
 	{
@@ -288,6 +298,11 @@ public class GameManager : MonoBehaviour
 			currentChallangeStr = "Keep baron under 75 rage\n" + "Reward: " + rewards[cha].ToString();
 		}
 	}
+
+    public string GetCurrentChallenge()
+    {
+        return currentChallangeStr.Replace("\n", ".");
+    }
 
 	public int CumulativeScore
 	{
