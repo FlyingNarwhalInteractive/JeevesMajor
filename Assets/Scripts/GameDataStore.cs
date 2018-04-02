@@ -32,7 +32,7 @@ public class GameDataStore : MonoBehaviour
     
     private int doorCost;
 
-
+    public UIParticle angerParticles;
 
     public GameObject up;
     public GameObject up1;
@@ -158,6 +158,8 @@ public class GameDataStore : MonoBehaviour
 
         if(newCurrentRage > 0)
         {
+
+            angerParticles.Fire();
         
             gameManagerRef.SetMultiplier(-1);
             accumulatedRage += newCurrentRage;
