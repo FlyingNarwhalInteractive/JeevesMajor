@@ -1,7 +1,7 @@
 fileFormatVersion: 2
-guid: 7814ade9277dcdd46b838d4458966f06
-timeCreated: 1521453048
-licenseType: Free
+guid: 1beed81992803684f961af1e04b56593
+timeCreated: 1522561081
+licenseType: Pro
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -128,11 +128,6 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: M_Black_01
-    second: {fileID: 2100000, guid: 0583739bffa018f4c9a62fc4c2e1d237, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: TempM_Blue_02
     second: {fileID: 2100000, guid: 133ee9d778b43c444809a01dc930744b, type: 2}
   - first:
@@ -175,6 +170,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: TempM_Yellow_04
     second: {fileID: 2100000, guid: 41010a6ffe910554bab10843bc4b3eec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn3
+    second: {fileID: 2100000, guid: db17fca52d9ac9c4eab2be6651b789aa, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

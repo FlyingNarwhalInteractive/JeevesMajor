@@ -94,6 +94,12 @@ public class GameManager : MonoBehaviour
 	[SerializeField] GameObject p5cd;
 
 
+	[SerializeField] GameObject p1fx;
+	[SerializeField] GameObject p2fx;
+	[SerializeField] GameObject p1p2fx;
+
+
+
 	//(speed/duration/cost/coolDown)
 	public Vector4 speedUp;
 	public Vector4 taskSpeedUp;
@@ -765,6 +771,7 @@ public class GameManager : MonoBehaviour
 
 					jeevesRef.GetComponent<NavMeshAgent>().speed = speedUp.x;
 
+					p1fx.SetActive(true);
 					counter1 = 0;
 					speedUpCD = 0;
 
@@ -782,7 +789,7 @@ public class GameManager : MonoBehaviour
 				speedUpCD += Time.deltaTime;
 
 				p1cdt.GetComponent<Text>().text = (speedUp.w - (int)speedUpCD).ToString();
-				p1cdo.GetComponent<Image>().fillAmount = (speedUpCD / speedUp.w);
+				p1cdo.GetComponent<Image>().fillAmount = 1 - (speedUpCD / speedUp.w);
 				p1.SetActive(false);
 
 			}
@@ -798,10 +805,42 @@ public class GameManager : MonoBehaviour
 				if (counter1 < speedUp.y)
 				{
 					counter1 += Time.deltaTime;
+					if (active1 && active2)
+					{
+						if (counter1 >= speedUp.y - 3)
+						{
+							p1p2fx.GetComponent<rotTemp>().pulse = true;
+						}
+						else
+						{
+							p1p2fx.GetComponent<rotTemp>().pulse = false;
+						}
+						p1fx.SetActive(false);
+						p1p2fx.SetActive(true);
+					}
+					else
+					{
+						p1fx.SetActive(true);
+						p1p2fx.GetComponent<rotTemp>().pulse = false;
 
+
+						if (counter1 >= speedUp.y - 3)
+						{
+							p1fx.GetComponent<rotTemp>().pulse = true;
+						}
+						else
+						{
+							p1fx.GetComponent<rotTemp>().pulse = false;
+						}
+
+
+						p1p2fx.SetActive(false);
+					}
 				}
 				else
 				{
+					p1fx.SetActive(false);
+					p1p2fx.SetActive(false);
 					jeevesRef.GetComponent<NavMeshAgent>().speed = 3.5f;
 					active1 = false;
 					p1.SetActive(false);
@@ -835,7 +874,7 @@ public class GameManager : MonoBehaviour
 
 
 					dataRef.TaskSpeed = taskSpeedUp.x;
-
+					p2fx.SetActive(true);
 					counter2 = 0;
 					taskSpeedUpCD = 0;
 					active2 = true;
@@ -853,7 +892,7 @@ public class GameManager : MonoBehaviour
 				taskSpeedUpCD += Time.deltaTime;
 
 				p2cdt.GetComponent<Text>().text = (taskSpeedUp.w - (int)taskSpeedUpCD).ToString();
-				p2cdo.GetComponent<Image>().fillAmount = (taskSpeedUpCD / taskSpeedUp.w);
+				p2cdo.GetComponent<Image>().fillAmount = 1 - (taskSpeedUpCD / taskSpeedUp.w);
 
 				p2.SetActive(false);
 				p2cdo.SetActive(true);
@@ -871,10 +910,40 @@ public class GameManager : MonoBehaviour
 				if (counter2 < taskSpeedUp.y)
 				{
 					counter2 += Time.deltaTime;
+					if(active1 && active2)
+					{
 
+						if (counter2 >= speedUp.y - 3)
+						{
+							p1p2fx.GetComponent<rotTemp>().pulse = true;
+						}
+						else
+						{
+							p1p2fx.GetComponent<rotTemp>().pulse = false;
+						}
+
+						p2fx.SetActive(false);
+					   p1p2fx.SetActive(true);
+					}
+					else
+					{
+						if (counter2 >= speedUp.y - 3)
+						{
+							p2fx.GetComponent<rotTemp>().pulse = true;
+						}
+						else
+						{
+							p2fx.GetComponent<rotTemp>().pulse = false;
+						}
+
+						p2fx.SetActive(true);
+						p1p2fx.SetActive(false);
+					}
 				}
 				else
 				{
+					p2fx.SetActive(false);
+					p1p2fx.SetActive(false);
 					dataRef.TaskSpeed = 1;
 					active2 = false;
 					p2cdo.SetActive(true);
@@ -916,7 +985,7 @@ public class GameManager : MonoBehaviour
 			counter3 += Time.deltaTime;
 
 			p3cdt.GetComponent<Text>().text = (power3.y - (int)counter3).ToString();
-			p3cdo.GetComponent<Image>().fillAmount = (power3.y - counter3);
+			p3cdo.GetComponent<Image>().fillAmount = ((power3.y - counter3)/ power3.y);
 
 			p3.SetActive(false);
 			p3cdo.SetActive(true);
@@ -958,7 +1027,7 @@ public class GameManager : MonoBehaviour
 			counter4 += Time.deltaTime;
 
 			p4cdt.GetComponent<Text>().text = ( power4.y - (int)counter4).ToString();
-			p4cdo.GetComponent<Image>().fillAmount = (  power4.y - counter4);
+			p4cdo.GetComponent<Image>().fillAmount = ((power4.y - counter4)/power4.y);
 
 			p4.SetActive(false);
 			p4cdo.SetActive(true);
