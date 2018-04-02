@@ -19,9 +19,16 @@ public class ProgressBar : MonoBehaviour {
     public float taskPercentComplete;
     public Vector2 stepping = new Vector2(0,0);
 
+    public Vector3 m_transformOrigin;
+    public float shakeAmount = 30.0f;
+    public float waitBetweenShakes = 1.0f;
+    public float shakeDuration = 1.0f;
+    public float lastShakeTime = 0;
+    public Vector3 currentRotation;
+
 	// Use this for initialization
 	void Start () {
-        displayQuad.AddComponent<LookAtCamera>();
+        //displayQuad.AddComponent<LookAtCamera>();
 
         xSize = (int)progressBar.width;
         ySize = (int)progressBar.height;
@@ -49,10 +56,14 @@ public class ProgressBar : MonoBehaviour {
         quadMaterial = displayQuad.GetComponent<Renderer>().material;
         quadMaterial.SetTexture("_MainTex", progressBar);
         quadMaterial.SetTextureScale("_MainTex", newScale);
+
+        LookAtCamera();
+        m_transformOrigin = displayQuad.transform.rotation.eulerAngles;
+
     }
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update ()
     {
         taskPercentComplete = (1.0f - (m_task.timeToComplete / initialTimeToComplete)) * 100; ;
 
@@ -64,6 +75,37 @@ public class ProgressBar : MonoBehaviour {
         Vector2 currentOffset = stepping * currentFrame;
         quadMaterial.SetTextureOffset("_MainTex", currentOffset);
 
-        //displayQuad.transform.LookAt(Camera.main.transform.position * -1.0f);
-	}
+
+
+        // wiggle dat indicator!
+        if (taskPercentComplete == 0)
+        {
+            // shake dat.
+            // sin(2pix)
+            float currentShakeTime = Time.time - lastShakeTime;
+            if (currentShakeTime < shakeDuration)
+            {
+                float shakeModifier = Mathf.Sin(2 / shakeDuration * Mathf.PI * currentShakeTime);
+                currentRotation = m_transformOrigin;
+                currentRotation.z += shakeModifier * shakeAmount;
+                displayQuad.transform.rotation = Quaternion.Euler(currentRotation);
+            }
+            if (currentShakeTime > shakeDuration + waitBetweenShakes)
+            {
+                lastShakeTime = Time.time;
+            }
+
+        }
+    }
+
+    void LookAtCamera()
+    {
+        Vector3 current = transform.rotation.eulerAngles;
+        transform.LookAt(Camera.main.transform.position * -1.0f);
+
+        current.y = transform.eulerAngles.y - 37.0f;
+        current.x = 45.0f;
+
+        transform.rotation = Quaternion.Euler(current);
+    }
 }
