@@ -12,8 +12,11 @@ public class Tutorial : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
+		if(GameObject.FindGameObjectWithTag("GM")  != null)
+		{
+			gameManagerRef = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
+		
 
-        gameManagerRef = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
 
 
         isOn = gameManagerRef.GetIsTut();
@@ -29,15 +32,19 @@ public class Tutorial : MonoBehaviour {
         {
             gameObject.SetActive(false);
         }
+
+		}
 	}
 
     public void DisableTut()
     {
-        gameManagerRef.OffTut();
+		if (GameObject.FindGameObjectWithTag("GM") != null)
+		{ 
+			gameManagerRef.OffTut();
         isOn = false;
         print("TUTOFF" + gameManagerRef.GetIsTut());
         gameObject.SetActive(false);
-       
+       }
     }
 
     public void OK()
