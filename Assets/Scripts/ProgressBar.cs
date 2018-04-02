@@ -100,12 +100,12 @@ public class ProgressBar : MonoBehaviour {
 
     void LookAtCamera()
     {
-        Vector3 current = transform.rotation.eulerAngles;
-        transform.LookAt(Camera.main.transform.position * -1.0f);
+        Vector3 current = displayQuad.transform.rotation.eulerAngles;
+        displayQuad.transform.LookAt(Camera.main.transform.position * -1.0f);
 
-        current.y = transform.eulerAngles.y - 37.0f;
+        current.y = displayQuad.transform.eulerAngles.y - 37.0f;
         current.x = 45.0f;
 
-        transform.rotation = Quaternion.Euler(current);
+        displayQuad.transform.rotation = Quaternion.Euler(current);
     }
 }
