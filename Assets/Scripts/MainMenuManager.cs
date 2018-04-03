@@ -133,4 +133,10 @@ public class MainMenuManager : MonoBehaviour {
             pausePanel.SetActive(true);
         }
     }
+
+
+    public void secretLevel()
+    {
+        SceneManager.LoadScene(3);
+    }
 }

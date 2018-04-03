@@ -982,6 +982,11 @@ MonoBehaviour:
   isDestroy: 0
   isBaron: 1
   isAI: 0
+  isDummy: 0
+  isRandDummy: 0
+  isFetch: 0
+  FetchObj: {fileID: 0}
+  baronFetchLocation: {fileID: 0}
   isCompleted: 0
   isRandom: 0
   randomTaskList: []
@@ -991,6 +996,10 @@ MonoBehaviour:
   spawnTime: {x: 0, y: 0}
   spawnRangeStart: {x: 0, y: 0}
   spawnRangeEnd: {x: 0, y: 0}
+  Ring: {fileID: 0}
+  Blink: {fileID: 0}
+  spawnFX: {fileID: 0}
+  completeFX: {fileID: 0}
   taskObject: {fileID: 0}
   baronAngerIcon: {fileID: 0}
   workingIcon: {fileID: 2800000, guid: 9969137517e406b4fa441b73f000ce3a, type: 3}
@@ -1006,16 +1015,15 @@ MonoBehaviour:
   cdCounter: 0
   isDetect: 0
   isVisibleToBaron: 0
-  mess: {fileID: 1759478428028846, guid: a664123b83cea664b94e9fd028fbd26d, type: 2}
+  baronHasSeenBefore: 0
+  ragedOnce: 0
+  ObjectEnable: {fileID: 0}
+  ObjectDisable: {fileID: 0}
+  mess: {fileID: 0}
   messSpawnMode: 1
   messPos: {fileID: 4897595000859252}
-  clips: []
-  tellXSize: 0
-  tellYSize: 0
-  tex1: {fileID: 0}
-  tex2: {fileID: 0}
-  tellXOffSet: 0
-  tellYOffSet: 0
+  messRadius: 0
+  messAmmount: 0
 --- !u!114 &114042405266583608
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1030,6 +1038,11 @@ MonoBehaviour:
   isDestroy: 0
   isBaron: 1
   isAI: 0
+  isDummy: 0
+  isRandDummy: 0
+  isFetch: 0
+  FetchObj: {fileID: 0}
+  baronFetchLocation: {fileID: 0}
   isCompleted: 0
   isRandom: 0
   randomTaskList: []
@@ -1039,6 +1052,10 @@ MonoBehaviour:
   spawnTime: {x: 0, y: 0}
   spawnRangeStart: {x: 0, y: 0}
   spawnRangeEnd: {x: 0, y: 0}
+  Ring: {fileID: 0}
+  Blink: {fileID: 0}
+  spawnFX: {fileID: 0}
+  completeFX: {fileID: 0}
   taskObject: {fileID: 0}
   baronAngerIcon: {fileID: 0}
   workingIcon: {fileID: 2800000, guid: 9969137517e406b4fa441b73f000ce3a, type: 3}
@@ -1054,16 +1071,15 @@ MonoBehaviour:
   cdCounter: 0
   isDetect: 0
   isVisibleToBaron: 0
-  mess: {fileID: 1759478428028846, guid: a664123b83cea664b94e9fd028fbd26d, type: 2}
+  baronHasSeenBefore: 0
+  ragedOnce: 0
+  ObjectEnable: {fileID: 0}
+  ObjectDisable: {fileID: 0}
+  mess: {fileID: 0}
   messSpawnMode: 1
   messPos: {fileID: 4897595000859252}
-  clips: []
-  tellXSize: 0
-  tellYSize: 0
-  tex1: {fileID: 0}
-  tex2: {fileID: 0}
-  tellXOffSet: 0
-  tellYOffSet: 0
+  messRadius: 0
+  messAmmount: 0
 --- !u!114 &114441085598240058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1078,7 +1094,11 @@ MonoBehaviour:
   sightRange: 0
   frequancyRage: 0
   amountRage: 0
+  maxRageOverLifetime: 0
+  totalRageDealt: 0
+  wait: 0
   clips: []
+  Ring: {fileID: 0}
 --- !u!114 &114481451821029334
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1093,7 +1113,11 @@ MonoBehaviour:
   sightRange: 0
   frequancyRage: 0
   amountRage: 0
+  maxRageOverLifetime: 0
+  totalRageDealt: 0
+  wait: 0
   clips: []
+  Ring: {fileID: 0}
 --- !u!114 &114498511219155746
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1108,6 +1132,11 @@ MonoBehaviour:
   isDestroy: 0
   isBaron: 1
   isAI: 0
+  isDummy: 0
+  isRandDummy: 0
+  isFetch: 0
+  FetchObj: {fileID: 0}
+  baronFetchLocation: {fileID: 0}
   isCompleted: 0
   isRandom: 0
   randomTaskList: []
@@ -1117,6 +1146,10 @@ MonoBehaviour:
   spawnTime: {x: 0, y: 0}
   spawnRangeStart: {x: 0, y: 0}
   spawnRangeEnd: {x: 0, y: 0}
+  Ring: {fileID: 0}
+  Blink: {fileID: 0}
+  spawnFX: {fileID: 0}
+  completeFX: {fileID: 0}
   taskObject: {fileID: 0}
   baronAngerIcon: {fileID: 0}
   workingIcon: {fileID: 2800000, guid: 9969137517e406b4fa441b73f000ce3a, type: 3}
@@ -1132,16 +1165,15 @@ MonoBehaviour:
   cdCounter: 0
   isDetect: 0
   isVisibleToBaron: 0
-  mess: {fileID: 1759478428028846, guid: a664123b83cea664b94e9fd028fbd26d, type: 2}
+  baronHasSeenBefore: 0
+  ragedOnce: 0
+  ObjectEnable: {fileID: 0}
+  ObjectDisable: {fileID: 0}
+  mess: {fileID: 0}
   messSpawnMode: 1
   messPos: {fileID: 4897595000859252}
-  clips: []
-  tellXSize: 0
-  tellYSize: 0
-  tex1: {fileID: 0}
-  tex2: {fileID: 0}
-  tellXOffSet: 0
-  tellYOffSet: 0
+  messRadius: 0
+  messAmmount: 0
 --- !u!114 &114816331487241054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1156,7 +1188,11 @@ MonoBehaviour:
   sightRange: 0
   frequancyRage: 0
   amountRage: 0
+  maxRageOverLifetime: 0
+  totalRageDealt: 0
+  wait: 0
   clips: []
+  Ring: {fileID: 0}
 --- !u!208 &208031993913658988
 NavMeshObstacle:
   m_ObjectHideFlags: 1
@@ -1166,7 +1202,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 0.725, y: 0.25, z: 0.45}
+  m_Extents: {x: 0.645, y: 0.25, z: 0.345}
   m_MoveThreshold: 0.1
   m_Carve: 0
   m_CarveOnlyStationary: 1

@@ -14,3 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Upgrades.unity
     guid: 337c7a527715b0541b9507d92cc2bfc6
+  - enabled: 1
+    path: Assets/_Scenes/ArcadeChallenge.unity
+    guid: 84592b089a7f6c247b78b7ae8f1fa2bc
