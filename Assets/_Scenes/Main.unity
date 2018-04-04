@@ -2453,6 +2453,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2db29181f2255fc47ad0ccfa5789c3e6, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &190837082 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1861809128146384, guid: 8dc70c375e8c7e1449555fa8d2289fc9,
+    type: 2}
+  m_PrefabInternal: {fileID: 44781568}
 --- !u!1 &191569492 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1389083826967284, guid: ab16cbb1598cd61469242cdee9686bd5,
@@ -14442,6 +14447,36 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114526404506403314, guid: 3addf3576f558bb47bfc19d17a857252,
+        type: 2}
+      propertyPath: tasks.Array.data[0]
+      value: 
+      objectReference: {fileID: 1900178213}
+    - target: {fileID: 114526404506403314, guid: 3addf3576f558bb47bfc19d17a857252,
+        type: 2}
+      propertyPath: tasks.Array.data[1]
+      value: 
+      objectReference: {fileID: 973298623}
+    - target: {fileID: 114526404506403314, guid: 3addf3576f558bb47bfc19d17a857252,
+        type: 2}
+      propertyPath: tasks.Array.data[5]
+      value: 
+      objectReference: {fileID: 190837082}
+    - target: {fileID: 114526404506403314, guid: 3addf3576f558bb47bfc19d17a857252,
+        type: 2}
+      propertyPath: tasks.Array.data[7]
+      value: 
+      objectReference: {fileID: 1168746121}
+    - target: {fileID: 114526404506403314, guid: 3addf3576f558bb47bfc19d17a857252,
+        type: 2}
+      propertyPath: tasks.Array.data[12]
+      value: 
+      objectReference: {fileID: 714284652}
+    - target: {fileID: 114526404506403314, guid: 3addf3576f558bb47bfc19d17a857252,
+        type: 2}
+      propertyPath: tasks.Array.data[16]
+      value: 
+      objectReference: {fileID: 1167306616}
     - target: {fileID: 114680452462733216, guid: 3addf3576f558bb47bfc19d17a857252,
         type: 2}
       propertyPath: m_waypoints.Array.data[0]
@@ -14462,58 +14497,9 @@ Prefab:
       propertyPath: m_waypoints.Array.data[3]
       value: 
       objectReference: {fileID: 1041570659}
-    - target: {fileID: 114526404506403314, guid: 3addf3576f558bb47bfc19d17a857252,
-        type: 2}
-      propertyPath: tasks.Array.data[0]
-      value: 
-      objectReference: {fileID: 1900178213}
-    - target: {fileID: 114526404506403314, guid: 3addf3576f558bb47bfc19d17a857252,
-        type: 2}
-      propertyPath: tasks.Array.data[1]
-      value: 
-      objectReference: {fileID: 973298623}
-    - target: {fileID: 114526404506403314, guid: 3addf3576f558bb47bfc19d17a857252,
-        type: 2}
-      propertyPath: tasks.Array.data[5]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114526404506403314, guid: 3addf3576f558bb47bfc19d17a857252,
-        type: 2}
-      propertyPath: tasks.Array.data[7]
-      value: 
-      objectReference: {fileID: 1168746121}
-    - target: {fileID: 114526404506403314, guid: 3addf3576f558bb47bfc19d17a857252,
-        type: 2}
-      propertyPath: tasks.Array.data[12]
-      value: 
-      objectReference: {fileID: 714284652}
-    - target: {fileID: 114526404506403314, guid: 3addf3576f558bb47bfc19d17a857252,
-        type: 2}
-      propertyPath: tasks.Array.data[16]
-      value: 
-      objectReference: {fileID: 1167306616}
     - target: {fileID: 1225565200740524, guid: 3addf3576f558bb47bfc19d17a857252, type: 2}
       propertyPath: m_Name
       value: CHAR_PH_Baron
-      objectReference: {fileID: 0}
-    - target: {fileID: 195861238920883660, guid: 3addf3576f558bb47bfc19d17a857252,
-        type: 2}
-      propertyPath: m_StoppingDistance
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 195861238920883660, guid: 3addf3576f558bb47bfc19d17a857252,
-        type: 2}
-      propertyPath: m_AutoBraking
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114463292592887440, guid: 3addf3576f558bb47bfc19d17a857252,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1838717956733674, guid: 3addf3576f558bb47bfc19d17a857252, type: 2}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3addf3576f558bb47bfc19d17a857252, type: 2}
