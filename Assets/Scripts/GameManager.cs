@@ -94,10 +94,8 @@ public class GameManager : MonoBehaviour
 	[SerializeField] GameObject p5cd;
 
 
-	[SerializeField] GameObject p1fx;
-	[SerializeField] GameObject p2fx;
-	[SerializeField] GameObject p1p2fx;
-
+	private rotTemp powerFX;
+	[SerializeField] GameObject powerSystemFX;
 
 
 	//(speed/duration/cost/coolDown)
@@ -343,7 +341,12 @@ public class GameManager : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-
+		powerFX =  powerSystemFX.GetComponent<rotTemp>();
+		if(powerFX == null)
+		{
+			Debug.LogError("POWERFX NOT SET");
+			
+		}
 		multiFX = GameObject.FindGameObjectWithTag("Multi").GetComponent<Spin>();
 
         stamBarOriginalColour = staminaBarBackground.color;
@@ -786,7 +789,9 @@ public class GameManager : MonoBehaviour
 
 					jeevesRef.GetComponent<NavMeshAgent>().speed = speedUp.x;
 
-					p1fx.SetActive(true);
+					powerSystemFX.SetActive(true);
+					powerFX.Gradiant1(4);
+
 					counter1 = 0;
 					speedUpCD = 0;
 
@@ -822,40 +827,28 @@ public class GameManager : MonoBehaviour
 					counter1 += Time.deltaTime;
 					if (active1 && active2)
 					{
-						if (counter1 >= speedUp.y - 3)
-						{
-							p1p2fx.GetComponent<rotTemp>().pulse = true;
-						}
-						else
-						{
-							p1p2fx.GetComponent<rotTemp>().pulse = false;
-						}
-						p1fx.SetActive(false);
-						p1p2fx.SetActive(true);
+						powerFX.Gradiant1(1);
 					}
 					else
 					{
-						p1fx.SetActive(true);
-						p1p2fx.GetComponent<rotTemp>().pulse = false;
+						powerFX.Gradiant1(4);
+					}
 
-
-						if (counter1 >= speedUp.y - 3)
-						{
-							p1fx.GetComponent<rotTemp>().pulse = true;
-						}
-						else
-						{
-							p1fx.GetComponent<rotTemp>().pulse = false;
-						}
-
-
-						p1p2fx.SetActive(false);
+					if (counter1 >= speedUp.y - 3)
+					{
+						powerFX.pulse = true;
 					}
 				}
 				else
 				{
-					p1fx.SetActive(false);
-					p1p2fx.SetActive(false);
+					powerFX.pulse = false;
+
+					if (active1 && !active2 || !active1 && active2)
+					{
+						powerSystemFX.SetActive(false);
+					}
+
+
 					jeevesRef.GetComponent<NavMeshAgent>().speed = 3.5f;
 					active1 = false;
 					p1.SetActive(false);
@@ -889,7 +882,10 @@ public class GameManager : MonoBehaviour
 
 
 					dataRef.TaskSpeed = taskSpeedUp.x;
-					p2fx.SetActive(true);
+
+					powerFX.Gradiant1(5);
+					powerSystemFX.SetActive(true);
+
 					counter2 = 0;
 					taskSpeedUpCD = 0;
 					active2 = true;
@@ -927,38 +923,29 @@ public class GameManager : MonoBehaviour
 					counter2 += Time.deltaTime;
 					if(active1 && active2)
 					{
-
-						if (counter2 >= speedUp.y - 3)
-						{
-							p1p2fx.GetComponent<rotTemp>().pulse = true;
-						}
-						else
-						{
-							p1p2fx.GetComponent<rotTemp>().pulse = false;
-						}
-
-						p2fx.SetActive(false);
-					   p1p2fx.SetActive(true);
+						powerFX.Gradiant1(1);
 					}
 					else
 					{
-						if (counter2 >= speedUp.y - 3)
-						{
-							p2fx.GetComponent<rotTemp>().pulse = true;
-						}
-						else
-						{
-							p2fx.GetComponent<rotTemp>().pulse = false;
-						}
+						powerFX.Gradiant1(5);
+					}
 
-						p2fx.SetActive(true);
-						p1p2fx.SetActive(false);
+					if (counter2 >= speedUp.y - 3)
+					{
+						powerFX.pulse = true;
 					}
 				}
 				else
 				{
-					p2fx.SetActive(false);
-					p1p2fx.SetActive(false);
+
+					
+					powerFX.pulse = false;
+
+					if (active1  && !active2 || !active1 && active2)
+					{
+						powerSystemFX.SetActive(false);
+					}
+
 					dataRef.TaskSpeed = 1;
 					active2 = false;
 					p2cdo.SetActive(true);
