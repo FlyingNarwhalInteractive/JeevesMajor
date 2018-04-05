@@ -468,11 +468,6 @@ public class GameManager : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.Space))
-		{
-			SetMultiplier(1);
-		}
-
 
 		float currentFlashTime = Time.time - stamBarLastFlash;
         // flash bar stuff
@@ -498,6 +493,7 @@ public class GameManager : MonoBehaviour
 
 
 		//Clear Save Data
+		/*
 		if (Input.GetKeyDown(KeyCode.T))
 		{
 			if (dataRef.GetUsedLocks() < 10)
@@ -507,7 +503,7 @@ public class GameManager : MonoBehaviour
 			print(dataRef.GetUsedLocks());
 
 		}
-
+		*/
 
 		SetChallangeUI(currentChallange);
 		challangeText.text = currentChallangeStr;
@@ -584,7 +580,10 @@ public class GameManager : MonoBehaviour
 
 		// hudAngerRadial.GetComponent<Image>().color = Color.Lerp(start, end, dataRef.GetCurrentRage() / 100f);
 
+		//hide debug commands
+
 		//Display save file data to console
+		/*
 		if (Input.GetKeyDown(KeyCode.L))
 		{
 
@@ -632,7 +631,7 @@ public class GameManager : MonoBehaviour
 			SaveLoad.Save();
 
 		}
-
+		*/
 
 		if (dataRef.GetCurrentRage() > 100)
 		{

@@ -62,6 +62,8 @@ public class rotTemp : MonoBehaviour
 		var trails = pa.trails;
 
 
+		//hide debug commands
+
 
 		//1 & 2 & 3
 		if (i == 0)
@@ -109,7 +111,7 @@ public class rotTemp : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-
+		/*
 		if (Input.GetKeyDown(KeyCode.Alpha0))
 		{
 			Gradiant1(0);
@@ -138,6 +140,9 @@ public class rotTemp : MonoBehaviour
 		{
 			Gradiant1(6);
 		}
+		*/
+
+
 		transform.Rotate(speed * Time.deltaTime);
 
 		var t = pa.main;

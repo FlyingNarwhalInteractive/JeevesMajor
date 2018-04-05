@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ToggleTut : MonoBehaviour {
 
-    private Toggle tog;
+    [SerializeField] Toggle tog;
 
     public bool GetIsTut()
     {
@@ -31,7 +31,7 @@ public class ToggleTut : MonoBehaviour {
     void Awake()
     {
         tog = GetComponent<Toggle>();
-        tog.isOn = GetIsTut();
+        //tog.isOn = GetIsTut();
     }
 
 
