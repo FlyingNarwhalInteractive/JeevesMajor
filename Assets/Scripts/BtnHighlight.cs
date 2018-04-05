@@ -21,13 +21,20 @@ public class BtnHighlight : MonoBehaviour
 
 	void Start()
 	{
+		//initialise stuffs
 		img = gameObject.GetComponent<Image>();
 		GM = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
 		dataRef = GameObject.FindGameObjectWithTag("GM").GetComponent<GameDataStore>();
+
+		//remember starting position
 		origin = transform.position;
+
+		//set up timers and flags
 		timeStep = 5;
 		count = 0;
 		hover = false;
+
+		//set cost bar for each power icon
 
 		if (Num != 0)
 		{
@@ -53,30 +60,36 @@ public class BtnHighlight : MonoBehaviour
 			}
 		}
 
-
-		De();
+		//run state function
 	}
 
 	void OnAwake()
 	{
 		hover = false;
-
-		De();
+		transform.position = origin;
+			
+		//run state function
 	}
 
 
 
 	public void HiLight()
 	{
-		if (dataRef.Stamina > cost)
+		if (dataRef.Stamina >= cost)
 		{
 			hover = true;
+		}
+		else
+		{
+			//run state function
+			hover = false;
 		}
 	}
 
 
 	private void FixedUpdate()
 	{
+		//run state function
 		De();
 
 
@@ -103,16 +116,11 @@ public class BtnHighlight : MonoBehaviour
 				Wobble();
 			}
 		}
-		else
+		else if (hover == true && dataRef.Stamina >= cost)
 		{
-			if (dataRef.Stamina >= cost)
-			{
-
-
-				img.color = Color.Lerp(img.color, Color.green, 0.5f);
-				Wobble();
-				transform.localScale = new Vector3(2 + 0.25f * Mathf.Sin(Time.time * 1), 2 + 0.25f * Mathf.Sin(Time.time * 1) + (0.25f * Mathf.Cos(Time.time * 10)), 0);
-			}
+			img.color = Color.Lerp(img.color, Color.green, 0.5f);
+			Wobble();
+			transform.localScale = new Vector3(2 + 0.25f * Mathf.Sin(Time.time * 1), 2 + 0.25f * Mathf.Sin(Time.time * 1) + (0.25f * Mathf.Cos(Time.time * 10)), 0);
 		}
 	}
 
