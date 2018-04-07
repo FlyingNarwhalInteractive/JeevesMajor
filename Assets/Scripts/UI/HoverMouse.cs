@@ -112,7 +112,7 @@ public class HoverMouse : MonoBehaviour
             {
                 if(t != null)
                 {
-                t.color = Color.Lerp(t.color, Color.black, fadeTime * Time.deltaTime);
+                t.color = Color.Lerp(t.color, Color.white, fadeTime * Time.deltaTime);
                 }
                 
             }
