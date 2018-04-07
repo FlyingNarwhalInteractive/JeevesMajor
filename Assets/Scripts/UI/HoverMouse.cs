@@ -30,7 +30,8 @@ public class HoverMouse : MonoBehaviour
         imgOri = img.color;
 
         int count = 0;
-
+		img.color = Color.clear;
+		
         foreach (Transform child in transform)
         {
 
