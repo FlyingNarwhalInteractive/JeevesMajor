@@ -52,7 +52,13 @@ public class CustomCursor : MonoBehaviour {
             {
                 if (CursorExists(m_jeevesScript.m_mouseTarget.tag))
                 {
-                    cursorOnScreen.sprite = GetCursor(m_jeevesScript.m_mouseTarget.tag);
+                    if (m_jeevesScript.m_mouseTarget.tag == "Task")
+                    {
+                        if (!m_jeevesScript.m_mouseTarget.GetComponent<Task>().isBaron)
+                            cursorOnScreen.sprite = GetCursor(m_jeevesScript.m_mouseTarget.tag);
+                    }
+                    else
+                        cursorOnScreen.sprite = GetCursor(m_jeevesScript.m_mouseTarget.tag);
                 }
             }
             else
