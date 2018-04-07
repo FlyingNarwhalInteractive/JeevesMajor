@@ -261,39 +261,39 @@ public class GameManager : MonoBehaviour
 	{
 		if (cha == 0)
 		{
-			currentChallangeStr = "Complete more than 10 tasks\n" + "Reward: " + rewards[cha].ToString();
+			currentChallangeStr = "Complete more than 10 tasks\n" + "Reward: " + rewards[cha].ToString() + " Points & " + coins[cha].ToString() + " Coins" ;
 		}
 		else if (cha == 1)
 		{
-			currentChallangeStr = "Complete more than 20 tasks\n" + "Reward: " + rewards[cha].ToString();
+			currentChallangeStr = "Complete more than 20 tasks\n" + "Reward: " + rewards[cha].ToString() + " Points & " + coins[cha].ToString() + " Coins";
 		}
 		else if (cha == 2)
 		{
-			currentChallangeStr = "Complete more than 30 tasks\n" + "Reward: " + rewards[cha].ToString();
+			currentChallangeStr = "Complete more than 30 tasks\n" + "Reward: " + rewards[cha].ToString() + " Points & " + coins[cha].ToString() + " Coins";
 		}
 		else if (cha == 3)
 		{
-			currentChallangeStr = "Use no locks\n" + "Reward:  " + rewards[cha].ToString();
+			currentChallangeStr = "Use no locks\n" + "Reward:  " + rewards[cha].ToString() + " Points & " + coins[cha].ToString() + " Coins";
 		}
 		else if (cha == 4)
 		{
-			currentChallangeStr = "Use less than 3 locks\n" + "Reward: " + rewards[cha].ToString();
+			currentChallangeStr = "Use less than 3 locks\n" + "Reward: " + rewards[cha].ToString() + " Points & " + coins[cha].ToString() + " Coins";
 		}
 		else if (cha == 5)
 		{
-			currentChallangeStr = "Use less than 10 locks\n" + "Reward: " + rewards[cha].ToString();
+			currentChallangeStr = "Use less than 10 locks\n" + "Reward: " + rewards[cha].ToString() + " Points & " + coins[cha].ToString() + " Coins";
 		}
 		else if (cha == 6)
 		{
-			currentChallangeStr = "Keep baron under 25 rage\n" + "Reward: " + rewards[cha].ToString();
+			currentChallangeStr = "Keep baron under 25 rage\n" + "Reward: " + rewards[cha].ToString() + " Points & " + coins[cha].ToString() + " Coins";
 		}
 		else if (cha == 7)
 		{
-			currentChallangeStr = "Keep baron under 50 rage\n" + "Reward: " + rewards[cha].ToString();
+			currentChallangeStr = "Keep baron under 50 rage\n" + "Reward: " + rewards[cha].ToString() + " Points & " + coins[cha].ToString() + " Coins";
 		}
 		else if (cha == 8)
 		{
-			currentChallangeStr = "Keep baron under 75 rage\n" + "Reward: " + rewards[cha].ToString();
+			currentChallangeStr = "Keep baron under 75 rage\n" + "Reward: " + rewards[cha].ToString() + " Points & " + coins[cha].ToString() + " Coins";
 		}
 	}
 
@@ -810,6 +810,7 @@ public class GameManager : MonoBehaviour
 				p1cdt.GetComponent<Text>().text = (speedUp.w - (int)speedUpCD).ToString();
 				p1cdo.GetComponent<Image>().fillAmount = 1 - (speedUpCD / speedUp.w);
 				p1.SetActive(false);
+				p1cdo.SetActive(true);
 
 			}
 			else
