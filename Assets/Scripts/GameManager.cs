@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
 	private GameDataStore dataRef;
 	private GameObject HUDRef;
 	private Upgrades upStats;
+	private GameObject baronRef;
 	[SerializeField] Tutorial tutRef;
 
 	[SerializeField] Slider staminaBar;
@@ -96,8 +97,8 @@ public class GameManager : MonoBehaviour
 
 	private rotTemp powerFX;
 	[SerializeField] GameObject powerSystemFX;
-
-
+	private bool isFetchActive;
+	private bool isProtected;
 	//(speed/duration/cost/coolDown)
 	public Vector4 speedUp;
 	public Vector4 taskSpeedUp;
@@ -341,6 +342,7 @@ public class GameManager : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
+		
 		powerFX =  powerSystemFX.GetComponent<rotTemp>();
 		if(powerFX == null)
 		{
@@ -359,8 +361,11 @@ public class GameManager : MonoBehaviour
 		run3 = false;
 		run4 = false;
 
+		baronRef = GameObject.FindGameObjectWithTag("Baron");
+		isProtected = baronRef.GetComponent<BaronAI>().protect;
 		upStats = GetComponent<Upgrades>();
 		jeevesRef = GameObject.FindGameObjectWithTag("Jeeves");
+		isFetchActive = jeevesRef.GetComponent<Jeeves>().hasFetch;
 		speedUpCD = 0;
 		taskSpeedUpCD = 0;
 		//roll challange
@@ -514,11 +519,28 @@ public class GameManager : MonoBehaviour
 
 
 		//multi.text = "X" + multiplyer.ToString();
+		isProtected = baronRef.GetComponent<BaronAI>().protect;
+		isFetchActive = jeevesRef.GetComponent<Jeeves>().hasFetch;
+		//Invincibility
+		if (isFetchActive && !active1 && !active2 || isProtected && !active1 && !active2)
+		{
+			powerSystemFX.SetActive(true);
+			powerFX.Gradiant1(6);
+			if(isProtected)
+			{
+				powerFX.pulse = true;
+			}
 
+		}
+		else if(!active1 && !active2)
+		{
+			powerFX.pulse = false;
+			powerSystemFX.SetActive(false);
+		}
 
 		//Stamina
 		ManageStamina();
-
+		
 
 		//Update HUD
 
@@ -825,9 +847,21 @@ public class GameManager : MonoBehaviour
 				if (counter1 < speedUp.y)
 				{
 					counter1 += Time.deltaTime;
-					if (active1 && active2)
+					if(active1 && active2 && isFetchActive)
+					{
+						powerFX.Gradiant1(0);
+					}
+					else if(active1 && active2)
 					{
 						powerFX.Gradiant1(1);
+					}
+					else if (active1 && isFetchActive)
+					{
+						powerFX.Gradiant1(2);
+					}
+					else if (active2 && isFetchActive)
+					{
+						powerFX.Gradiant1(3);
 					}
 					else
 					{
@@ -921,9 +955,21 @@ public class GameManager : MonoBehaviour
 				if (counter2 < taskSpeedUp.y)
 				{
 					counter2 += Time.deltaTime;
-					if(active1 && active2)
+					if (active1 && active2 && isFetchActive)
+					{
+						powerFX.Gradiant1(0);
+					}
+					else if (active1 && active2)
 					{
 						powerFX.Gradiant1(1);
+					}
+					else if (active1 && isFetchActive)
+					{
+						powerFX.Gradiant1(2);
+					}
+					else if (active2 && isFetchActive)
+					{
+						powerFX.Gradiant1(3);
 					}
 					else
 					{
