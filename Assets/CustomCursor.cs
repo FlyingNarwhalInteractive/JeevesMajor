@@ -14,7 +14,19 @@ public class CustomCursor : MonoBehaviour {
     public class cursors
     {
         public string m_tag;
-        public Sprite m_cursor;
+        public Sprite[] m_cursor;
+        public int m_frame = 0;
+        float lastFrame = 0;
+
+        public void Step()
+        {
+            if (Time.time - lastFrame > (1.0f / m_cursor.Length))
+            {
+                m_frame++;
+                if (m_frame >= m_cursor.Length) m_frame = 0;
+                lastFrame = Time.time;
+            }
+        }
     }
 
     public cursors[] cursorsCustom;
@@ -63,7 +75,10 @@ public class CustomCursor : MonoBehaviour {
         foreach (var cursor in cursorsCustom)
         {
             if (cursor.m_tag == tag)
-                return cursor.m_cursor;
+            {
+                cursor.Step();
+                return cursor.m_cursor[cursor.m_frame];
+            }
         }
 
         return cursorDefault;
