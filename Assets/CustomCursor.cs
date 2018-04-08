@@ -9,7 +9,9 @@ public class CustomCursor : MonoBehaviour {
     public Sprite cursorDefault;
     Image cursorOnScreen;
     Jeeves m_jeevesScript;
-    
+    public GameObject customCursor;
+    public GameObject customCursorInv;
+        
     [System.Serializable]
     public class cursors
     {
@@ -31,15 +33,22 @@ public class CustomCursor : MonoBehaviour {
 
     public cursors[] cursorsCustom;
 
-	// Use this for initialization
-	void Start ()
+    private void Awake()
+    {
+        SaveLoad.Load("Jeeves.cjc");
+        if (SaveData.cursorInvert && gameObject != customCursorInv)
+            FlipCursors();
+    }
+
+    // Use this for initialization
+    void Start ()
     {
         Cursor.visible = false;
         cursorOnScreen = GetComponent<Image>();
         cursorOnScreen.sprite = cursorDefault;
         if(GameObject.FindGameObjectWithTag("Jeeves")!=null)
             m_jeevesScript = GameObject.FindGameObjectWithTag("Jeeves").GetComponent<Jeeves>();
-	}
+    }
 
     // Update is called once per frame
     void Update()
@@ -88,5 +97,19 @@ public class CustomCursor : MonoBehaviour {
         }
 
         return cursorDefault;
+    }
+
+    public void FlipCursors()
+    {
+        if(customCursorInv==gameObject)
+        {
+            customCursor.SetActive(true);
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            customCursorInv.SetActive(true);
+            gameObject.SetActive(false);
+        }
     }
 }

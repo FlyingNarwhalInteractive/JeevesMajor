@@ -27,6 +27,9 @@ public class Jeeves : MonoBehaviour {
     [SerializeField] float protectTime;
     NavManager navManager;
 
+    float doubleClickTimer;
+    float doubleClickTime = 0.5f;
+
     public GameObject BLight;
 
    // [SerializeField] int fetchRage;
@@ -174,10 +177,17 @@ public class Jeeves : MonoBehaviour {
             if (  clickTarget != null && clickTarget.tag == "Door")
             {
                 // this is as per bobbos request, can close and open doors magically from afar - like some sort of sophisticated butlery WIZARD!
-                if (m_jeevesIsMagicAndCanOpenDoorsFromAfar)
+                if (m_jeevesIsMagicAndCanOpenDoorsFromAfar && (Time.time - doubleClickTimer < doubleClickTime || !SaveData.doubleClickDoors))
+                {
                     StartTask();
+                    move.GoTo(transform.position);
+                }
                 else
+                {
+                    doubleClickTimer = Time.time;
                     move.GoTo(clickPoint);
+                    clickTarget = null;
+                }
             }
             else
                 move.GoTo(clickPoint);
@@ -199,9 +209,14 @@ public class Jeeves : MonoBehaviour {
         switch (clickTarget.tag)
         {
             case "Door":
-                clickTarget.GetComponent<Door>().Action();
-                m_taskStarted = true;
-                clickPoint = transform.position;
+                    if (Time.time - doubleClickTimer < doubleClickTime || !SaveData.doubleClickDoors)
+                    {
+                        clickTarget.GetComponent<Door>().Action();
+                        m_taskStarted = true;
+                        clickPoint = transform.position;
+                    }
+                    else
+                        doubleClickTimer = Time.time;
                 break;
             case "Task":
                 currentTask = clickTarget.gameObject;
