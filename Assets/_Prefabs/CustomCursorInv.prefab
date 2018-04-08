@@ -28,7 +28,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &114360474558683524
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -69,18 +69,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cursorOffset: {x: 25, y: 22}
   cursorDefault: {fileID: 21300000, guid: 043b4db51a2a41e4787399525e92312b, type: 3}
+  customCursor: {fileID: 0}
+  customCursorInv: {fileID: 1349634383402684}
   cursorsCustom:
   - m_tag: Door
     m_cursor:
-    - {fileID: 21300000, guid: f3dad45d55c892e4ab56ff2a7db436d4, type: 3}
+    - {fileID: 21300000, guid: d37a49a7a4dffca4ab22dc2a2ece279a, type: 3}
+    - {fileID: 21300000, guid: be5321c719ebd6c48ad68bf64c059c5b, type: 3}
     m_frame: 0
   - m_tag: Task
     m_cursor:
-    - {fileID: 21300000, guid: c5a08feafa6e1aa47b7f340ad4dd4835, type: 3}
+    - {fileID: 21300000, guid: c346e41f5c374b34da928b1a506c3870, type: 3}
+    - {fileID: 21300000, guid: 06aeaf603aa94db47ab962b352f81fd6, type: 3}
     m_frame: 0
   - m_tag: Fetch
     m_cursor:
-    - {fileID: 21300000, guid: c5a08feafa6e1aa47b7f340ad4dd4835, type: 3}
+    - {fileID: 21300000, guid: c346e41f5c374b34da928b1a506c3870, type: 3}
+    - {fileID: 21300000, guid: 06aeaf603aa94db47ab962b352f81fd6, type: 3}
     m_frame: 0
 --- !u!222 &222248087604012366
 CanvasRenderer:
