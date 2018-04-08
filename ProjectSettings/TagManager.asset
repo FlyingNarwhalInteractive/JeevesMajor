@@ -30,6 +30,8 @@ TagManager:
   - ClosedDoor
   - Multi
   - DayWonPanel
+  - BaronAnimator
+  - Animator
   layers:
   - Default
   - TransparentFX

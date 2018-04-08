@@ -24,12 +24,23 @@ public class Movement : MonoBehaviour
 	Door lastDoor = null;
 	public float lastRenavTime = 0;
 
-	public GameObject m_agentAni;
+
+	private Animator m_agentAni;
+
 
 
 	// Use this for initialization
 	void Start()
 	{
+		//find animator child
+		if (gameObject.GetComponent<Animator>() == null)
+		{
+			m_agentAni = FindChild();
+		}
+		else
+		{
+			m_agentAni = gameObject.GetComponent<Animator>();
+		}
 
 		navManager = FindObjectOfType<NavManager>();
 		m_knownObstacles = new List<Door>();
@@ -42,28 +53,26 @@ public class Movement : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		{
+		
 
-			if (m_agentAni.GetComponent<Animator>() != null)
-			{
-				if (m_isTravelling)
-				{
-					m_agentAni.GetComponent<Animator>().SetTrigger("IsTravel");
-					m_agentAni.GetComponent<Animator>().SetBool("StopTravel", true);
-				}
-				else
-				{
-					m_agentAni.GetComponent<Animator>().SetBool("StopTravel", false);
-				}
-			}
 
-		}
+
+		
 
 
 
 		// reset timer when we arrive
 		if (m_isTravelling)
 		{
+			if (m_agentAni != null)
+			{
+				m_agentAni.SetBool("isTravelling", true);
+				if(m_agentAni.GetBool("isTravelling") == false)
+				{
+					Debug.LogError("ani val not set");
+				}
+				
+			}
 			trappedTimer += Time.deltaTime;
 			if (Vector3.Distance(m_currentDestination, transform.position) < m_arrivalDistanceThreshold)
 			{
@@ -73,7 +82,17 @@ public class Movement : MonoBehaviour
 				m_navAgent.ResetPath();
 			}
 		}
-
+		else
+		{
+			if (m_agentAni != null)
+			{
+				m_agentAni.SetBool("isTravelling", false);
+				if (m_agentAni.GetBool("isTravelling") == true)
+				{
+					Debug.LogError("ani val not set");
+				}
+			}
+		}
 		if (trappedTimer > timeUntilTrapped)
 			m_isTrapped = true;
 		else
@@ -137,6 +156,21 @@ public class Movement : MonoBehaviour
 		m_currentDestination = destination;
 		return Navigate();
 	}
+
+	private Animator FindChild()
+	{
+		for(int i = 0; i < transform.childCount; i++)
+		{
+			if(transform.GetChild(i).gameObject.tag == "Animator")
+			{
+				return transform.GetChild(i).gameObject.GetComponent<Animator>();
+			}
+		}
+
+		return null;
+	}
+
+
 	/*
  void OnDrawGizmosSelected()
     {
