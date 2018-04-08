@@ -6,15 +6,13 @@ using UnityEngine.UI;
 
 public class TestingScript : MonoBehaviour
 {
-
-   
-
-    public int timeSpeed;
+    public GameObject invCursor;
+    public GameObject normalCursor;
 
     // Use this for initialization
     void Start()
     {
-        Time.timeScale = timeSpeed;
+        
     }
 
     // Update is called once per frame
@@ -22,19 +20,21 @@ public class TestingScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            timeSpeed++;
+            if(invCursor.activeSelf == true)
+            {
+                invCursor.SetActive(false);
+                normalCursor.SetActive(true);
+            }
+            else
+            {
+                normalCursor.SetActive(false);
+                invCursor.SetActive(true);
+            }
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            timeSpeed--;
-        }
+        
 
-        Time.timeScale = timeSpeed;
-        //if (Input.GetKeyDown("SpeedUp"))
-        //{
-        //testSpeed++;
-        //}
+        
     }
 
    
