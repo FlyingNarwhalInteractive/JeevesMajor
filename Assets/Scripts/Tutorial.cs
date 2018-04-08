@@ -15,23 +15,20 @@ public class Tutorial : MonoBehaviour {
 		if(GameObject.FindGameObjectWithTag("GM")  != null)
 		{
 			gameManagerRef = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
-		
 
+            isOn = gameManagerRef.GetIsTut();
+            print("TutStatus" + isOn);
 
-
-        isOn = gameManagerRef.GetIsTut();
-        print("TutStatus" + isOn);
-
-    if(isOn)
-        {
+            if(isOn)
+            {
          
-            current = 0;
-            Panels[current].SetActive(true);
-        }
-        else
-        {
-            gameObject.SetActive(false);
-        }
+                current = 0;
+                Panels[current].SetActive(true);
+            }
+            else
+            {
+                gameObject.SetActive(false);
+            }
 
 		}
 	}
@@ -74,4 +71,20 @@ public class Tutorial : MonoBehaviour {
     {
 		
 	}
+
+    public void Toggle()
+    {
+        isOn = !isOn;
+
+        if(isOn)
+        {
+            gameObject.SetActive(true);
+            current = 0;
+            Panels[current].SetActive(true);
+        }
+        else
+        {
+            DisableTut();
+        }
+    }
 }

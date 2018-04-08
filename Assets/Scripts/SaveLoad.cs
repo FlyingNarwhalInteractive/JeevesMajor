@@ -27,8 +27,11 @@ public class SaveData : ISerializable
 
 
 
-    //Store tutorial options
+    //Store  options - SP :P
     static public bool isTutorial;
+    static public bool rightMousePan;
+    static public bool doubleClickDoors;
+    static public bool cursorInvert;
 
     //store upgrade levels
     static public int currencyMeta;// = 0;
@@ -268,13 +271,16 @@ public class SaveData : ISerializable
         power4UpgradeLevel = (int)info.GetValue("power4UpgradeLevel", typeof(int));
         power5UpgradeLevel = (int)info.GetValue("power5UpgradeLevel", typeof(int));
 
-        // save tut option;
+        // save option;
         isTutorial = (bool)info.GetValue("isTutorial", typeof(bool));
+        rightMousePan = (bool)info.GetValue("rightMousePan", typeof(bool));
+        doubleClickDoors = (bool)info.GetValue("doubleClickDoors", typeof(bool));
+        cursorInvert = (bool)info.GetValue("cursorInvert", typeof(bool));
 
         //Stats
 
- 
-             Power1Stats = (float[])info.GetValue("Power1Stats", typeof(float[]));
+
+        Power1Stats = (float[])info.GetValue("Power1Stats", typeof(float[]));
         
 
             Power2Stats = (float[])info.GetValue("Power2Stats", typeof(float[]));
@@ -306,8 +312,11 @@ public class SaveData : ISerializable
         info.AddValue("power4UpgradeLevel", power4UpgradeLevel);
         info.AddValue("power5UpgradeLevel", power5UpgradeLevel);
 
-        //get tutorial option
+        //get option
         info.AddValue("isTutorial", isTutorial);
+        info.AddValue("rightMousePan", rightMousePan);
+        info.AddValue("doubleClickDoors", doubleClickDoors);
+        info.AddValue("cursorInvert", cursorInvert);
 
 
         //Stats

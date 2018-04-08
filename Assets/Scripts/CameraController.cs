@@ -45,9 +45,9 @@ public class CameraController : MonoBehaviour {
 
         // mouse
         zoomChange -= Input.mouseScrollDelta.y;
-        if (Input.GetMouseButton(2))
+        if (SaveData.rightMousePan ? Input.GetMouseButton(1) : Input.GetMouseButton(2))
         {
-            if (Input.GetMouseButtonDown(2))
+            if (SaveData.rightMousePan ? Input.GetMouseButtonDown(1) : Input.GetMouseButtonDown(2))
                 lastMousePosition = Input.mousePosition;
             else
             {

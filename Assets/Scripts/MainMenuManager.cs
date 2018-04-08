@@ -17,6 +17,8 @@ public class MainMenuManager : MonoBehaviour {
         {
             pausePanel.SetActive(false);
         }
+
+        LoadSaveData();
 	}
 	
 	// Update is called once per frame
@@ -138,5 +140,10 @@ public class MainMenuManager : MonoBehaviour {
     public void secretLevel()
     {
         SceneManager.LoadScene(3);
+    }
+
+    void LoadSaveData()
+    {
+        SaveLoad.Load("Jeeves.cjc");
     }
 }
