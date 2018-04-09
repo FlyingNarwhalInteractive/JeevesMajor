@@ -348,37 +348,49 @@ public class SaveData : ISerializable
 }
 
 public class SaveLoad
+{
+    public static string currentFilePath = "Jeeves.cjc";
+
+    public static void Save()
     {
-        public static string currentFilePath = "Jeeves.cjc";
+        Save(currentFilePath);
+    }
 
-        public static void Save()
+    public static void Save(string filePath)
+    {
+        SaveData data = new SaveData();
+
+        Stream stream = File.Open(filePath, FileMode.OpenOrCreate);
+        BinaryFormatter binformatter = new BinaryFormatter();
+        binformatter.Binder = new VersionDesirialisationBinder();
+        binformatter.Serialize(stream, data);
+        stream.Close();
+    }
+
+    public static void Load() { Load(currentFilePath); }
+    public static void Load(string filePath)
+    {
+        SaveData data = new SaveData();
+
+        try
         {
-            Save(currentFilePath);
+            // loading save data
+                Stream stream = File.Open(filePath, FileMode.Open);
+                BinaryFormatter binformatter = new BinaryFormatter();
+                binformatter.Binder = new VersionDesirialisationBinder();
+                data = (SaveData)binformatter.Deserialize(stream);
+                stream.Close();
         }
-
-        public static void Save(string filePath)
+        catch
         {
-            SaveData data = new SaveData();
+            //  oh noes, we failed, load defaults
+            // oh wait! new SaveData totally already did this for us! muah ha ah hahahahahaa
 
-            Stream stream = File.Open(filePath, FileMode.OpenOrCreate);
-            BinaryFormatter binformatter = new BinaryFormatter();
-            binformatter.Binder = new VersionDesirialisationBinder();
-            binformatter.Serialize(stream, data);
-            stream.Close();
-        }
-
-        public static void Load() { Load(currentFilePath); }
-        public static void Load(string filePath)
-        {
-            SaveData data = new SaveData();
-            Stream stream = File.Open(filePath, FileMode.Open);
-            BinaryFormatter binformatter = new BinaryFormatter();
-            binformatter.Binder = new VersionDesirialisationBinder();
-            data = (SaveData)binformatter.Deserialize(stream);
-            stream.Close();
-
+            // save file with defaults.
+            Save(filePath);
         }
     }
+}
 
 
     //Dont change
