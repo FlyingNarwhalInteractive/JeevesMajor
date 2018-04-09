@@ -1,0 +1,503 @@
+fileFormatVersion: 2
+guid: c5e88762ba1da434f9dcdf646e759ae6
+timeCreated: 1523262137
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BookShelfLegs
+    100002: BooksShelf_1
+    100004: BooksShelf_2
+    100006: BooksShelf_3
+    100008: BooksShelf_4
+    100010: BooksShelf_5
+    100012: BooksShelf_6
+    100014: Door_Left
+    100016: Door_Right
+    100018: Doors
+    100020: geo_book_01
+    100022: geo_book_01 1
+    100024: geo_book_01 2
+    100026: geo_book_012
+    100028: geo_book_013
+    100030: geo_book_014
+    100032: geo_book_015
+    100034: geo_book_016
+    100036: geo_book_017
+    100038: geo_book_018
+    100040: geo_book_019
+    100042: geo_book_02
+    100044: geo_book_02 1
+    100046: geo_book_02 2
+    100048: geo_book_020
+    100050: geo_book_021
+    100052: geo_book_022
+    100054: geo_book_023
+    100056: geo_book_024
+    100058: geo_book_025
+    100060: geo_book_026
+    100062: geo_book_027
+    100064: geo_book_028
+    100066: geo_book_029
+    100068: geo_book_03
+    100070: geo_book_03 1
+    100072: geo_book_030
+    100074: geo_book_031
+    100076: geo_book_032
+    100078: geo_book_033
+    100080: geo_book_034
+    100082: geo_book_035
+    100084: geo_book_04
+    100086: geo_book_04 1
+    100088: geo_book_05
+    100090: geo_book_05 1
+    100092: geo_book_06
+    100094: geo_book_06 1
+    100096: geo_book_07
+    100098: geo_book_07 1
+    100100: //RootNode
+    100102: geo_BookShelfLeg_1
+    100104: geo_BookShelfLeg_2
+    100106: geo_BookShelfLeg_3
+    100108: geo_BookShelfLeg_4
+    100110: geo_bookshelfphotos
+    100112: geo_BookShelves
+    100114: geo_doorGlassLeft
+    100116: geo_doorGlassRight
+    100118: geo_DoorHandleLeft
+    100120: geo_DoorHandleRight
+    100122: geo_doorLeft
+    100124: geo_DoorRight
+    100126: geo_photoframe_40
+    100128: geo_photoframe_41
+    100130: geo_photoframe_42
+    100132: geo_photoframe_43
+    100134: geo_photoframe_44
+    100136: geo_photoframe_45
+    100138: geo_PlantPotted_01
+    100140: geo_plantShrub_06
+    100142: geo_plantShrub_07
+    100144: geo_plantShrub_08
+    100146: geo_plantShrub_09
+    100148: geo_TV_01:geo_PlantContainer_01
+    100150: group10
+    100152: group6
+    100154: group7
+    400000: BookShelfLegs
+    400002: BooksShelf_1
+    400004: BooksShelf_2
+    400006: BooksShelf_3
+    400008: BooksShelf_4
+    400010: BooksShelf_5
+    400012: BooksShelf_6
+    400014: Door_Left
+    400016: Door_Right
+    400018: Doors
+    400020: geo_book_01
+    400022: geo_book_01 1
+    400024: geo_book_01 2
+    400026: geo_book_012
+    400028: geo_book_013
+    400030: geo_book_014
+    400032: geo_book_015
+    400034: geo_book_016
+    400036: geo_book_017
+    400038: geo_book_018
+    400040: geo_book_019
+    400042: geo_book_02
+    400044: geo_book_02 1
+    400046: geo_book_02 2
+    400048: geo_book_020
+    400050: geo_book_021
+    400052: geo_book_022
+    400054: geo_book_023
+    400056: geo_book_024
+    400058: geo_book_025
+    400060: geo_book_026
+    400062: geo_book_027
+    400064: geo_book_028
+    400066: geo_book_029
+    400068: geo_book_03
+    400070: geo_book_03 1
+    400072: geo_book_030
+    400074: geo_book_031
+    400076: geo_book_032
+    400078: geo_book_033
+    400080: geo_book_034
+    400082: geo_book_035
+    400084: geo_book_04
+    400086: geo_book_04 1
+    400088: geo_book_05
+    400090: geo_book_05 1
+    400092: geo_book_06
+    400094: geo_book_06 1
+    400096: geo_book_07
+    400098: geo_book_07 1
+    400100: //RootNode
+    400102: geo_BookShelfLeg_1
+    400104: geo_BookShelfLeg_2
+    400106: geo_BookShelfLeg_3
+    400108: geo_BookShelfLeg_4
+    400110: geo_bookshelfphotos
+    400112: geo_BookShelves
+    400114: geo_doorGlassLeft
+    400116: geo_doorGlassRight
+    400118: geo_DoorHandleLeft
+    400120: geo_DoorHandleRight
+    400122: geo_doorLeft
+    400124: geo_DoorRight
+    400126: geo_photoframe_40
+    400128: geo_photoframe_41
+    400130: geo_photoframe_42
+    400132: geo_photoframe_43
+    400134: geo_photoframe_44
+    400136: geo_photoframe_45
+    400138: geo_PlantPotted_01
+    400140: geo_plantShrub_06
+    400142: geo_plantShrub_07
+    400144: geo_plantShrub_08
+    400146: geo_plantShrub_09
+    400148: geo_TV_01:geo_PlantContainer_01
+    400150: group10
+    400152: group6
+    400154: group7
+    2300000: geo_book_01
+    2300002: geo_book_01 1
+    2300004: geo_book_01 2
+    2300006: geo_book_012
+    2300008: geo_book_013
+    2300010: geo_book_014
+    2300012: geo_book_015
+    2300014: geo_book_016
+    2300016: geo_book_017
+    2300018: geo_book_018
+    2300020: geo_book_019
+    2300022: geo_book_02
+    2300024: geo_book_02 1
+    2300026: geo_book_02 2
+    2300028: geo_book_020
+    2300030: geo_book_021
+    2300032: geo_book_022
+    2300034: geo_book_023
+    2300036: geo_book_024
+    2300038: geo_book_025
+    2300040: geo_book_026
+    2300042: geo_book_027
+    2300044: geo_book_028
+    2300046: geo_book_029
+    2300048: geo_book_03
+    2300050: geo_book_03 1
+    2300052: geo_book_030
+    2300054: geo_book_031
+    2300056: geo_book_032
+    2300058: geo_book_033
+    2300060: geo_book_034
+    2300062: geo_book_035
+    2300064: geo_book_04
+    2300066: geo_book_04 1
+    2300068: geo_book_05
+    2300070: geo_book_05 1
+    2300072: geo_book_06
+    2300074: geo_book_06 1
+    2300076: geo_book_07
+    2300078: geo_book_07 1
+    2300080: geo_BookShelfLeg_1
+    2300082: geo_BookShelfLeg_2
+    2300084: geo_BookShelfLeg_3
+    2300086: geo_BookShelfLeg_4
+    2300088: geo_BookShelves
+    2300090: geo_doorGlassLeft
+    2300092: geo_doorGlassRight
+    2300094: geo_DoorHandleLeft
+    2300096: geo_DoorHandleRight
+    2300098: geo_doorLeft
+    2300100: geo_DoorRight
+    2300102: geo_photoframe_40
+    2300104: geo_photoframe_41
+    2300106: geo_photoframe_42
+    2300108: geo_photoframe_43
+    2300110: geo_photoframe_44
+    2300112: geo_photoframe_45
+    2300114: geo_plantShrub_06
+    2300116: geo_plantShrub_07
+    2300118: geo_plantShrub_08
+    2300120: geo_plantShrub_09
+    2300122: geo_TV_01:geo_PlantContainer_01
+    3300000: geo_book_01
+    3300002: geo_book_01 1
+    3300004: geo_book_01 2
+    3300006: geo_book_012
+    3300008: geo_book_013
+    3300010: geo_book_014
+    3300012: geo_book_015
+    3300014: geo_book_016
+    3300016: geo_book_017
+    3300018: geo_book_018
+    3300020: geo_book_019
+    3300022: geo_book_02
+    3300024: geo_book_02 1
+    3300026: geo_book_02 2
+    3300028: geo_book_020
+    3300030: geo_book_021
+    3300032: geo_book_022
+    3300034: geo_book_023
+    3300036: geo_book_024
+    3300038: geo_book_025
+    3300040: geo_book_026
+    3300042: geo_book_027
+    3300044: geo_book_028
+    3300046: geo_book_029
+    3300048: geo_book_03
+    3300050: geo_book_03 1
+    3300052: geo_book_030
+    3300054: geo_book_031
+    3300056: geo_book_032
+    3300058: geo_book_033
+    3300060: geo_book_034
+    3300062: geo_book_035
+    3300064: geo_book_04
+    3300066: geo_book_04 1
+    3300068: geo_book_05
+    3300070: geo_book_05 1
+    3300072: geo_book_06
+    3300074: geo_book_06 1
+    3300076: geo_book_07
+    3300078: geo_book_07 1
+    3300080: geo_BookShelfLeg_1
+    3300082: geo_BookShelfLeg_2
+    3300084: geo_BookShelfLeg_3
+    3300086: geo_BookShelfLeg_4
+    3300088: geo_BookShelves
+    3300090: geo_doorGlassLeft
+    3300092: geo_doorGlassRight
+    3300094: geo_DoorHandleLeft
+    3300096: geo_DoorHandleRight
+    3300098: geo_doorLeft
+    3300100: geo_DoorRight
+    3300102: geo_photoframe_40
+    3300104: geo_photoframe_41
+    3300106: geo_photoframe_42
+    3300108: geo_photoframe_43
+    3300110: geo_photoframe_44
+    3300112: geo_photoframe_45
+    3300114: geo_plantShrub_06
+    3300116: geo_plantShrub_07
+    3300118: geo_plantShrub_08
+    3300120: geo_plantShrub_09
+    3300122: geo_TV_01:geo_PlantContainer_01
+    4300000: geo_book_02
+    4300002: geo_book_01
+    4300004: geo_book_027
+    4300006: geo_book_028
+    4300008: geo_book_029
+    4300010: geo_book_030
+    4300012: geo_book_031
+    4300014: geo_book_07
+    4300016: geo_book_06
+    4300018: geo_book_05
+    4300020: geo_book_04
+    4300022: geo_book_03
+    4300024: geo_book_02
+    4300026: geo_book_01
+    4300028: geo_book_07
+    4300030: geo_book_06
+    4300032: geo_book_05
+    4300034: geo_book_04
+    4300036: geo_book_03
+    4300038: geo_book_02
+    4300040: geo_book_01
+    4300042: geo_book_024
+    4300044: geo_book_023
+    4300046: geo_book_022
+    4300048: geo_book_025
+    4300050: geo_book_026
+    4300052: geo_book_015
+    4300054: geo_book_016
+    4300056: geo_book_017
+    4300058: geo_book_018
+    4300060: geo_book_019
+    4300062: geo_book_020
+    4300064: geo_book_021
+    4300066: geo_book_012
+    4300068: geo_book_013
+    4300070: geo_book_014
+    4300072: geo_book_032
+    4300074: geo_book_033
+    4300076: geo_book_034
+    4300078: geo_book_035
+    4300080: geo_BookShelfLeg_4
+    4300082: geo_BookShelfLeg_3
+    4300084: geo_BookShelfLeg_2
+    4300086: geo_BookShelfLeg_1
+    4300088: geo_doorGlassLeft
+    4300090: geo_doorLeft
+    4300092: geo_DoorHandleLeft
+    4300094: geo_doorGlassRight
+    4300096: geo_DoorHandleRight
+    4300098: geo_DoorRight
+    4300100: geo_BookShelves
+    4300102: geo_TV_01:geo_PlantContainer_01
+    4300104: geo_plantShrub_06
+    4300106: geo_plantShrub_07
+    4300108: geo_plantShrub_08
+    4300110: geo_plantShrub_09
+    4300112: geo_photoframe_45
+    4300114: geo_photoframe_44
+    4300116: geo_photoframe_43
+    4300118: geo_photoframe_42
+    4300120: geo_photoframe_41
+    4300122: geo_photoframe_40
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 964f27d246c46974d908c8c2dea2edfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Blue_01
+    second: {fileID: 2100000, guid: 734ed0fc6fa44fe408f2e6e73437076d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_GreenPlant_01
+    second: {fileID: 2100000, guid: eb9c65232b5179a4daaf7aa3e4917952, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Pink_01
+    second: {fileID: 2100000, guid: 66ad0341027e97244aaffc0572291db6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Yellow_01
+    second: {fileID: 2100000, guid: c3816fd54c95de24580d1750e1d44eb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 7d986acb7f726424d9da9dfbbfe27d4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_M_Red
+    second: {fileID: 2100000, guid: c38411b3c39bbc54694c33aaae3f6dff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Blue_03
+    second: {fileID: 2100000, guid: 26499f778c10a3c4da11aaf9fd309ab3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_GreenPlant_03
+    second: {fileID: 2100000, guid: 1072444bc6d32f54c9a244dd5cb2dbff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Pink_01
+    second: {fileID: 2100000, guid: 79cadf2cf077729479ddf59cd9bd74f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Pink_02
+    second: {fileID: 2100000, guid: e783f863c785bfe489cdcbc4ef7734dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Yellow_01
+    second: {fileID: 2100000, guid: 09e8585a9b2d954488a7a31aab49d79a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Yellow_03
+    second: {fileID: 2100000, guid: af3649b3c777df245acb419b386c6e8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Yellow_04
+    second: {fileID: 2100000, guid: dd41b87f2d304c44eb333a5dae5ffe8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 61bf1b81dae2b64439bd278af4f361a0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
