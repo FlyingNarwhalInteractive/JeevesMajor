@@ -1,0 +1,387 @@
+fileFormatVersion: 2
+guid: db8d5abb845dacd4a880671e04506a5f
+timeCreated: 1523262312
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BooksFloor_1
+    100002: BookShelfLegs
+    100004: Door_Left
+    100006: Door_Right
+    100008: Doors
+    100010: geo_bookFloor_20
+    100012: geo_bookFloor_21
+    100014: geo_bookFloor_22
+    100016: geo_bookFloor_23
+    100018: geo_bookFloor_24
+    100020: geo_bookFloor_25
+    100022: geo_bookFloor_26
+    100024: geo_bookFloor_27
+    100026: geo_bookFloor_28
+    100028: geo_bookFloor_29
+    100030: geo_bookFloor_30
+    100032: geo_bookFloor_31
+    100034: geo_bookFloor_32
+    100036: geo_bookFloor_33
+    100038: geo_bookFloor_34
+    100040: geo_bookFloor_35
+    100042: geo_bookFloor_36
+    100044: geo_bookFloor_37
+    100046: geo_bookFloor_38
+    100048: geo_bookFloor_39
+    100050: geo_BookShelfLeg_1
+    100052: geo_BookShelfLeg_2
+    100054: geo_BookShelfLeg_3
+    100056: geo_BookShelfLeg_4
+    100058: //RootNode
+    100060: geo_bookshelfphotos
+    100062: geo_BookShelves
+    100064: geo_doorGlassLeft
+    100066: geo_doorGlassRight
+    100068: geo_DoorHandleLeft
+    100070: geo_DoorHandleRight
+    100072: geo_doorLeft
+    100074: geo_DoorRight
+    100076: geo_photoframe_40
+    100078: geo_photoframe_41
+    100080: geo_photoframe_42
+    100082: geo_photoframe_43
+    100084: geo_photoframe_44
+    100086: geo_photoframe_45
+    100088: geo_PlantContainer_01
+    100090: geo_PlantPotted_01
+    100092: geo_plantShrub_06
+    100094: geo_plantShrub_07
+    100096: geo_plantShrub_08
+    100098: geo_plantShrub_09
+    400000: BooksFloor_1
+    400002: BookShelfLegs
+    400004: Door_Left
+    400006: Door_Right
+    400008: Doors
+    400010: geo_bookFloor_20
+    400012: geo_bookFloor_21
+    400014: geo_bookFloor_22
+    400016: geo_bookFloor_23
+    400018: geo_bookFloor_24
+    400020: geo_bookFloor_25
+    400022: geo_bookFloor_26
+    400024: geo_bookFloor_27
+    400026: geo_bookFloor_28
+    400028: geo_bookFloor_29
+    400030: geo_bookFloor_30
+    400032: geo_bookFloor_31
+    400034: geo_bookFloor_32
+    400036: geo_bookFloor_33
+    400038: geo_bookFloor_34
+    400040: geo_bookFloor_35
+    400042: geo_bookFloor_36
+    400044: geo_bookFloor_37
+    400046: geo_bookFloor_38
+    400048: geo_bookFloor_39
+    400050: geo_BookShelfLeg_1
+    400052: geo_BookShelfLeg_2
+    400054: geo_BookShelfLeg_3
+    400056: geo_BookShelfLeg_4
+    400058: //RootNode
+    400060: geo_bookshelfphotos
+    400062: geo_BookShelves
+    400064: geo_doorGlassLeft
+    400066: geo_doorGlassRight
+    400068: geo_DoorHandleLeft
+    400070: geo_DoorHandleRight
+    400072: geo_doorLeft
+    400074: geo_DoorRight
+    400076: geo_photoframe_40
+    400078: geo_photoframe_41
+    400080: geo_photoframe_42
+    400082: geo_photoframe_43
+    400084: geo_photoframe_44
+    400086: geo_photoframe_45
+    400088: geo_PlantContainer_01
+    400090: geo_PlantPotted_01
+    400092: geo_plantShrub_06
+    400094: geo_plantShrub_07
+    400096: geo_plantShrub_08
+    400098: geo_plantShrub_09
+    2300000: geo_bookFloor_20
+    2300002: geo_bookFloor_21
+    2300004: geo_bookFloor_22
+    2300006: geo_bookFloor_23
+    2300008: geo_bookFloor_24
+    2300010: geo_bookFloor_25
+    2300012: geo_bookFloor_26
+    2300014: geo_bookFloor_27
+    2300016: geo_bookFloor_28
+    2300018: geo_bookFloor_29
+    2300020: geo_bookFloor_30
+    2300022: geo_bookFloor_31
+    2300024: geo_bookFloor_32
+    2300026: geo_bookFloor_33
+    2300028: geo_bookFloor_34
+    2300030: geo_bookFloor_35
+    2300032: geo_bookFloor_36
+    2300034: geo_bookFloor_37
+    2300036: geo_bookFloor_38
+    2300038: geo_bookFloor_39
+    2300040: geo_BookShelfLeg_1
+    2300042: geo_BookShelfLeg_2
+    2300044: geo_BookShelfLeg_3
+    2300046: geo_BookShelfLeg_4
+    2300048: geo_BookShelves
+    2300050: geo_doorGlassLeft
+    2300052: geo_doorGlassRight
+    2300054: geo_DoorHandleLeft
+    2300056: geo_DoorHandleRight
+    2300058: geo_doorLeft
+    2300060: geo_DoorRight
+    2300062: geo_photoframe_40
+    2300064: geo_photoframe_41
+    2300066: geo_photoframe_42
+    2300068: geo_photoframe_43
+    2300070: geo_photoframe_44
+    2300072: geo_photoframe_45
+    2300074: geo_PlantContainer_01
+    2300076: geo_plantShrub_06
+    2300078: geo_plantShrub_07
+    2300080: geo_plantShrub_08
+    2300082: geo_plantShrub_09
+    3300000: geo_bookFloor_20
+    3300002: geo_bookFloor_21
+    3300004: geo_bookFloor_22
+    3300006: geo_bookFloor_23
+    3300008: geo_bookFloor_24
+    3300010: geo_bookFloor_25
+    3300012: geo_bookFloor_26
+    3300014: geo_bookFloor_27
+    3300016: geo_bookFloor_28
+    3300018: geo_bookFloor_29
+    3300020: geo_bookFloor_30
+    3300022: geo_bookFloor_31
+    3300024: geo_bookFloor_32
+    3300026: geo_bookFloor_33
+    3300028: geo_bookFloor_34
+    3300030: geo_bookFloor_35
+    3300032: geo_bookFloor_36
+    3300034: geo_bookFloor_37
+    3300036: geo_bookFloor_38
+    3300038: geo_bookFloor_39
+    3300040: geo_BookShelfLeg_1
+    3300042: geo_BookShelfLeg_2
+    3300044: geo_BookShelfLeg_3
+    3300046: geo_BookShelfLeg_4
+    3300048: geo_BookShelves
+    3300050: geo_doorGlassLeft
+    3300052: geo_doorGlassRight
+    3300054: geo_DoorHandleLeft
+    3300056: geo_DoorHandleRight
+    3300058: geo_doorLeft
+    3300060: geo_DoorRight
+    3300062: geo_photoframe_40
+    3300064: geo_photoframe_41
+    3300066: geo_photoframe_42
+    3300068: geo_photoframe_43
+    3300070: geo_photoframe_44
+    3300072: geo_photoframe_45
+    3300074: geo_PlantContainer_01
+    3300076: geo_plantShrub_06
+    3300078: geo_plantShrub_07
+    3300080: geo_plantShrub_08
+    3300082: geo_plantShrub_09
+    4300000: geo_bookFloor_20
+    4300002: geo_bookFloor_21
+    4300004: geo_bookFloor_22
+    4300006: geo_bookFloor_23
+    4300008: geo_bookFloor_24
+    4300010: geo_bookFloor_25
+    4300012: geo_bookFloor_26
+    4300014: geo_bookFloor_27
+    4300016: geo_bookFloor_28
+    4300018: geo_bookFloor_29
+    4300020: geo_bookFloor_30
+    4300022: geo_bookFloor_31
+    4300024: geo_bookFloor_32
+    4300026: geo_bookFloor_33
+    4300028: geo_bookFloor_34
+    4300030: geo_bookFloor_35
+    4300032: geo_bookFloor_36
+    4300034: geo_bookFloor_37
+    4300036: geo_bookFloor_38
+    4300038: geo_bookFloor_39
+    4300040: geo_BookShelfLeg_4
+    4300042: geo_BookShelfLeg_3
+    4300044: geo_BookShelfLeg_2
+    4300046: geo_BookShelfLeg_1
+    4300048: geo_doorGlassLeft
+    4300050: geo_doorLeft
+    4300052: geo_DoorHandleLeft
+    4300054: geo_doorGlassRight
+    4300056: geo_DoorHandleRight
+    4300058: geo_DoorRight
+    4300060: geo_BookShelves
+    4300062: geo_PlantContainer_01
+    4300064: geo_plantShrub_06
+    4300066: geo_plantShrub_07
+    4300068: geo_plantShrub_08
+    4300070: geo_plantShrub_09
+    4300072: geo_photoframe_45
+    4300074: geo_photoframe_44
+    4300076: geo_photoframe_43
+    4300078: geo_photoframe_42
+    4300080: geo_photoframe_41
+    4300082: geo_photoframe_40
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 7ea36f74fe481e140bd66590631fc272, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Blue_01
+    second: {fileID: 2100000, guid: 734ed0fc6fa44fe408f2e6e73437076d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_GreenPlant_01
+    second: {fileID: 2100000, guid: eb9c65232b5179a4daaf7aa3e4917952, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Pink_01
+    second: {fileID: 2100000, guid: 66ad0341027e97244aaffc0572291db6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TempM_Yellow_01
+    second: {fileID: 2100000, guid: c3816fd54c95de24580d1750e1d44eb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 49b7bc658d57b87449e32dd7499669d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_M_Red
+    second: {fileID: 2100000, guid: c38411b3c39bbc54694c33aaae3f6dff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Blue_03
+    second: {fileID: 2100000, guid: 26499f778c10a3c4da11aaf9fd309ab3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_GreenPlant_03
+    second: {fileID: 2100000, guid: eda66122e5dc06b46b19133950c35355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Pink_01
+    second: {fileID: 2100000, guid: 79cadf2cf077729479ddf59cd9bd74f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Pink_02
+    second: {fileID: 2100000, guid: ed2a9729c8557b149881aa30c3cfec67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Yellow_01
+    second: {fileID: 2100000, guid: aaa17479480ec364eb5935b5c8c317bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Yellow_03
+    second: {fileID: 2100000, guid: 11c2a3f9a547b814b893bb25aeafe935, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: geo_TV_01_TempM_Yellow_04
+    second: {fileID: 2100000, guid: 58c2be774c219d34c8bf90f70e97be6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 61bf1b81dae2b64439bd278af4f361a0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
