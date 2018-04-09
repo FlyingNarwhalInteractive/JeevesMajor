@@ -66,8 +66,8 @@ public class CameraController : MonoBehaviour {
         // apply change
         transform.position += change;
         thisCamera.orthographicSize += zoomChange;
-        if (zoomChange != 0)
-            transform.position = cameraZeroRef + jeevesRef.transform.localPosition;
+        //if (zoomChange != 0)
+        //    transform.position = cameraZeroRef + jeevesRef.transform.localPosition;
 
         if (followJeeves)
             transform.position = cameraZeroRef + jeevesRef.transform.localPosition;

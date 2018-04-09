@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 124423172022097906}
   - component: {fileID: 114869174147802486}
   - component: {fileID: 114397727656173082}
+  - component: {fileID: 114860426747991702}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -92,7 +93,11 @@ Camera:
   far clip plane: 100
   field of view: 60
   orthographic: 1
-  orthographic size: 6.8635974
+<<<<<<< HEAD
+  orthographic size: 12
+=======
+  orthographic size: 10.1
+>>>>>>> 1e712085b6a7f2abb0ea7caf342a9945d0933a40
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -119,6 +124,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ListenerNumber: 0
+--- !u!114 &114860426747991702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1022919723061350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: 0
 --- !u!114 &114869174147802486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -132,8 +149,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HorizontalLimit: 10
   VerticalLimit: 10
-  ZoomLimit: 2
+  ZoomLimit: 1.2
   PanSpeed: 1
+  followJeeves: 0
   cameraZeroRef: {x: -23.85, y: 24.52, z: -9.6}
 --- !u!124 &124423172022097906
 Behaviour:
