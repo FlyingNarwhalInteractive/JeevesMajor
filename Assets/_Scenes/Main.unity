@@ -4223,12 +4223,12 @@ Prefab:
     - target: {fileID: 224208467911758062, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 462.5
+      value: 628.5
       objectReference: {fileID: 0}
     - target: {fileID: 224208467911758062, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 260
+      value: 315
       objectReference: {fileID: 0}
     - target: {fileID: 224122946690719008, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -5627,7 +5627,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 20788921670284630, guid: bb73c813269c898488f7bf1a74049aeb,
+        type: 2}
+      propertyPath: orthographic size
+      value: 6.8635974
+      objectReference: {fileID: 0}
+    - target: {fileID: 81233929206260040, guid: bb73c813269c898488f7bf1a74049aeb,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 81233929206260040, guid: bb73c813269c898488f7bf1a74049aeb, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: bb73c813269c898488f7bf1a74049aeb, type: 2}
   m_IsPrefabParent: 0
 --- !u!114 &498900915 stripped
@@ -15880,6 +15891,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0000002, y: 1.3, z: 0.05000001}
   m_Center: {x: -0.5000006, y: 0.65, z: -0.0002049739}
+--- !u!1 &1718637160 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1022919723061350, guid: bb73c813269c898488f7bf1a74049aeb,
+    type: 2}
+  m_PrefabInternal: {fileID: 498900914}
+--- !u!114 &1718637162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1718637160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: 0
 --- !u!1001 &1725994475
 Prefab:
   m_ObjectHideFlags: 0
