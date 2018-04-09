@@ -9,7 +9,7 @@ public class MainMenuManager : MonoBehaviour {
     public GameObject gameSettingsPanel;
     public GameObject audioSettingsPanel;
     public GameObject mainPanel;
-
+    public GameObject creditPanel;
 	// Use this for initialization
 	void Start () {
         Time.timeScale = 1;
@@ -42,7 +42,7 @@ public class MainMenuManager : MonoBehaviour {
 
         if(SceneManager.GetActiveScene().buildIndex == 0)
         {
-            if(pausePanel.activeSelf == true || audioSettingsPanel.activeSelf == true || gameSettingsPanel.activeSelf == true)
+            if(pausePanel.activeSelf == true || audioSettingsPanel.activeSelf == true || gameSettingsPanel.activeSelf == true || creditPanel.activeSelf == true)
             {
                 mainPanel.SetActive(false);
             }
@@ -135,7 +135,25 @@ public class MainMenuManager : MonoBehaviour {
             pausePanel.SetActive(true);
         }
     }
-
+    public void credits(bool Open)
+    {
+        if (Open)
+        {
+            creditPanel.SetActive(true);
+            audioSettingsPanel.SetActive(false);
+            gameSettingsPanel.SetActive(false);
+            pausePanel.SetActive(false);
+            mainPanel.SetActive(false);
+        }
+        if (!Open)
+        {
+            creditPanel.SetActive(false);
+            mainPanel.SetActive(true);
+            audioSettingsPanel.SetActive(false);
+            gameSettingsPanel.SetActive(false);
+            pausePanel.SetActive(false);
+        }
+    }
 
     public void secretLevel()
     {
