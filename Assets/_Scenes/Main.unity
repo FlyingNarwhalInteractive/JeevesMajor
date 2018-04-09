@@ -3376,6 +3376,7 @@ MonoBehaviour:
   protectTimer: 0
   protectTime: 5
   BLight: {fileID: 746358265}
+  CompleteFX: {fileID: 1542309509553084, guid: 46fc9758f686e6c41bb003861a1af3f2, type: 2}
   m_jeevesIsMagicAndCanOpenDoorsFromAfar: 1
   m_distractions:
   - {fileID: 1715759104}
@@ -4209,7 +4210,7 @@ Prefab:
     - target: {fileID: 224982357089544322, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 5
+      value: -172.5
       objectReference: {fileID: 0}
     - target: {fileID: 224981303205774860, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -4304,7 +4305,7 @@ Prefab:
     - target: {fileID: 224711073702186736, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 197.5
+      value: 10.000001
       objectReference: {fileID: 0}
     - target: {fileID: 224692635114172172, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
