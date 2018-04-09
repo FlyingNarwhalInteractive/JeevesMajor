@@ -71,6 +71,118 @@ ModelImporter:
     100126: Bind_R_Toe_end
     100128: Bind_R_Wrist_jnt
     100130: GRP_Baron
+    100132: RIG:BIND:Baron
+    100134: RIG:BIND:Bind_Back_CoatTails_jnt
+    100136: RIG:BIND:Bind_Belly_jnt
+    100138: RIG:BIND:Bind_Chest_jnt
+    100140: RIG:BIND:Bind_CoatTails_Root_end
+    100142: RIG:BIND:Bind_Head_end
+    100144: RIG:BIND:Bind_Hip_jnt
+    100146: RIG:BIND:Bind_L_Ankle_jnt
+    100148: RIG:BIND:Bind_L_Back_CoatTails_end
+    100150: RIG:BIND:Bind_L_Ball_jnt
+    100152: RIG:BIND:Bind_L_Belly_end
+    100154: RIG:BIND:Bind_L_Belly_jnt
+    100156: RIG:BIND:Bind_L_Clavicle_jnt
+    100158: RIG:BIND:Bind_L_CoatTails_end
+    100160: RIG:BIND:Bind_L_CoatTails_jnt
+    100162: RIG:BIND:Bind_L_Elbow_jnt
+    100164: RIG:BIND:Bind_L_Index1_jnt1
+    100166: RIG:BIND:Bind_L_Index2_jnt
+    100168: RIG:BIND:Bind_L_Index_end
+    100170: RIG:BIND:Bind_L_Knee_jnt
+    100172: RIG:BIND:Bind_L_Middle1_jnt
+    100174: RIG:BIND:Bind_L_Middle2_jnt
+    100176: RIG:BIND:Bind_L_Middle_end
+    100178: RIG:BIND:Bind_L_Pinky1_jnt1
+    100180: RIG:BIND:Bind_L_Pinky2_jnt
+    100182: RIG:BIND:Bind_L_Pinky_end
+    100184: RIG:BIND:Bind_L_Shoulder_jnt
+    100186: RIG:BIND:Bind_L_Thigh_jnt
+    100188: RIG:BIND:Bind_L_Thumb1_jnt
+    100190: RIG:BIND:Bind_L_Thumb2_jnt
+    100192: RIG:BIND:Bind_L_Thumb_end
+    100194: RIG:BIND:Bind_L_Toe_end
+    100196: RIG:BIND:Bind_L_Wrist_jnt
+    100198: RIG:BIND:Bind_Mid_Belly_end
+    100200: RIG:BIND:Bind_Mid_jnt
+    100202: RIG:BIND:Bind_Neck_jnt
+    100204: RIG:BIND:Bind_Pelvis_jnt
+    100206: RIG:BIND:Bind_R_Ankle_jnt
+    100208: RIG:BIND:Bind_R_Back_CoatTails_end
+    100210: RIG:BIND:Bind_R_Ball_jnt
+    100212: RIG:BIND:Bind_R_Belly_end
+    100214: RIG:BIND:Bind_R_Belly_jnt
+    100216: RIG:BIND:Bind_R_Clavicle_jnt
+    100218: RIG:BIND:Bind_R_CoatTails_end
+    100220: RIG:BIND:Bind_R_CoatTails_jnt
+    100222: RIG:BIND:Bind_R_Elbow_jnt
+    100224: RIG:BIND:Bind_R_Index1_jnt1
+    100226: RIG:BIND:Bind_R_Index2_jnt
+    100228: RIG:BIND:Bind_R_Index_end
+    100230: RIG:BIND:Bind_R_Knee_jnt
+    100232: RIG:BIND:Bind_R_Middle1_jnt
+    100234: RIG:BIND:Bind_R_Middle2_jnt
+    100236: RIG:BIND:Bind_R_Middle_end
+    100238: RIG:BIND:Bind_R_Pinky1_jnt1
+    100240: RIG:BIND:Bind_R_Pinky2_jnt
+    100242: RIG:BIND:Bind_R_Pinky_end
+    100244: RIG:BIND:Bind_R_Shoulder_jnt
+    100246: RIG:BIND:Bind_R_Thigh_jnt
+    100248: RIG:BIND:Bind_R_Thumb1_jnt
+    100250: RIG:BIND:Bind_R_Thumb2_jnt
+    100252: RIG:BIND:Bind_R_Thumb_end
+    100254: RIG:BIND:Bind_R_Toe_end
+    100256: RIG:BIND:Bind_R_Wrist_jnt
+    100258: RIG:BIND:GEO_body_Lo
+    100260: RIG:BIND:GEO_head_lo
+    100262: RIG:BIND:GRP_Baron
+    100264: RIG:Rig_Back_CoatTails_jnt
+    100266: RIG:Rig_Belly_jnt
+    100268: RIG:Rig_Chest_jnt
+    100270: RIG:Rig_CoatTails_Root_end
+    100272: RIG:Rig_Hip_jnt
+    100274: RIG:Rig_L_Ankle_jnt
+    100276: RIG:Rig_L_Ball_jnt
+    100278: RIG:Rig_L_Belly_jnt
+    100280: RIG:Rig_L_Clavicle_jnt
+    100282: RIG:Rig_L_CoatTails_jnt
+    100284: RIG:Rig_L_Elbow_jnt
+    100286: RIG:Rig_L_Index1_jnt1
+    100288: RIG:Rig_L_Index2_jnt
+    100290: RIG:Rig_L_Knee_jnt
+    100292: RIG:Rig_L_Middle1_jnt
+    100294: RIG:Rig_L_Middle2_jnt
+    100296: RIG:Rig_L_Pinky1_jnt1
+    100298: RIG:Rig_L_Pinky2_jnt
+    100300: RIG:Rig_L_Shoulder_jnt
+    100302: RIG:Rig_L_Thigh_jnt
+    100304: RIG:Rig_L_Thumb1_jnt
+    100306: RIG:Rig_L_Thumb2_jnt
+    100308: RIG:Rig_L_Wrist_jnt
+    100310: RIG:Rig_Master_Ctrl
+    100312: RIG:Rig_Mid_Ctrl
+    100314: RIG:Rig_Mid_jnt
+    100316: RIG:Rig_Neck_jnt
+    100318: RIG:Rig_Pelvis_jnt
+    100320: RIG:Rig_R_Ankle_jnt
+    100322: RIG:Rig_R_Ball_jnt
+    100324: RIG:Rig_R_Belly_jnt
+    100326: RIG:Rig_R_Clavicle_jnt
+    100328: RIG:Rig_R_CoatTails_jnt
+    100330: RIG:Rig_R_Elbow_jnt
+    100332: RIG:Rig_R_Index1_jnt1
+    100334: RIG:Rig_R_Index2_jnt
+    100336: RIG:Rig_R_Knee_jnt
+    100338: RIG:Rig_R_Middle1_jnt
+    100340: RIG:Rig_R_Middle2_jnt
+    100342: RIG:Rig_R_Pinky1_jnt1
+    100344: RIG:Rig_R_Pinky2_jnt
+    100346: RIG:Rig_R_Shoulder_jnt
+    100348: RIG:Rig_R_Thigh_jnt
+    100350: RIG:Rig_R_Thumb1_jnt
+    100352: RIG:Rig_R_Thumb2_jnt
+    100354: RIG:Rig_R_Wrist_jnt
     400000: //RootNode
     400002: GEO_body_Lo
     400004: GEO_head_lo
@@ -137,15 +249,131 @@ ModelImporter:
     400126: Bind_R_Toe_end
     400128: Bind_R_Wrist_jnt
     400130: GRP_Baron
+    400132: RIG:BIND:Baron
+    400134: RIG:BIND:Bind_Back_CoatTails_jnt
+    400136: RIG:BIND:Bind_Belly_jnt
+    400138: RIG:BIND:Bind_Chest_jnt
+    400140: RIG:BIND:Bind_CoatTails_Root_end
+    400142: RIG:BIND:Bind_Head_end
+    400144: RIG:BIND:Bind_Hip_jnt
+    400146: RIG:BIND:Bind_L_Ankle_jnt
+    400148: RIG:BIND:Bind_L_Back_CoatTails_end
+    400150: RIG:BIND:Bind_L_Ball_jnt
+    400152: RIG:BIND:Bind_L_Belly_end
+    400154: RIG:BIND:Bind_L_Belly_jnt
+    400156: RIG:BIND:Bind_L_Clavicle_jnt
+    400158: RIG:BIND:Bind_L_CoatTails_end
+    400160: RIG:BIND:Bind_L_CoatTails_jnt
+    400162: RIG:BIND:Bind_L_Elbow_jnt
+    400164: RIG:BIND:Bind_L_Index1_jnt1
+    400166: RIG:BIND:Bind_L_Index2_jnt
+    400168: RIG:BIND:Bind_L_Index_end
+    400170: RIG:BIND:Bind_L_Knee_jnt
+    400172: RIG:BIND:Bind_L_Middle1_jnt
+    400174: RIG:BIND:Bind_L_Middle2_jnt
+    400176: RIG:BIND:Bind_L_Middle_end
+    400178: RIG:BIND:Bind_L_Pinky1_jnt1
+    400180: RIG:BIND:Bind_L_Pinky2_jnt
+    400182: RIG:BIND:Bind_L_Pinky_end
+    400184: RIG:BIND:Bind_L_Shoulder_jnt
+    400186: RIG:BIND:Bind_L_Thigh_jnt
+    400188: RIG:BIND:Bind_L_Thumb1_jnt
+    400190: RIG:BIND:Bind_L_Thumb2_jnt
+    400192: RIG:BIND:Bind_L_Thumb_end
+    400194: RIG:BIND:Bind_L_Toe_end
+    400196: RIG:BIND:Bind_L_Wrist_jnt
+    400198: RIG:BIND:Bind_Mid_Belly_end
+    400200: RIG:BIND:Bind_Mid_jnt
+    400202: RIG:BIND:Bind_Neck_jnt
+    400204: RIG:BIND:Bind_Pelvis_jnt
+    400206: RIG:BIND:Bind_R_Ankle_jnt
+    400208: RIG:BIND:Bind_R_Back_CoatTails_end
+    400210: RIG:BIND:Bind_R_Ball_jnt
+    400212: RIG:BIND:Bind_R_Belly_end
+    400214: RIG:BIND:Bind_R_Belly_jnt
+    400216: RIG:BIND:Bind_R_Clavicle_jnt
+    400218: RIG:BIND:Bind_R_CoatTails_end
+    400220: RIG:BIND:Bind_R_CoatTails_jnt
+    400222: RIG:BIND:Bind_R_Elbow_jnt
+    400224: RIG:BIND:Bind_R_Index1_jnt1
+    400226: RIG:BIND:Bind_R_Index2_jnt
+    400228: RIG:BIND:Bind_R_Index_end
+    400230: RIG:BIND:Bind_R_Knee_jnt
+    400232: RIG:BIND:Bind_R_Middle1_jnt
+    400234: RIG:BIND:Bind_R_Middle2_jnt
+    400236: RIG:BIND:Bind_R_Middle_end
+    400238: RIG:BIND:Bind_R_Pinky1_jnt1
+    400240: RIG:BIND:Bind_R_Pinky2_jnt
+    400242: RIG:BIND:Bind_R_Pinky_end
+    400244: RIG:BIND:Bind_R_Shoulder_jnt
+    400246: RIG:BIND:Bind_R_Thigh_jnt
+    400248: RIG:BIND:Bind_R_Thumb1_jnt
+    400250: RIG:BIND:Bind_R_Thumb2_jnt
+    400252: RIG:BIND:Bind_R_Thumb_end
+    400254: RIG:BIND:Bind_R_Toe_end
+    400256: RIG:BIND:Bind_R_Wrist_jnt
+    400258: RIG:BIND:GEO_body_Lo
+    400260: RIG:BIND:GEO_head_lo
+    400262: RIG:BIND:GRP_Baron
+    400264: RIG:Rig_Back_CoatTails_jnt
+    400266: RIG:Rig_Belly_jnt
+    400268: RIG:Rig_Chest_jnt
+    400270: RIG:Rig_CoatTails_Root_end
+    400272: RIG:Rig_Hip_jnt
+    400274: RIG:Rig_L_Ankle_jnt
+    400276: RIG:Rig_L_Ball_jnt
+    400278: RIG:Rig_L_Belly_jnt
+    400280: RIG:Rig_L_Clavicle_jnt
+    400282: RIG:Rig_L_CoatTails_jnt
+    400284: RIG:Rig_L_Elbow_jnt
+    400286: RIG:Rig_L_Index1_jnt1
+    400288: RIG:Rig_L_Index2_jnt
+    400290: RIG:Rig_L_Knee_jnt
+    400292: RIG:Rig_L_Middle1_jnt
+    400294: RIG:Rig_L_Middle2_jnt
+    400296: RIG:Rig_L_Pinky1_jnt1
+    400298: RIG:Rig_L_Pinky2_jnt
+    400300: RIG:Rig_L_Shoulder_jnt
+    400302: RIG:Rig_L_Thigh_jnt
+    400304: RIG:Rig_L_Thumb1_jnt
+    400306: RIG:Rig_L_Thumb2_jnt
+    400308: RIG:Rig_L_Wrist_jnt
+    400310: RIG:Rig_Master_Ctrl
+    400312: RIG:Rig_Mid_Ctrl
+    400314: RIG:Rig_Mid_jnt
+    400316: RIG:Rig_Neck_jnt
+    400318: RIG:Rig_Pelvis_jnt
+    400320: RIG:Rig_R_Ankle_jnt
+    400322: RIG:Rig_R_Ball_jnt
+    400324: RIG:Rig_R_Belly_jnt
+    400326: RIG:Rig_R_Clavicle_jnt
+    400328: RIG:Rig_R_CoatTails_jnt
+    400330: RIG:Rig_R_Elbow_jnt
+    400332: RIG:Rig_R_Index1_jnt1
+    400334: RIG:Rig_R_Index2_jnt
+    400336: RIG:Rig_R_Knee_jnt
+    400338: RIG:Rig_R_Middle1_jnt
+    400340: RIG:Rig_R_Middle2_jnt
+    400342: RIG:Rig_R_Pinky1_jnt1
+    400344: RIG:Rig_R_Pinky2_jnt
+    400346: RIG:Rig_R_Shoulder_jnt
+    400348: RIG:Rig_R_Thigh_jnt
+    400350: RIG:Rig_R_Thumb1_jnt
+    400352: RIG:Rig_R_Thumb2_jnt
+    400354: RIG:Rig_R_Wrist_jnt
     2300000: GEO_body_Lo
     2300002: GEO_head_lo
     3300000: GEO_body_Lo
     3300002: GEO_head_lo
     4300000: GEO_body_Lo
     4300002: GEO_head_lo
+    4300004: RIG:BIND:GEO_body_Lo
+    4300006: RIG:BIND:GEO_head_lo
     9500000: //RootNode
     13700000: GEO_body_Lo
     13700002: GEO_head_lo
+    13700004: RIG:BIND:GEO_body_Lo
+    13700006: RIG:BIND:GEO_head_lo
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -157,6 +385,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: MAT_Baron_head
     second: {fileID: 2100000, guid: d3119871e2673ee49b59caedda7541f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RIG_BIND_MAT_Baron_body
+    second: {fileID: 2100000, guid: efeef2777712ac84fbc088111768c632, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RIG_BIND_MAT_Baron_head
+    second: {fileID: 2100000, guid: 6c3efdcaba51c1d4facf91ca69e85630, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
