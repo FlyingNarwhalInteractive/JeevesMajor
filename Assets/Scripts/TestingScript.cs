@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class TestingScript : MonoBehaviour
 {
-    public GameObject invCursor;
-    public GameObject normalCursor;
-
+    //public GameObject invCursor;
+   // public GameObject normalCursor;
+    public Text speedText; 
     // Use this for initialization
     void Start()
     {
@@ -20,18 +20,14 @@ public class TestingScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            if(invCursor.activeSelf == true)
-            {
-                invCursor.SetActive(false);
-                normalCursor.SetActive(true);
-            }
-            else
-            {
-                normalCursor.SetActive(false);
-                invCursor.SetActive(true);
-            }
+            Time.timeScale += 1;
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Time.timeScale -= 1;
         }
 
+        speedText.text = Time.timeScale.ToString();
         
 
         

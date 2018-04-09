@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/MainMenu.unity
     guid: e0a6b28a7b174b540bd47eae2233cf67
+  - enabled: 0
+    path: Assets/_Scenes/speedTest.unity
+    guid: 69247ee90b21ef845b08d006e040c54f
   - enabled: 1
     path: Assets/_Scenes/Main.unity
     guid: 5a1945d84de210943ab22e232de35c18
