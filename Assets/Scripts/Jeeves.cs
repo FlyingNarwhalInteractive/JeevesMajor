@@ -31,7 +31,7 @@ public class Jeeves : MonoBehaviour {
     float doubleClickTime = 0.5f;
 
     public GameObject BLight;
-
+	public GameObject CompleteFX;
    // [SerializeField] int fetchRage;
    //[SerializeField] float wait;
    // public bool fetchStarted;
@@ -139,7 +139,8 @@ public class Jeeves : MonoBehaviour {
                 //reward player
                 GMRef.CurrentScore = fetchReward;
 
-
+				GameObject g = Instantiate(CompleteFX, baronRef.gameObject.transform.position, CompleteFX.transform.rotation);
+				Destroy(g, 2.0f);
                     
             }
         }
