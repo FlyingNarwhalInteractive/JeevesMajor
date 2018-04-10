@@ -3371,6 +3371,7 @@ MonoBehaviour:
   protectTimer: 0
   protectTime: 5
   BLight: {fileID: 746358265}
+  CompleteFX: {fileID: 1542309509553084, guid: 46fc9758f686e6c41bb003861a1af3f2, type: 2}
   m_jeevesIsMagicAndCanOpenDoorsFromAfar: 1
   m_distractions:
   - {fileID: 1715759104}
