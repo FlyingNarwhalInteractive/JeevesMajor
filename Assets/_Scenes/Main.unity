@@ -6595,6 +6595,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: da668d68a2485eb4fa19465761efa414, type: 2}
+    - target: {fileID: 100000, guid: 7758b6702be2f9749a41ad417584f654, type: 3}
+      propertyPath: m_TagString
+      value: Animator
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7758b6702be2f9749a41ad417584f654, type: 3}
   m_IsPrefabParent: 0
