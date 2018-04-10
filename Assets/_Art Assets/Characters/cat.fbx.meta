@@ -15,8 +15,10 @@ ModelImporter:
     400006: sine1Handle
     2300000: geo_cat
     2300002: geo_tail
+    2300004: //RootNode
     3300000: geo_cat
     3300002: geo_tail
+    3300004: //RootNode
     4300000: geo_cat
     4300002: geo_tail
     9500000: //RootNode

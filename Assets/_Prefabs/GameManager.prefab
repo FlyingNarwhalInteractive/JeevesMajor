@@ -144,7 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcTypesList:
   - {fileID: 0}
-  npcSpawnChance: 10
+  npcSpawnChance: 100
   npcSpawnIncrement: 30
   npcSpwanLocation: {fileID: 0}
   aiActors:
