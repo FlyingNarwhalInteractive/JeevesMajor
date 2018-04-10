@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: 7758b6702be2f9749a41ad417584f654
+timeCreated: 1523368011
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: RIG:BIND:Bind_Chest_jnt
+    100004: RIG:BIND:Bind_Head_end
+    100006: RIG:BIND:Bind_Hips_jnt
+    100008: RIG:BIND:Bind_L_Ankle_jnt
+    100010: RIG:BIND:Bind_L_Clavicle_jnt
+    100012: RIG:BIND:Bind_L_Elbow_jnt
+    100014: RIG:BIND:Bind_L_Fingers_end
+    100016: RIG:BIND:Bind_L_Fingers_jnt
+    100018: RIG:BIND:Bind_L_Foot_end
+    100020: RIG:BIND:Bind_L_Foot_jnt
+    100022: RIG:BIND:Bind_L_Knee_jnt
+    100024: RIG:BIND:Bind_L_Leg_jnt
+    100026: RIG:BIND:Bind_L_Shoulder_jnt
+    100028: RIG:BIND:Bind_L_Thumb1_jnt
+    100030: RIG:BIND:Bind_L_Thumb2_jnt
+    100032: RIG:BIND:Bind_L_Thumb_end
+    100034: RIG:BIND:Bind_L_Wrist_jnt
+    100036: RIG:BIND:Bind_Mid_jnt
+    100038: RIG:BIND:Bind_Neck_jnt
+    100040: RIG:BIND:Bind_Pelvis_jnt
+    100042: RIG:BIND:Bind_R_Ankle_jnt
+    100044: RIG:BIND:Bind_R_Clavicle_jnt
+    100046: RIG:BIND:Bind_R_Elbow_jnt
+    100048: RIG:BIND:Bind_R_Fingers_end
+    100050: RIG:BIND:Bind_R_Fingers_jnt
+    100052: RIG:BIND:Bind_R_Foot_end
+    100054: RIG:BIND:Bind_R_Foot_jnt
+    100056: RIG:BIND:Bind_R_Knee_jnt
+    100058: RIG:BIND:Bind_R_Leg_jnt
+    100060: RIG:BIND:Bind_R_Shoulder_jnt
+    100062: RIG:BIND:Bind_R_Thumb1_jnt
+    100064: RIG:BIND:Bind_R_Thumb2_jnt
+    100066: RIG:BIND:Bind_R_Thumb_end
+    100068: RIG:BIND:Bind_R_Wrist_jnt
+    100070: RIG:BIND:CHAR_Jeeves
+    100072: RIG:BIND:GEO_Jeeves
+    100074: RIG:BIND:geo_JeevesLowBody_01
+    100076: RIG:BIND:geo_JeevesLowHead_01
+    100078: RIG:RIG_Chest_jnt
+    100080: RIG:RIG_Hips_jnt
+    100082: RIG:RIG_L_Ankle_jnt
+    100084: RIG:RIG_L_Clavicle_jnt
+    100086: RIG:RIG_L_Elbow_jnt
+    100088: RIG:RIG_L_Fingers_jnt
+    100090: RIG:RIG_L_Foot_jnt
+    100092: RIG:RIG_L_Knee_jnt
+    100094: RIG:RIG_L_Leg_jnt
+    100096: RIG:RIG_L_Shoulder_jnt
+    100098: RIG:RIG_L_Thumb1_jnt
+    100100: RIG:RIG_L_Thumb2_jnt
+    100102: RIG:RIG_L_Wrist_jnt
+    100104: RIG:Rig_Master_CTRL
+    100106: RIG:RIG_Mid_CTRL
+    100108: RIG:RIG_Mid_jnt
+    100110: RIG:RIG_Neck_jnt
+    100112: RIG:RIG_Pelvis_jnt
+    100114: RIG:RIG_R_Ankle_jnt
+    100116: RIG:RIG_R_Clavicle_jnt
+    100118: RIG:RIG_R_Elbow_jnt
+    100120: RIG:RIG_R_Fingers_jnt
+    100122: RIG:RIG_R_Foot_jnt
+    100124: RIG:RIG_R_Knee_jnt
+    100126: RIG:RIG_R_Leg_jnt
+    100128: RIG:RIG_R_Shoulder_jnt
+    100130: RIG:RIG_R_Thumb1_jnt
+    100132: RIG:RIG_R_Thumb2_jnt
+    100134: RIG:RIG_R_Wrist_jnt
+    400000: //RootNode
+    400002: RIG:BIND:Bind_Chest_jnt
+    400004: RIG:BIND:Bind_Head_end
+    400006: RIG:BIND:Bind_Hips_jnt
+    400008: RIG:BIND:Bind_L_Ankle_jnt
+    400010: RIG:BIND:Bind_L_Clavicle_jnt
+    400012: RIG:BIND:Bind_L_Elbow_jnt
+    400014: RIG:BIND:Bind_L_Fingers_end
+    400016: RIG:BIND:Bind_L_Fingers_jnt
+    400018: RIG:BIND:Bind_L_Foot_end
+    400020: RIG:BIND:Bind_L_Foot_jnt
+    400022: RIG:BIND:Bind_L_Knee_jnt
+    400024: RIG:BIND:Bind_L_Leg_jnt
+    400026: RIG:BIND:Bind_L_Shoulder_jnt
+    400028: RIG:BIND:Bind_L_Thumb1_jnt
+    400030: RIG:BIND:Bind_L_Thumb2_jnt
+    400032: RIG:BIND:Bind_L_Thumb_end
+    400034: RIG:BIND:Bind_L_Wrist_jnt
+    400036: RIG:BIND:Bind_Mid_jnt
+    400038: RIG:BIND:Bind_Neck_jnt
+    400040: RIG:BIND:Bind_Pelvis_jnt
+    400042: RIG:BIND:Bind_R_Ankle_jnt
+    400044: RIG:BIND:Bind_R_Clavicle_jnt
+    400046: RIG:BIND:Bind_R_Elbow_jnt
+    400048: RIG:BIND:Bind_R_Fingers_end
+    400050: RIG:BIND:Bind_R_Fingers_jnt
+    400052: RIG:BIND:Bind_R_Foot_end
+    400054: RIG:BIND:Bind_R_Foot_jnt
+    400056: RIG:BIND:Bind_R_Knee_jnt
+    400058: RIG:BIND:Bind_R_Leg_jnt
+    400060: RIG:BIND:Bind_R_Shoulder_jnt
+    400062: RIG:BIND:Bind_R_Thumb1_jnt
+    400064: RIG:BIND:Bind_R_Thumb2_jnt
+    400066: RIG:BIND:Bind_R_Thumb_end
+    400068: RIG:BIND:Bind_R_Wrist_jnt
+    400070: RIG:BIND:CHAR_Jeeves
+    400072: RIG:BIND:GEO_Jeeves
+    400074: RIG:BIND:geo_JeevesLowBody_01
+    400076: RIG:BIND:geo_JeevesLowHead_01
+    400078: RIG:RIG_Chest_jnt
+    400080: RIG:RIG_Hips_jnt
+    400082: RIG:RIG_L_Ankle_jnt
+    400084: RIG:RIG_L_Clavicle_jnt
+    400086: RIG:RIG_L_Elbow_jnt
+    400088: RIG:RIG_L_Fingers_jnt
+    400090: RIG:RIG_L_Foot_jnt
+    400092: RIG:RIG_L_Knee_jnt
+    400094: RIG:RIG_L_Leg_jnt
+    400096: RIG:RIG_L_Shoulder_jnt
+    400098: RIG:RIG_L_Thumb1_jnt
+    400100: RIG:RIG_L_Thumb2_jnt
+    400102: RIG:RIG_L_Wrist_jnt
+    400104: RIG:Rig_Master_CTRL
+    400106: RIG:RIG_Mid_CTRL
+    400108: RIG:RIG_Mid_jnt
+    400110: RIG:RIG_Neck_jnt
+    400112: RIG:RIG_Pelvis_jnt
+    400114: RIG:RIG_R_Ankle_jnt
+    400116: RIG:RIG_R_Clavicle_jnt
+    400118: RIG:RIG_R_Elbow_jnt
+    400120: RIG:RIG_R_Fingers_jnt
+    400122: RIG:RIG_R_Foot_jnt
+    400124: RIG:RIG_R_Knee_jnt
+    400126: RIG:RIG_R_Leg_jnt
+    400128: RIG:RIG_R_Shoulder_jnt
+    400130: RIG:RIG_R_Thumb1_jnt
+    400132: RIG:RIG_R_Thumb2_jnt
+    400134: RIG:RIG_R_Wrist_jnt
+    4300000: RIG:BIND:geo_JeevesLowBody_01
+    4300002: RIG:BIND:geo_JeevesLowHead_01
+    9500000: //RootNode
+    13700000: RIG:BIND:geo_JeevesLowBody_01
+    13700002: RIG:BIND:geo_JeevesLowHead_01
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RIG_BIND_lambert2
+    second: {fileID: 2100000, guid: 22fc69bbfd981e643b21d1dd65485cc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RIG_BIND_lambert3
+    second: {fileID: 2100000, guid: 18ce0e791dee1cc47b0a430a31bdb1b0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
