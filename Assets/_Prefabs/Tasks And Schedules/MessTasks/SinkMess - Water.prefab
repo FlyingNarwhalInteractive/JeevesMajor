@@ -28,6 +28,7 @@ GameObject:
   - component: {fileID: 114192618509208018}
   - component: {fileID: 114001264130937884}
   - component: {fileID: 114206467060186748}
+  - component: {fileID: 114518985236304670}
   m_Layer: 0
   m_Name: SinkMess - Water
   m_TagString: Task
@@ -319,7 +320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/SFX/TaskSpawn
+  Event: event:/SFX/BrokenSinkSpawn
   PlayEvent: 1
   StopEvent: 0
   CollisionTag: 
@@ -341,12 +342,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/SFX/Cleaning
+  Event: event:/SFX/BrokenSinkCleaning
   PlayEvent: 3
   StopEvent: 2
   CollisionTag: Jeeves
   AllowFadeout: 1
   TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &114518985236304670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086300463046444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/SFX/TaskSpawn
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
   Preload: 0
   Params: []
   OverrideAttenuation: 0

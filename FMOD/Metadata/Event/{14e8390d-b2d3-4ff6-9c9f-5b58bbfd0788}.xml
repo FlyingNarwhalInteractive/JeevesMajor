@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{14e8390d-b2d3-4ff6-9c9f-5b58bbfd0788}">
         <property name="name">
-            <value>TableCleaning</value>
+            <value>DiningMessTaskCleaning</value>
         </property>
         <property name="outputFormat">
             <value>1</value>
@@ -55,7 +55,7 @@
             <destination>{b349657a-4e91-4231-8635-b2eccfdf877a}</destination>
         </relationship>
         <relationship name="output">
-            <destination>{cdeb0253-ffa4-48df-a23e-d7be2df57ebd}</destination>
+            <destination>{64ec5b9e-9d23-4df8-a42e-8183c1c5bf24}</destination>
         </relationship>
     </object>
     <object class="EventAutomatableProperties" id="{36e4f8f9-7b7a-4288-b494-02a7eb5ce9ce}"/>
@@ -95,7 +95,7 @@
     </object>
     <object class="EventMixerMaster" id="{fe6219d7-6dd6-4ec3-af69-545db463d979}">
         <property name="volume">
-            <value>-12</value>
+            <value>-13</value>
         </property>
         <relationship name="effectChain">
             <destination>{a7770aec-4f93-4419-b823-cfb576966974}</destination>
