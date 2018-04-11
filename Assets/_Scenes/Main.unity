@@ -4236,7 +4236,7 @@ Prefab:
     - target: {fileID: 224982357089544322, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -172.5
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224981303205774860, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -4331,7 +4331,7 @@ Prefab:
     - target: {fileID: 224711073702186736, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 10.000001
+      value: 197.5
       objectReference: {fileID: 0}
     - target: {fileID: 224692635114172172, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -19540,16 +19540,16 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1918157293}
   m_LocalRotation: {x: -0, y: 0.99944365, z: -0, w: -0.033353597}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.6699982, y: -1.1800003, z: 0}
+  m_LocalScale: {x: 0.16172901, y: 0.16172901, z: 0.16172901}
   m_Children: []
   m_Father: {fileID: 264588473}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 183.823, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 80, y: 30}
+  m_AnchoredPosition: {x: 1.67, y: -1.18}
+  m_SizeDelta: {x: 197.98, y: 141.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1918157295
 MonoBehaviour:
@@ -19572,11 +19572,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 22dfe40ef3dd66748895d6bc4d38608a, type: 3}
-    m_FontSize: 15
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 40
+    m_MaxSize: 110
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
