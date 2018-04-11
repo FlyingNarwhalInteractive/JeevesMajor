@@ -4616,28 +4616,12 @@ Prefab:
     - target: {fileID: 224208467911758062, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-<<<<<<< HEAD
       value: 662.5
-=======
-<<<<<<< HEAD
-      value: 960
-=======
-      value: 609
->>>>>>> a7d5375ad6661869eb844167be1663a876777333
->>>>>>> 1a24ae95a054c0565d324539082133a9fd83f8ed
       objectReference: {fileID: 0}
     - target: {fileID: 224208467911758062, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD
       value: 319
-=======
-<<<<<<< HEAD
-      value: 540
-=======
-      value: 316.5
->>>>>>> a7d5375ad6661869eb844167be1663a876777333
->>>>>>> 1a24ae95a054c0565d324539082133a9fd83f8ed
       objectReference: {fileID: 0}
     - target: {fileID: 224122946690719008, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -5981,11 +5965,6 @@ Prefab:
         type: 2}
       propertyPath: taskObject
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114273066077857832, guid: 8bafc98811df6974caceab7a555353ca,
-        type: 2}
-      propertyPath: Event
-      value: event:/SFX/DiningMessTaskCleaning
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8bafc98811df6974caceab7a555353ca, type: 2}
@@ -11679,11 +11658,6 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114688166543872384, guid: f13b6ef70caba46478510bf8dfda92ff,
-        type: 2}
-      propertyPath: Event
-      value: event:/SFX/TaskSpawn
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f13b6ef70caba46478510bf8dfda92ff, type: 2}
   m_IsPrefabParent: 0
@@ -13562,16 +13536,7 @@ Prefab:
         type: 2}
       propertyPath: sfxSlider
       value: 
-<<<<<<< HEAD
-      objectReference: {fileID: 78587823}
-    - target: {fileID: 114489335311532966, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
-        type: 2}
-      propertyPath: musicSystem
-      value: 
-      objectReference: {fileID: 307090109}
-=======
       objectReference: {fileID: 354800775}
->>>>>>> a7d5375ad6661869eb844167be1663a876777333
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66e1c5e6ba924334a9de9ce2ae5289f1, type: 2}
   m_IsPrefabParent: 0
@@ -18445,28 +18410,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1399539365519326, guid: f13b6ef70caba46478510bf8dfda92ff,
     type: 2}
   m_PrefabInternal: {fileID: 1059785946}
---- !u!114 &1649614324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1649614323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: event:/SFX/FloodedBathTaskSpawn
-  PlayEvent: 1
-  StopEvent: 0
-  CollisionTag: 
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!1 &1652001477 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100022, guid: 6c6160ed8eac4d84094949c70aa5cdb8, type: 3}
