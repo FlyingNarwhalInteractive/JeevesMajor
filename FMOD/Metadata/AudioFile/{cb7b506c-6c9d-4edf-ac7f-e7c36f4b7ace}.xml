@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{cb7b506c-6c9d-4edf-ac7f-e7c36f4b7ace}">
+        <property name="assetPath">
+            <value>putting_a_plate1.mp3</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.79200000000000004</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{1eee557e-c306-4429-9968-719dfe06ac29}</destination>
+        </relationship>
+    </object>
+</objects>
