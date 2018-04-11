@@ -4652,12 +4652,12 @@ Prefab:
     - target: {fileID: 224208467911758062, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 564
+      value: 609
       objectReference: {fileID: 0}
     - target: {fileID: 224208467911758062, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 253
+      value: 316.5
       objectReference: {fileID: 0}
     - target: {fileID: 224122946690719008, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -6053,6 +6053,11 @@ Prefab:
         type: 2}
       propertyPath: taskObject
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114273066077857832, guid: 8bafc98811df6974caceab7a555353ca,
+        type: 2}
+      propertyPath: Event
+      value: event:/SFX/DiningMessTaskCleaning
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8bafc98811df6974caceab7a555353ca, type: 2}
