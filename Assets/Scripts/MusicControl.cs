@@ -12,9 +12,9 @@ public class MusicControl : MonoBehaviour {
     void Start ()
     {
         musicEv = FMODUnity.RuntimeManager.CreateInstance(music);
-
         musicEv.start();
-	}
+
+    }
 	
     //Game started, main music loop
     public void MainLoop()
@@ -32,6 +32,11 @@ public class MusicControl : MonoBehaviour {
     public void EndScreen()
     {
         musicEv.setParameterValue("Anger", 100f);
+
+        FMOD.Studio.Bus musicBus = FMODUnity.RuntimeManager.GetBus("bus:/Master/Music");
+        musicBus.setMute(true);
+        Debug.Log("EndScreen Called");
+
     }
 
 }
