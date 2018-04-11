@@ -12483,7 +12483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b226937665c4c4e42a8b2cd83fd58fd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursorOffset: {x: 25, y: -25}
+  cursorOffset: {x: 20, y: -20}
   cursorDefault: {fileID: 21300000, guid: 60ff83b89ea5f09408b44865d36bfcd8, type: 3}
   customCursor: {fileID: 1277227513930974}
   customCursorInv: {fileID: 1998450290928700}
@@ -14073,7 +14073,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 0}
         m_MethodName: MasterVolumeLevel
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -15163,7 +15163,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 0}
         m_MethodName: SFXVolumeLevel
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -17316,7 +17316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b226937665c4c4e42a8b2cd83fd58fd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursorOffset: {x: 25, y: 22}
+  cursorOffset: {x: 20, y: 20}
   cursorDefault: {fileID: 21300000, guid: 043b4db51a2a41e4787399525e92312b, type: 3}
   customCursor: {fileID: 1277227513930974}
   customCursorInv: {fileID: 1998450290928700}
@@ -19771,7 +19771,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 0}
         m_MethodName: MusicVolumeLevel
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -23990,7 +23990,7 @@ RectTransform:
   m_GameObject: {fileID: 1277227513930974}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -960.3296, y: -539.9999, z: 0}
-  m_LocalScale: {x: 1.978022, y: 1.978022, z: 1.978022}
+  m_LocalScale: {x: 1.3599181, y: 1.3599186, z: 1.3599186}
   m_Children: []
   m_Father: {fileID: 224208467911758062}
   m_RootOrder: 14
@@ -26799,7 +26799,7 @@ RectTransform:
   m_GameObject: {fileID: 1998450290928700}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -960.3296, y: -539.9999, z: 0}
-  m_LocalScale: {x: 1.978022, y: 1.978022, z: 1.978022}
+  m_LocalScale: {x: 1.359918, y: 1.359918, z: 1.359918}
   m_Children: []
   m_Father: {fileID: 224208467911758062}
   m_RootOrder: 15
