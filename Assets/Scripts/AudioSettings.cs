@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AudioSettings : MonoBehaviour {
 
@@ -13,6 +14,10 @@ public class AudioSettings : MonoBehaviour {
     static float SFXVolume = 0.5f;
     static float MasterVolume = 1f;
 
+    public Slider masterSlider;
+    public Slider musicSlider;
+    public Slider sfxSlider;
+
     void Awake ()
     {
         Music = FMODUnity.RuntimeManager.GetBus("bus:/Master/Music");
@@ -21,12 +26,16 @@ public class AudioSettings : MonoBehaviour {
         SFXVolumeTestEvent = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/SFXVolumeTest");
     }
 
-    void Update ()
+    void Update()
     {
         Music.setVolume(MusicVolume);
         SFX.setVolume(SFXVolume);
         Master.setVolume(MasterVolume);
-	}
+
+        masterSlider.value = MasterVolume;
+        musicSlider.value = MusicVolume;
+        sfxSlider.value = SFXVolume;
+    }
 
     public void MasterVolumeLevel (float newMasterVolume)
     {
