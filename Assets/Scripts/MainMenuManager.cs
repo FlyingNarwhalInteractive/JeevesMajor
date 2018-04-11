@@ -10,8 +10,12 @@ public class MainMenuManager : MonoBehaviour {
     public GameObject audioSettingsPanel;
     public GameObject mainPanel;
     public GameObject creditPanel;
-	// Use this for initialization
-	void Start () {
+
+    public MusicControl musicSystem;
+    FMOD.Studio.Bus Music;
+
+    // Use this for initialization
+    void Start () {
         Time.timeScale = 1;
 		if(pausePanel.activeSelf == true)
         {
@@ -42,7 +46,10 @@ public class MainMenuManager : MonoBehaviour {
 
         if(SceneManager.GetActiveScene().buildIndex == 0)
         {
-            if(pausePanel.activeSelf == true || audioSettingsPanel.activeSelf == true || gameSettingsPanel.activeSelf == true || creditPanel.activeSelf == true)
+            Music = FMODUnity.RuntimeManager.GetBus("bus:/Master/Music");
+            Music.setMute(false);
+
+            if (pausePanel.activeSelf == true || audioSettingsPanel.activeSelf == true || gameSettingsPanel.activeSelf == true || creditPanel.activeSelf == true)
             {
                 mainPanel.SetActive(false);
             }
