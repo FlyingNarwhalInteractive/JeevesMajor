@@ -39,7 +39,7 @@ public class UpgradeManager : MonoBehaviour {
         {
             if (upgradeCheckPanel.activeSelf == false)
             {
-                upgradeCheckPanel.SetActive(true);
+               // upgradeCheckPanel.SetActive(true);
             }
         }
     }

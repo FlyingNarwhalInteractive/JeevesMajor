@@ -52,7 +52,7 @@ public class Spin : MonoBehaviour {
 	void count()
 	{
 		gameObject.GetComponent<Text>().text = "X" + GMRef.multiplyer;
-		gameObject.GetComponent<Text>().fontSize = 15 + (GMRef.multiplyer * 2);
+		gameObject.GetComponent<Text>().fontSize = 100 + (GMRef.multiplyer * 2);
 	}
 
 	IEnumerator Wait()

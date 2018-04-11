@@ -91,7 +91,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 1448989245880348, guid: 098244929a0e28242a77344dfe827e84, type: 2}
-  chanceNum: 0200000002000000020000000200000014000000140000000f0000000a0000000a000000
+  chanceNum: 020000000a000000020000000200000014000000140000000f0000000a0000000a000000
   increment: 
 --- !u!114 &114242678469373406
 MonoBehaviour:
@@ -130,6 +130,7 @@ MonoBehaviour:
   gameSettingsPanel: {fileID: 0}
   audioSettingsPanel: {fileID: 0}
   mainPanel: {fileID: 0}
+  creditPanel: {fileID: 0}
 --- !u!114 &114306774098546994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -205,6 +206,16 @@ MonoBehaviour:
   p3: {fileID: 0}
   p4: {fileID: 0}
   p5: {fileID: 0}
+  p1cdt: {fileID: 0}
+  p1cdo: {fileID: 0}
+  p2cdt: {fileID: 0}
+  p2cdo: {fileID: 0}
+  p3cdt: {fileID: 0}
+  p3cdo: {fileID: 0}
+  p4cdt: {fileID: 0}
+  p4cdo: {fileID: 0}
+  p5cd: {fileID: 0}
+  powerSystemFX: {fileID: 0}
   speedUp: {x: 4.5, y: 5, z: 30, w: 30}
   taskSpeedUp: {x: 2, y: 5, z: 40, w: 60}
   power3: {x: 50, y: 120}
@@ -299,6 +310,7 @@ MonoBehaviour:
   rageTakenThisTick: 0
   angerArtificialCeilingPercent: 80
   angerArtificialCeilingModifier: 3
+  angerParticles: {fileID: 0}
   up: {fileID: 0}
   up1: {fileID: 0}
   up2: {fileID: 0}

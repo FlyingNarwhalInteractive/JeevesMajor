@@ -65,7 +65,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1756888263111590
 GameObject:
   m_ObjectHideFlags: 0
@@ -102,8 +102,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1343424712655802}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.15, y: -0.013, z: 3.409}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.336, y: -0.013, z: 3.209}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4687856026944228}
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/SFX/Cleaning
+  Event: event:/SFX/TableCleaning
   PlayEvent: 3
   StopEvent: 2
   CollisionTag: Jeeves
@@ -299,7 +299,7 @@ MonoBehaviour:
   spawnFX: {fileID: 198984745174105714, guid: 1e8d510bcb6df114ab1f2ea0ccdb620a, type: 2}
   completeFX: {fileID: 198499181269905376, guid: 46fc9758f686e6c41bb003861a1af3f2,
     type: 2}
-  taskObject: {fileID: 4300000, guid: 3c435b365d9122544a49c0467e23315e, type: 3}
+  taskObject: {fileID: 0}
   baronAngerIcon: {fileID: 0}
   workingIcon: {fileID: 0}
   subTasks: []
