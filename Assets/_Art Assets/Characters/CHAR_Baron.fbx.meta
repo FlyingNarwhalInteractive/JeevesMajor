@@ -183,6 +183,14 @@ ModelImporter:
     100350: RIG:Rig_R_Thumb1_jnt
     100352: RIG:Rig_R_Thumb2_jnt
     100354: RIG:Rig_R_Wrist_jnt
+    100356: RIG:BIND:Bind_Face_jnt
+    100358: RIG:BIND:Bind_L_Moustache_end
+    100360: RIG:BIND:Bind_L_Moustache_jnt
+    100362: RIG:BIND:Bind_Moustache_jnt
+    100364: RIG:BIND:Bind_R_Moustache_end
+    100366: RIG:BIND:Bind_R_Moustache_jnt
+    100368: RIG:BIND:GEO_L_Moustache
+    100370: RIG:BIND:GEO_R_Moustache
     400000: //RootNode
     400002: GEO_body_Lo
     400004: GEO_head_lo
@@ -361,6 +369,14 @@ ModelImporter:
     400350: RIG:Rig_R_Thumb1_jnt
     400352: RIG:Rig_R_Thumb2_jnt
     400354: RIG:Rig_R_Wrist_jnt
+    400356: RIG:BIND:Bind_Face_jnt
+    400358: RIG:BIND:Bind_L_Moustache_end
+    400360: RIG:BIND:Bind_L_Moustache_jnt
+    400362: RIG:BIND:Bind_Moustache_jnt
+    400364: RIG:BIND:Bind_R_Moustache_end
+    400366: RIG:BIND:Bind_R_Moustache_jnt
+    400368: RIG:BIND:GEO_L_Moustache
+    400370: RIG:BIND:GEO_R_Moustache
     2300000: GEO_body_Lo
     2300002: GEO_head_lo
     3300000: GEO_body_Lo
@@ -369,11 +385,15 @@ ModelImporter:
     4300002: GEO_head_lo
     4300004: RIG:BIND:GEO_body_Lo
     4300006: RIG:BIND:GEO_head_lo
+    4300008: RIG:BIND:GEO_L_Moustache
+    4300010: RIG:BIND:GEO_R_Moustache
     9500000: //RootNode
     13700000: GEO_body_Lo
     13700002: GEO_head_lo
     13700004: RIG:BIND:GEO_body_Lo
     13700006: RIG:BIND:GEO_head_lo
+    13700008: RIG:BIND:GEO_L_Moustache
+    13700010: RIG:BIND:GEO_R_Moustache
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -394,7 +414,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: RIG_BIND_MAT_Baron_head
-    second: {fileID: 2100000, guid: 6c3efdcaba51c1d4facf91ca69e85630, type: 2}
+    second: {fileID: 2100000, guid: 1c7705071b7ff2742a7eb085798e1599, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 86d48466bb6396b43892bf00292bd498, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
