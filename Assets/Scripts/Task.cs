@@ -429,7 +429,7 @@ public class Task : MonoBehaviour
 
                 if (Blink != null)
                 {
-                    Blink.GetComponent<Light>().intensity = 25;
+                    Blink.GetComponent<Light>().intensity = 5;
                 }
 
                 cdCounter += Time.deltaTime;
