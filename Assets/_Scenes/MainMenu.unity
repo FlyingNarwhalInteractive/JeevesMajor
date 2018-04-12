@@ -144,6 +144,7 @@ MonoBehaviour:
   audioSettingsPanel: {fileID: 1870705753}
   mainPanel: {fileID: 1917215859}
   creditPanel: {fileID: 1999880379}
+  musicSystem: {fileID: 387731496}
 --- !u!4 &297435476
 Transform:
   m_ObjectHideFlags: 0
@@ -225,6 +226,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 387731494}
   m_Script: {fileID: 11500000, guid: d065d1a19ec3f394d8ece0219f7fcef3, type: 3}
+--- !u!114 &387731496 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114320473899073568, guid: d821f8c691113a54aae57716ce8aadb8,
+    type: 2}
+  m_PrefabInternal: {fileID: 387731494}
+  m_Script: {fileID: 11500000, guid: cb08c711aa7006b41a069c084f6b2ff3, type: 3}
 --- !u!1 &421749522 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1654850318582540, guid: 65e32bf4967c6e144b3963ff580f8212,
@@ -245,12 +252,12 @@ Prefab:
     - target: {fileID: 224888383938958680, guid: 65e32bf4967c6e144b3963ff580f8212,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 628.5
+      value: 960
       objectReference: {fileID: 0}
     - target: {fileID: 224888383938958680, guid: 65e32bf4967c6e144b3963ff580f8212,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 319
+      value: 540
       objectReference: {fileID: 0}
     - target: {fileID: 224888383938958680, guid: 65e32bf4967c6e144b3963ff580f8212,
         type: 2}
