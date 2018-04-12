@@ -59,13 +59,14 @@ GameObject:
   - component: {fileID: 114584146750103350}
   - component: {fileID: 114129073566187248}
   - component: {fileID: 114131662220179108}
+  - component: {fileID: 114757448023121754}
   m_Layer: 0
   m_Name: DeskMessTask
   m_TagString: Task
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1535111503503856
 GameObject:
   m_ObjectHideFlags: 0
@@ -114,8 +115,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1192000210524576}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.041, y: 5.9628175e-17, z: 4.096}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -12.041, y: 0, z: 4.096}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4039500069300918}
@@ -276,7 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/SFX/Cleaning
+  Event: event:/SFX/DeskMessCleaning
   PlayEvent: 3
   StopEvent: 2
   CollisionTag: Jeeves
@@ -394,6 +395,28 @@ MonoBehaviour:
   shakeDuration: 1
   lastShakeTime: 0
   currentRotation: {x: 0, y: 0, z: 0}
+--- !u!114 &114757448023121754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192000210524576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/SFX/DeskMessSpawn
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!212 &212219125989840970
 SpriteRenderer:
   m_ObjectHideFlags: 1

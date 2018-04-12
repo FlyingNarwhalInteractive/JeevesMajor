@@ -36,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1034801829141504}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -9.963, y: -0.011, z: 2.694}
+  m_LocalPosition: {x: -9.963, y: 0, z: 2.694}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,6 +84,8 @@ MonoBehaviour:
   spawnRangeEnd: {x: 0, y: 0}
   Ring: {fileID: 0}
   Blink: {fileID: 0}
+  spawnFX: {fileID: 0}
+  completeFX: {fileID: 0}
   taskObject: {fileID: 0}
   baronAngerIcon: {fileID: 0}
   workingIcon: {fileID: 2800000, guid: 202cf051ecfa1a747ba0da6bb1fe3e96, type: 3}
@@ -101,6 +103,8 @@ MonoBehaviour:
   isVisibleToBaron: 0
   baronHasSeenBefore: 0
   ragedOnce: 0
+  ObjectEnable: {fileID: 0}
+  ObjectDisable: {fileID: 0}
   mess: {fileID: 1546251248247894, guid: 7476f387c40fb204f8dc4dcb837085de, type: 2}
   messSpawnMode: 1
   messPos: {fileID: 4122504993835682}

@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 114434219061260634}
   - component: {fileID: 114112536658574642}
   - component: {fileID: 114631958105010194}
+  - component: {fileID: 114128038256232328}
   m_Layer: 0
   m_Name: BookPileMess
   m_TagString: Task
@@ -769,6 +770,28 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
+--- !u!114 &114128038256232328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1546251248247894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/SFX/BookPileMessSpawn
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!114 &114434219061260634
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -802,7 +825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/SFX/Cleaning
+  Event: event:/SFX/BookPileMessCleaning
   PlayEvent: 3
   StopEvent: 2
   CollisionTag: Jeeves
@@ -819,7 +842,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1546251248247894}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 08099c8b496ff4c45a480497e30cd339, type: 3}
   m_Name: 
@@ -892,6 +915,12 @@ MonoBehaviour:
   initialTimeToComplete: 0
   taskPercentComplete: 0
   stepping: {x: 0, y: 0}
+  m_transformOrigin: {x: 0, y: 0, z: 0}
+  shakeAmount: 30
+  waitBetweenShakes: 1
+  shakeDuration: 1
+  lastShakeTime: 0
+  currentRotation: {x: 0, y: 0, z: 0}
 --- !u!212 &212216869828550118
 SpriteRenderer:
   m_ObjectHideFlags: 1
