@@ -118,11 +118,12 @@ public class GameClock : MonoBehaviour
 			gameManagerRef.chaRageMax = 0;
 			gameManagerRef.chaTaskComplete = 0;
 
-			// alert player - A SCRIPT by Scott Purcival :D
+            // alert player - A SCRIPT by Scott Purcival :D
+            print("DayWonPanel Calling");
 			GameObject.FindGameObjectWithTag("DayWonPanel").GetComponent<DayWonPanel>().Reveal
 				("Day " + gameObject.GetComponent<GameDataStore>().GetDaysSurvived().ToString() + " Survived!",
 				currentChallenge, Color.black, didWin ? new Color(0, 0.55f, 0, 1) : Color.red, 5.0f);
-
+            print("DayWonPanel called.");
 
 		}
 
