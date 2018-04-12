@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{9d46b949-4fb5-4fd9-94b7-6f5cc71024b6}">
+        <property name="assetPath">
+            <value>clinking1.mp3</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.3519999999999999</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{1eee557e-c306-4429-9968-719dfe06ac29}</destination>
+        </relationship>
+    </object>
+</objects>
