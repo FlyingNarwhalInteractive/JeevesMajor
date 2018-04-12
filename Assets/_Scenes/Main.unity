@@ -4661,12 +4661,12 @@ Prefab:
     - target: {fileID: 224208467911758062, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 545
+      value: 960
       objectReference: {fileID: 0}
     - target: {fileID: 224208467911758062, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 253
+      value: 540
       objectReference: {fileID: 0}
     - target: {fileID: 224122946690719008, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -13888,6 +13888,11 @@ Prefab:
       propertyPath: DirLightMax
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114489335311532966, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+        type: 2}
+      propertyPath: musicSystem
+      value: 
+      objectReference: {fileID: 307090109}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66e1c5e6ba924334a9de9ce2ae5289f1, type: 2}
   m_IsPrefabParent: 0

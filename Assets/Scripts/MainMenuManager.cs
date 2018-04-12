@@ -45,8 +45,6 @@ public class MainMenuManager : MonoBehaviour {
 
         if(SceneManager.GetActiveScene().buildIndex == 0)
         {
-            musicSystem.UnmuteMusic();
-
             if (pausePanel.activeSelf == true || audioSettingsPanel.activeSelf == true || gameSettingsPanel.activeSelf == true || creditPanel.activeSelf == true)
             {
                 mainPanel.SetActive(false);
