@@ -4411,7 +4411,7 @@ Prefab:
     - target: {fileID: 224982357089544322, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 5
+      value: -172.5
       objectReference: {fileID: 0}
     - target: {fileID: 224981303205774860, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -4506,7 +4506,7 @@ Prefab:
     - target: {fileID: 224711073702186736, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 197.5
+      value: 10.000001
       objectReference: {fileID: 0}
     - target: {fileID: 224692635114172172, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -13866,7 +13866,7 @@ Prefab:
     - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
       propertyPath: lightGroupIntensity1
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
@@ -13881,6 +13881,11 @@ Prefab:
     - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
       propertyPath: lightGroupIntensity4
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+        type: 2}
+      propertyPath: DirLightMax
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -22183,6 +22188,10 @@ Prefab:
       value: SmallLamp
       objectReference: {fileID: 0}
     - target: {fileID: 1096749252829424, guid: c081d9c7e526419448b0890e89da1b82, type: 2}
+      propertyPath: m_TagString
+      value: SmallLamp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453507316932988, guid: c081d9c7e526419448b0890e89da1b82, type: 2}
       propertyPath: m_TagString
       value: SmallLamp
       objectReference: {fileID: 0}
