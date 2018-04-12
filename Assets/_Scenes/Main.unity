@@ -4661,12 +4661,12 @@ Prefab:
     - target: {fileID: 224208467911758062, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 545
+      value: 567
       objectReference: {fileID: 0}
     - target: {fileID: 224208467911758062, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 253
+      value: 319
       objectReference: {fileID: 0}
     - target: {fileID: 224122946690719008, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -12433,6 +12433,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 21
       objectReference: {fileID: 0}
+    - target: {fileID: 1680746705510246, guid: 7721fbe5c428bce4cb340872f93dafe8, type: 2}
+      propertyPath: m_TagString
+      value: CandelLight
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7721fbe5c428bce4cb340872f93dafe8, type: 2}
   m_IsPrefabParent: 0
@@ -13859,6 +13863,26 @@ Prefab:
       propertyPath: sfxSlider
       value: 
       objectReference: {fileID: 354800775}
+    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+        type: 2}
+      propertyPath: lightGroupIntensity1
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+        type: 2}
+      propertyPath: lightGroupIntensity2
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+        type: 2}
+      propertyPath: lightGroupIntensity3
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+        type: 2}
+      propertyPath: lightGroupIntensity4
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66e1c5e6ba924334a9de9ce2ae5289f1, type: 2}
   m_IsPrefabParent: 0
@@ -22141,6 +22165,26 @@ Prefab:
     - target: {fileID: 1928983914827992, guid: c081d9c7e526419448b0890e89da1b82, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701993062224512, guid: c081d9c7e526419448b0890e89da1b82, type: 2}
+      propertyPath: m_TagString
+      value: CandelLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894963902343800, guid: c081d9c7e526419448b0890e89da1b82, type: 2}
+      propertyPath: m_TagString
+      value: CandelLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699299644229754, guid: c081d9c7e526419448b0890e89da1b82, type: 2}
+      propertyPath: m_TagString
+      value: SmallLamp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1610367398126406, guid: c081d9c7e526419448b0890e89da1b82, type: 2}
+      propertyPath: m_TagString
+      value: SmallLamp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1096749252829424, guid: c081d9c7e526419448b0890e89da1b82, type: 2}
+      propertyPath: m_TagString
+      value: SmallLamp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c081d9c7e526419448b0890e89da1b82, type: 2}

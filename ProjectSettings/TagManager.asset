@@ -32,6 +32,10 @@ TagManager:
   - DayWonPanel
   - BaronAnimator
   - Animator
+  - CandelLight
+  - SmallLamp
+  - LargeLamp
+  - Screen
   layers:
   - Default
   - TransparentFX
