@@ -8,10 +8,12 @@ public class MusicControl : MonoBehaviour {
     public string music = "event:/BGM_Game";
 
     FMOD.Studio.EventInstance musicEv;
+    FMOD.Studio.Bus musicBus;
 
     void Start ()
     {
         musicEv = FMODUnity.RuntimeManager.CreateInstance(music);
+        musicBus = FMODUnity.RuntimeManager.GetBus("bus:/Master/Music");
         musicEv.start();
 
     }
@@ -32,11 +34,17 @@ public class MusicControl : MonoBehaviour {
     public void EndScreen()
     {
         musicEv.setParameterValue("Anger", 100f);
-
-        FMOD.Studio.Bus musicBus = FMODUnity.RuntimeManager.GetBus("bus:/Master/Music");
-        musicBus.setMute(true);
-        Debug.Log("EndScreen Called");
-
     }
 
+    //Mute Music only
+    public void MuteMusic()
+    {
+        musicBus.setMute(true);
+    }
+
+    //Unmute Music only
+    public void UnmuteMusic()
+    {
+        musicBus.setMute(false);
+    }
 }
