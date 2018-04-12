@@ -235,7 +235,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294966783
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -298,6 +298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08099c8b496ff4c45a480497e30cd339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kyliesVariable: 5
   isDestroy: 1
   isBaron: 0
   isAI: 0

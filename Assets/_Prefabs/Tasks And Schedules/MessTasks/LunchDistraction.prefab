@@ -228,6 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08099c8b496ff4c45a480497e30cd339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kyliesVariable: 5
   isDestroy: 0
   isBaron: 0
   isAI: 0
