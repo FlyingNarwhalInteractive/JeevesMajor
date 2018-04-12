@@ -218,7 +218,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 20
+  m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 72
   m_CookieSize: 10
@@ -236,7 +236,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294966728
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -266,6 +266,12 @@ MonoBehaviour:
   initialTimeToComplete: 0
   taskPercentComplete: 0
   stepping: {x: 0, y: 0}
+  m_transformOrigin: {x: 0, y: 0, z: 0}
+  shakeAmount: 30
+  waitBetweenShakes: 1
+  shakeDuration: 1
+  lastShakeTime: 0
+  currentRotation: {x: 0, y: 0, z: 0}
 --- !u!114 &114485625075510740
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -362,6 +368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08099c8b496ff4c45a480497e30cd339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kyliesVariable: 5
   isDestroy: 1
   isBaron: 0
   isAI: 0

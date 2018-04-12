@@ -29,7 +29,8 @@ public class OrthoLineRenderer : MonoBehaviour
             // linerender is disabled, disable ours
             for (int i = 1; i < m_renderers.Length; i++)
             {
-                Destroy(m_renderers[i].gameObject);
+                if(m_renderers[i]!=null)
+                    Destroy(m_renderers[i].gameObject);
             }
             m_renderers[0].positionCount = 1;
         }

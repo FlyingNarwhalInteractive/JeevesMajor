@@ -15,7 +15,7 @@ public class DayWonPanel : MonoBehaviour {
     public Text m_bottomLine;
     float timeOpen = 0;
     float movementDuration = 1.0f;
-    bool sleep = false;
+    bool sleep = true;
 
     private void Start()
     {
