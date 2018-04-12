@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class Task : MonoBehaviour
 {
+
+    public int kyliesVariable;
+
     //Owner;
     public bool isDestroy;
     public bool isBaron;
@@ -426,10 +429,10 @@ public class Task : MonoBehaviour
                 Ring.GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 1);
                 }
 
-
+                
                 if (Blink != null)
                 {
-                    Blink.GetComponent<Light>().intensity = 5;
+                    Blink.GetComponent<Light>().intensity = kyliesVariable;
                 }
 
                 cdCounter += Time.deltaTime;
