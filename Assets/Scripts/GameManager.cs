@@ -143,7 +143,8 @@ public class GameManager : MonoBehaviour
 	public int maxLocksAvailable;
 	public int startingRage;
 
-	public MusicControl musicSystem;  //MusicControl script on the "MusicSystem" GameObject
+    //MusicControl script on the "MusicSystem" GameObject
+    public MusicControl musicSystem;  
 
 
 	//Challanges
@@ -423,7 +424,9 @@ public class GameManager : MonoBehaviour
 		power3 = upStats.SetPower3Upgrade(power3Upgrade);
 		power4 = upStats.SetPower4Upgrade(power4Upgrade);
 
-	}
+        //get MusicController
+        musicSystem = GameObject.FindGameObjectWithTag("music").GetComponent<MusicControl>();
+    }
 
 	public void SetMultiplier(int amount)
 	{
@@ -691,7 +694,7 @@ public class GameManager : MonoBehaviour
 			mainUI.SetActive(false);
 
 
-			musicSystem.EndScreen();
+            musicSystem.MuteMusic();
 			//load menu
 			// SceneManager.LoadScene("Menu");
 
