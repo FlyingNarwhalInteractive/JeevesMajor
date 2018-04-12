@@ -32,7 +32,7 @@ public class GameClock : MonoBehaviour
 	private float LightGroup4;
 	private float DirLightOrigin;
 	[SerializeField] float DirLightMax;
-	[SerializeField] Light[] individualLights;
+	private GameObject[] individualLights;
 	private float[] individualLightsOrigin;
 	[SerializeField] float lightGroupIntensity1;
 	[SerializeField] float lightGroupIntensity2;
@@ -49,6 +49,7 @@ public class GameClock : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
+
 		gameManagerRef = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
 		dayBuilder = GameObject.FindGameObjectWithTag("GM").GetComponent<DayBuilder>();
 		npcDay = GameObject.FindGameObjectWithTag("GM").GetComponent<NpcDay>();
@@ -63,10 +64,17 @@ public class GameClock : MonoBehaviour
 
 		timeCounter = 0;
 		timeOfDay = startOfDay;
+		individualLights = GameObject.FindGameObjectsWithTag("Light");
+		individualLightsOrigin = new float[individualLights.Length];
+
+		foreach(GameObject g in individualLights)
+		{
+			print(g.name);
+		}
 
 		for (int i = 0; i < individualLights.Length; i++)
 		{
-			individualLightsOrigin[i] = individualLights[i].intensity;
+			individualLightsOrigin[i] = individualLights[i].GetComponent<Light>().intensity;
 		}
 	}
 
@@ -174,10 +182,11 @@ public class GameClock : MonoBehaviour
 			sun.SetBool("isDay", true);
 		}
 
+		
 
 		for(int i = 0; i < individualLights.Length; i++ )
 		{
-			individualLights[i].intensity = Mathf.Lerp(individualLights[i].intensity, individualLightsOrigin[i], fadeDuration);
+			individualLights[i].GetComponent<Light>().intensity = Mathf.Lerp(individualLights[i].GetComponent<Light>().intensity, individualLightsOrigin[i], fadeDuration * Time.deltaTime);
 		}
 
 		/*
@@ -187,24 +196,24 @@ public class GameClock : MonoBehaviour
 		}
 		*/
 
-		if (LightGroup1 < lightGroupIntensity1)
+		if (LightGroup1 > 0)
 		{
-			LightGroup1 += Time.deltaTime / fadeDuration * lightGroupIntensity1;
+			LightGroup1 -= Time.deltaTime / fadeDuration * lightGroupIntensity1;
 		}
 
-		if (LightGroup2 < lightGroupIntensity2)
+		if (LightGroup2 > 0)
 		{
-			LightGroup2 += Time.deltaTime / fadeDuration * lightGroupIntensity2;
+			LightGroup2 -= Time.deltaTime / fadeDuration * lightGroupIntensity2;
 		}
 
-		if (LightGroup3 < lightGroupIntensity3)
+		if (LightGroup3 > 0)
 		{
-			LightGroup3 += Time.deltaTime / fadeDuration * lightGroupIntensity3;
+			LightGroup3 -= Time.deltaTime / fadeDuration * lightGroupIntensity3;
 		}
 
-		if (LightGroup4 < lightGroupIntensity4)
+		if (LightGroup4 > 0 )
 		{
-			LightGroup4 += Time.deltaTime / fadeDuration * lightGroupIntensity4;
+			LightGroup4 -= Time.deltaTime / fadeDuration * lightGroupIntensity4;
 		}
 
 
@@ -240,6 +249,11 @@ public class GameClock : MonoBehaviour
 		if (sun != null)
 		{
 			sun.SetBool("isDay", false);
+		}
+
+		for (int i = 0; i < individualLights.Length; i++)
+		{
+			individualLights[i].GetComponent<Light>().intensity = Mathf.Lerp(individualLights[i].GetComponent<Light>().intensity, 0, fadeDuration * Time.deltaTime);
 		}
 
 
