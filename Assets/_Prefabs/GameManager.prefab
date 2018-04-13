@@ -68,6 +68,12 @@ MonoBehaviour:
   isDaytime: 1
   clockPaused: 0
   fadeDuration: 5
+  DirLightMax: 1
+  lightGroupIntensity1: 1.5
+  lightGroupIntensity2: 2.5
+  lightGroupIntensity3: 1
+  lightGroupIntensity4: 1
+  sun: {fileID: 0}
   NightFall: event:/SFX/NightCycle
 --- !u!114 &114168890426982984
 MonoBehaviour:
@@ -131,6 +137,7 @@ MonoBehaviour:
   audioSettingsPanel: {fileID: 0}
   mainPanel: {fileID: 0}
   creditPanel: {fileID: 0}
+  musicSystem: {fileID: 0}
 --- !u!114 &114306774098546994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -252,6 +259,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d065d1a19ec3f394d8ece0219f7fcef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  endPanel: {fileID: 0}
+  masterSlider: {fileID: 0}
+  musicSlider: {fileID: 0}
+  sfxSlider: {fileID: 0}
 --- !u!114 &114932439982065768
 MonoBehaviour:
   m_ObjectHideFlags: 1

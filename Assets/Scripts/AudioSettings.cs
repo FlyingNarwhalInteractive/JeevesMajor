@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class AudioSettings : MonoBehaviour {
 
+    public GameObject endPanel;
+
     FMOD.Studio.EventInstance SFXVolumeTestEvent;
 
     FMOD.Studio.Bus Music;
@@ -35,6 +37,18 @@ public class AudioSettings : MonoBehaviour {
         masterSlider.value = MasterVolume;
         musicSlider.value = MusicVolume;
         sfxSlider.value = SFXVolume;
+
+
+        if (endPanel.activeSelf == false)
+        {
+            Music.setMute(false);
+            SFX.setMute(false);
+        }
+        else
+        {
+            Music.setMute(true);
+            SFX.setMute(true);
+        }
     }
 
     public void MasterVolumeLevel (float newMasterVolume)

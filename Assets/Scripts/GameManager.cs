@@ -657,6 +657,8 @@ public class GameManager : MonoBehaviour
 
 		}
 		*/
+        //mute unmute
+
 
 		if (dataRef.GetCurrentRage() > 100)
 		{

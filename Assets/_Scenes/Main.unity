@@ -5708,7 +5708,7 @@ Prefab:
     - target: {fileID: 224982357089544322, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 5
+      value: -172.5
       objectReference: {fileID: 0}
     - target: {fileID: 224981303205774860, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -5803,7 +5803,7 @@ Prefab:
     - target: {fileID: 224711073702186736, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 197.5
+      value: 10.000001
       objectReference: {fileID: 0}
     - target: {fileID: 224692635114172172, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -17758,31 +17758,41 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: angerParticles
+      propertyPath: npcTypesList.Array.data[0]
       value: 
-      objectReference: {fileID: 464789420}
-    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 530580999}
+    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: up
+      propertyPath: npcSpwanLocation
       value: 
-      objectReference: {fileID: 1930232677}
-    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 530581003}
+    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: up1
+      propertyPath: RandomTaskList.Array.data[0]
       value: 
-      objectReference: {fileID: 1345993066}
-    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 2051196833}
+    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: up2
+      propertyPath: RandomTaskList.Array.data[1]
       value: 
-      objectReference: {fileID: 243496926}
-    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 2051196832}
+    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: down
+      propertyPath: RandomTaskList.Array.data[2]
       value: 
-      objectReference: {fileID: 652308964}
+      objectReference: {fileID: 2051196831}
+    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+        type: 2}
+      propertyPath: RandomTaskList.Array.data[3]
+      value: 
+      objectReference: {fileID: 2051196830}
+    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+        type: 2}
+      propertyPath: RandomTaskList.Array.data[4]
+      value: 
+      objectReference: {fileID: 2051196829}
     - target: {fileID: 114168890426982984, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
       propertyPath: baronRandomTaskList.Array.data[0]
@@ -17823,41 +17833,31 @@ Prefab:
       propertyPath: baronRandomTaskList.Array.data[7]
       value: 
       objectReference: {fileID: 1289452198}
-    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: npcTypesList.Array.data[0]
+      propertyPath: angerParticles
       value: 
-      objectReference: {fileID: 530580999}
-    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 464789420}
+    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: npcSpwanLocation
+      propertyPath: up
       value: 
-      objectReference: {fileID: 530581003}
-    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 1930232677}
+    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: RandomTaskList.Array.data[0]
+      propertyPath: up1
       value: 
-      objectReference: {fileID: 2051196833}
-    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 1345993066}
+    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: RandomTaskList.Array.data[1]
+      propertyPath: up2
       value: 
-      objectReference: {fileID: 2051196832}
-    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 243496926}
+    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: RandomTaskList.Array.data[2]
+      propertyPath: down
       value: 
-      objectReference: {fileID: 2051196831}
-    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
-        type: 2}
-      propertyPath: RandomTaskList.Array.data[3]
-      value: 
-      objectReference: {fileID: 2051196830}
-    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
-        type: 2}
-      propertyPath: RandomTaskList.Array.data[4]
-      value: 
-      objectReference: {fileID: 2051196829}
+      objectReference: {fileID: 652308964}
     - target: {fileID: 114489335311532966, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
       propertyPath: staminaBar
@@ -18038,6 +18038,11 @@ Prefab:
       propertyPath: challangeText
       value: 
       objectReference: {fileID: 1731159881}
+    - target: {fileID: 114489335311532966, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+        type: 2}
+      propertyPath: musicSystem
+      value: 
+      objectReference: {fileID: 307090109}
     - target: {fileID: 114261465340203526, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
       propertyPath: pausePanel
@@ -18060,6 +18065,11 @@ Prefab:
       objectReference: {fileID: 78587823}
     - target: {fileID: 114728358362135408, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
+      propertyPath: endPanel
+      value: 
+      objectReference: {fileID: 2111431590}
+    - target: {fileID: 114728358362135408, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+        type: 2}
       propertyPath: masterSlider
       value: 
       objectReference: {fileID: 354800777}
@@ -18073,51 +18083,6 @@ Prefab:
       propertyPath: sfxSlider
       value: 
       objectReference: {fileID: 354800775}
-    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
-        type: 2}
-      propertyPath: lightGroupIntensity1
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
-        type: 2}
-      propertyPath: lightGroupIntensity2
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
-        type: 2}
-      propertyPath: lightGroupIntensity3
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
-        type: 2}
-      propertyPath: lightGroupIntensity4
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
-        type: 2}
-      propertyPath: DirLightMax
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114489335311532966, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
-        type: 2}
-      propertyPath: musicSystem
-      value: 
-      objectReference: {fileID: 307090109}
-    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
-        type: 2}
-      propertyPath: isDaytime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
-        type: 2}
-      propertyPath: timeOfDay.y
-      value: 28
-      objectReference: {fileID: 0}
-    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
-        type: 2}
-      propertyPath: hourLengthInMinutes
-      value: 0.25
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66e1c5e6ba924334a9de9ce2ae5289f1, type: 2}
   m_IsPrefabParent: 0
