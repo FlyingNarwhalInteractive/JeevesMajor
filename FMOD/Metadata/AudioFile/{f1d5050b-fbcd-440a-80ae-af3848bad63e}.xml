@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{f1d5050b-fbcd-440a-80ae-af3848bad63e}">
+        <property name="assetPath">
+            <value>refrigerater2_C.mp3</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.3440000000000001</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{1eee557e-c306-4429-9968-719dfe06ac29}</destination>
+        </relationship>
+    </object>
+</objects>
