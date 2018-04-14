@@ -79,7 +79,7 @@ public class BtnHighlight : MonoBehaviour
 	{
 		if (dataRef.Stamina >= cost)
 		{
-			hover = false;
+			hover = true;
 		}
 		else
 		{
@@ -116,24 +116,29 @@ public class BtnHighlight : MonoBehaviour
 				Ani.SetBool("isWobble", false);
 				Ani.SetBool("isHover", false);
 			}
-			else
+			else if(dataRef.Stamina >= cost)
 			{
 				img.color = Color.Lerp(img.color, Color.yellow, 0.5f);
 				Ani.SetBool("isWobble", true);
 				Ani.SetBool("isHover", false);
 			}
 		}
-		else if (hover == true && dataRef.Stamina >= cost)
+		else if (hover == true)
 		{
+			if(dataRef.Stamina >= cost)
+			{
 			img.color = Color.Lerp(img.color, Color.green, 0.5f);
 			Ani.SetBool("isWobble", true);
 			Ani.SetBool("isHover", true);
+			}
+
 		}
 		else
 		{
 			img.color = Color.Lerp(img.color, Color.grey, 0.5f);
 			Ani.SetBool("isWobble", false);
 			Ani.SetBool("isHover", false);
+			hover = false;
 		}
 	}
 
