@@ -102,20 +102,26 @@ public class RandomScheduler : MonoBehaviour
 
 
 
-		//if spawn time
-		if (frequancy < localClock)
-		{
-			findRandTask();
+        //if spawn time
+        if (frequancy < localClock)
+        {
+            findRandTask();
 
-			GameObject[] tasks = GameObject.FindGameObjectsWithTag("Task");
+            GameObject[] tasks = GameObject.FindGameObjectsWithTag("Task");
 
-			foreach (GameObject t in tasks)
-			{
-				if (t.name == "DoorTask(Clone)" && randomTaskList[chosenTask].name == "DoorTask")
-				{
-					return;
-				}
-			}
+            if (randomTaskList[chosenTask].name == "DoorTask")
+            {
+                if (GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameClock>().timeOfDay.x > 16)
+                    return;
+
+                foreach (GameObject t in tasks)
+                {
+                    if (t.name == "DoorTask(Clone)")
+                    {
+                        return;
+                    }
+                }
+            }
 
 
 
