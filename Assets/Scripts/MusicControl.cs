@@ -20,9 +20,18 @@ public class MusicControl : MonoBehaviour {
 
     void Update()
     {
+        // Check Mute status for music
         bool musicMuted;
         musicBus.getMute(out musicMuted);
+
+        // If current scene is Main Menu, unmute music.
         if(SceneManager.GetActiveScene().buildIndex == 0 && musicMuted)
+        {
+            musicBus.setMute(false);
+        }
+
+        // If current scene is Upgrades Menu, unmute music.
+        if (SceneManager.GetActiveScene().buildIndex == 2 && musicMuted)
         {
             musicBus.setMute(false);
         }
