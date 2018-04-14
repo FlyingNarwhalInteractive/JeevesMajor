@@ -16,12 +16,14 @@ public class BtnHighlight : MonoBehaviour
 	private float count;
 	private bool hover;
 	private Vector3 origin;
+	private Animator Ani;
 	// Use this for initialization
 
 
 	void Start()
 	{
 		//initialise stuffs
+		Ani = GetComponent<Animator>();
 		img = gameObject.GetComponent<Image>();
 		GM = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
 		dataRef = GameObject.FindGameObjectWithTag("GM").GetComponent<GameDataStore>();
@@ -103,24 +105,29 @@ public class BtnHighlight : MonoBehaviour
 
 	private void De()
 	{
+		
+
 		if (hover == false && cost != 0)
 		{
 			transform.localScale = new Vector3(2, 2, 1);
 			if (dataRef.Stamina < cost)
 			{
 				img.color = Color.Lerp(img.color, Color.grey, 0.5f);
+				Ani.SetBool("isWobble", false);
+				Ani.SetBool("isHover", false);
 			}
 			else
 			{
 				img.color = Color.Lerp(img.color, Color.yellow, 0.5f);
-				Wobble();
+				Ani.SetBool("isWobble", true);
+				Ani.SetBool("isHover", false);
 			}
 		}
 		else if (hover == true && dataRef.Stamina >= cost)
 		{
 			img.color = Color.Lerp(img.color, Color.green, 0.5f);
-			Wobble();
-			transform.localScale = new Vector3(2 + 0.25f * Mathf.Sin(Time.time * 1), 2 + 0.25f * Mathf.Sin(Time.time * 1) + (0.25f * Mathf.Cos(Time.time * 10)), 0);
+			Ani.SetBool("isWobble", true);
+			Ani.SetBool("isHover", true);
 		}
 	}
 
@@ -128,6 +135,6 @@ public class BtnHighlight : MonoBehaviour
 	void Wobble()
 	{
 
-		transform.position += new Vector3(0.25f * Mathf.Sin(Time.time * 10), 0.25f * Mathf.Sin(Time.time * 10) + (0.25f * Mathf.Cos(Time.time * 10)), 0);
+		transform.position += new Vector3(0.25f * Mathf.Sin(Time.time * Random.Range(8f, 12f)), 0.25f * Mathf.Sin(Time.time * Random.Range(8f, 12f)) + (0.25f * Mathf.Cos(Time.time * Random.Range(8f, 12f))), 0);
 	}
 }
