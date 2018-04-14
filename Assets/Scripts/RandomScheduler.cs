@@ -111,7 +111,7 @@ public class RandomScheduler : MonoBehaviour
 
             if (randomTaskList[chosenTask].name == "DoorTask")
             {
-                if (GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameClock>().timeOfDay.x > 16)
+                if (GameObject.FindGameObjectWithTag("GM").GetComponent<GameClock>().timeOfDay.x > 16)
                     return;
 
                 foreach (GameObject t in tasks)

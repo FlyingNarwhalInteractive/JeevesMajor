@@ -40,6 +40,7 @@ public class GameClock : MonoBehaviour
 	[SerializeField] float lightGroupIntensity4;
 
 	[SerializeField] Animator sun;
+	[SerializeField] Animator moon;
 	// FMOD Audio Events
 	//  [FMODUnity.EventRef]
 	//  public string DayBreak;
@@ -182,10 +183,14 @@ public class GameClock : MonoBehaviour
 		{
 			sun.SetBool("isDay", true);
 		}
+		if (moon != null)
+		{
+			moon.SetBool("isDay", true);
+		}
 
-		
 
-		for(int i = 0; i < individualLights.Length; i++ )
+
+		for (int i = 0; i < individualLights.Length; i++ )
 		{
 			individualLights[i].GetComponent<Light>().intensity = Mathf.Lerp(individualLights[i].GetComponent<Light>().intensity, individualLightsOrigin[i], fadeDuration * Time.deltaTime);
 		}
@@ -250,6 +255,10 @@ public class GameClock : MonoBehaviour
 		if (sun != null)
 		{
 			sun.SetBool("isDay", false);
+		}
+		if (moon != null)
+		{
+			moon.SetBool("isDay", false);
 		}
 
 		for (int i = 0; i < individualLights.Length; i++)

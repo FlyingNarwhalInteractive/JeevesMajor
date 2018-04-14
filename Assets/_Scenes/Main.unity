@@ -5308,7 +5308,7 @@ Animator:
   m_GameObject: {fileID: 319632110}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 01d85905911333f4f82d713bbdf66ba4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 135b0d976f8fe504fa7c23350e8acdc4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5932,12 +5932,12 @@ Prefab:
     - target: {fileID: 224208467911758062, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 504
+      value: 567
       objectReference: {fileID: 0}
     - target: {fileID: 224208467911758062, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 279
+      value: 319
       objectReference: {fileID: 0}
     - target: {fileID: 224296535556632334, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -6082,7 +6082,7 @@ Prefab:
     - target: {fileID: 224711073702186736, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 10.000001
+      value: 197.5
       objectReference: {fileID: 0}
     - target: {fileID: 224850934344259240, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -6167,7 +6167,7 @@ Prefab:
     - target: {fileID: 224982357089544322, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -172.5
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114932718465749066, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -18297,6 +18297,16 @@ Prefab:
       propertyPath: sfxSlider
       value: 
       objectReference: {fileID: 354800775}
+    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+        type: 2}
+      propertyPath: moon
+      value: 
+      objectReference: {fileID: 319632111}
+    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+        type: 2}
+      propertyPath: sun
+      value: 
+      objectReference: {fileID: 1708261562}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66e1c5e6ba924334a9de9ce2ae5289f1, type: 2}
   m_IsPrefabParent: 0
@@ -27053,7 +27063,7 @@ Prefab:
     - target: {fileID: 114987034556002282, guid: 09c02c458eb8b9e41a3d83c64de26661,
         type: 2}
       propertyPath: chanceNum.Array.data[0]
-      value: 1000
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 09c02c458eb8b9e41a3d83c64de26661, type: 2}
