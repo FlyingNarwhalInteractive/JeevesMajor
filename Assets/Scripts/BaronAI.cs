@@ -17,6 +17,9 @@ public class BaronAI : MonoBehaviour
     public GameObject Line;
     GameObject[] annoyanceLines;
 
+    [FMODUnity.EventRef]
+    public string JeevesAlert;
+    bool soundPlayed = false;
 
     //protect jeeves after handing in fetch
     public bool protect;
@@ -54,6 +57,8 @@ public class BaronAI : MonoBehaviour
 
         annoyanceLines = new GameObject[1];
         annoyanceLines[0] = new GameObject();
+
+
     }
 
     // Update is called once per frame
@@ -77,6 +82,8 @@ public class BaronAI : MonoBehaviour
         currentRage = gameManager.GetComponent<GameDataStore>().GetCurrentRage();
         if (currentRage >= maxRage)
             BaronRages();
+
+
     }
 	
 	void FixedUpdate ()
@@ -139,6 +146,7 @@ public class BaronAI : MonoBehaviour
             if (turnOnRaycasts)
                 Debug.DrawRay(rayOrigin, objBearing * detectionRange, Color.red);
 
+
             
             // If the object hit is Jeeves, handle the detection.
             if (spottedObject && hit.transform == jeevesObject.transform)
@@ -146,7 +154,7 @@ public class BaronAI : MonoBehaviour
                 Debug.Log("Baron has detected Jeeves");
                 Ring.GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 1);
                 //tutorial link
-                if(tutRef != null)
+                if (tutRef != null)
                 {
                 if (tutRef.GetCurrent() == 3)
                 {
@@ -157,9 +165,22 @@ public class BaronAI : MonoBehaviour
 
                 if (!jeevesSpotted)
                     gameManager.GetComponent<GameDataStore>().SetCurrentRage(jeevesRage);
+
                 jeevesSpotted = true;
                 isJeevesVisibleRightNow = true;
+
+                if (jeevesSpotted)
+                {
+                if(!soundPlayed)jeevesDetect();
+                soundPlayed = true;
+                }
+                else
+                {
+                    soundPlayed = false;
+                }
+
                 tempAnnoyances.Add(jeevesObject);
+
             }
             else
                 isJeevesVisibleRightNow = false;
@@ -201,4 +222,11 @@ public class BaronAI : MonoBehaviour
         return isJeevesVisibleRightNow;
     }
 
+   void jeevesDetect ()
+    {
+        if (jeevesSpotted == true)
+        {
+            FMODUnity.RuntimeManager.PlayOneShot(JeevesAlert);
+        }
+    }
 }
