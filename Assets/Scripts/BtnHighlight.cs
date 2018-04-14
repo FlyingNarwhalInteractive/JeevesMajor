@@ -79,7 +79,7 @@ public class BtnHighlight : MonoBehaviour
 	{
 		if (dataRef.Stamina >= cost)
 		{
-			hover = true;
+			hover = false;
 		}
 		else
 		{
@@ -128,6 +128,12 @@ public class BtnHighlight : MonoBehaviour
 			img.color = Color.Lerp(img.color, Color.green, 0.5f);
 			Ani.SetBool("isWobble", true);
 			Ani.SetBool("isHover", true);
+		}
+		else
+		{
+			img.color = Color.Lerp(img.color, Color.grey, 0.5f);
+			Ani.SetBool("isWobble", false);
+			Ani.SetBool("isHover", false);
 		}
 	}
 
