@@ -41,7 +41,7 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: 21300000, guid: f71ba3473e1f12548840bfd750b44224, type: 3}
     duration: 3
-  - logo: {fileID: 21300000, guid: 07f9a34595abc9c469b4e712949394f0, type: 3}
+  - logo: {fileID: 21300000, guid: c7e8eba85d4353b49b0469bdaeab9e18, type: 3}
     duration: 3
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
@@ -241,12 +241,13 @@ PlayerSettings:
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
-  resolutionDialogBanner: {fileID: 0}
+  resolutionDialogBanner: {fileID: 2800000, guid: d708490b5c1708f448be3bfb9f0716f3,
+    type: 3}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 264b8b8fe8bbe1745a25d438643f6f19, type: 3}
+      m_Icon: {fileID: 2800000, guid: aaf19069c2f64e747961291742370a7d, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
