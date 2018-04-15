@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class FetchQuest : MonoBehaviour {
+public class FetchQuest : MonoBehaviour
+{
 
 
-   // [SerializeField] float fetchDist;
+    // [SerializeField] float fetchDist;
     [SerializeField] int fetchReward;
     [SerializeField] int fetchRage;
     [SerializeField] float wait;
@@ -28,11 +29,11 @@ public class FetchQuest : MonoBehaviour {
     public int arrowPos = 1;
     public float lastTimeMoved = 0;
     public float arrowMoveSpeed = 0.5f;
-    
+
     // Use this for initialization
-    void Start ()
+    void Start()
     {
-        
+
         dataRef = GameObject.FindGameObjectWithTag("GM").GetComponent<GameDataStore>();
         baronRef = GameObject.FindGameObjectWithTag("Baron");
         jeevesRef = GameObject.FindGameObjectWithTag("Jeeves").GetComponent<Jeeves>();
@@ -44,7 +45,7 @@ public class FetchQuest : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Jeeves")
+        if (other.tag == "Jeeves")
         {
 
             other.gameObject.GetComponent<Jeeves>().hasFetch = true;
@@ -52,13 +53,13 @@ public class FetchQuest : MonoBehaviour {
             other.gameObject.GetComponent<Jeeves>().fetchRage = fetchRage;
             other.gameObject.GetComponent<Jeeves>().jeevesFetchTimeout = wait;
             other.gameObject.GetComponent<Jeeves>().line.enabled = true;
-          
+
             Destroy(gameObject);
         }
     }
 
-	// Update is called once per frame
-	void Update ()
+    // Update is called once per frame
+    void Update()
     {
 
         //Reference (dotted line)
@@ -99,29 +100,32 @@ public class FetchQuest : MonoBehaviour {
         }*/
         //lineRenderer.SetPosition(0, gameObject.transform.position);
         //lineRenderer.SetPosition(1, baronRef.transform.position);
-        
-   
+
+
 
 
 
 
         fcount += Time.deltaTime;
-            if (fcount > wait)
+        if (fcount > wait)
+        {
+
+            baronRef.GetComponent<NotTheRealAI>().isPaused = false;
+            //punish player
+            dataRef.SetCurrentRage(fetchRage);
+            fcount = 0;
+            jeevesRef.isFetchActive = false;
+            if (fire != null)
             {
-              
-                baronRef.GetComponent<NotTheRealAI>().isPaused = false;
-                //punish player
-                dataRef.SetCurrentRage(fetchRage);
-                fcount = 0;
-                jeevesRef.isFetchActive = false;
                 GameObject F = Instantiate(fire, transform.position, fire.transform.rotation);
                 Destroy(F, 5.0f);
-                Destroy(gameObject);
-
-
             }
+            Destroy(gameObject);
+
+
         }
     }
+}
 
 
 
