@@ -74,7 +74,7 @@ public class WallCulling : MonoBehaviour
     // When an object enters the trigger, check it has the right tag.
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Baron" || other.tag == "Jeeves" || other.tag == "DirLight") // Checks if object tag is either Baron or Jeeves.
+        if (other.tag == "Baron" || other.tag == "Jeeves" || other.tag == "DirLight" || other.tag == "NPCGuest") // Checks if object tag is either Baron or Jeeves.
         {
             objInCollider++; // Increment Objects In Collider counter
 
@@ -90,7 +90,7 @@ public class WallCulling : MonoBehaviour
     // When an object leaves the trigger, check it has the right tag.
     void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Baron" || other.tag == "Jeeves" || other.tag == "DirLight") // Checks if object tag is either Baron or Jeeves.
+        if (other.tag == "Baron" || other.tag == "Jeeves" || other.tag == "DirLight" || other.tag == "NPCGuest") // Checks if object tag is either Baron or Jeeves.
         {
             objInCollider--; // Decrements Objects In Collider counter
 
