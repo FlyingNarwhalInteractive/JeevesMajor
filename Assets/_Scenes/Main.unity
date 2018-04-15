@@ -5920,7 +5920,7 @@ Prefab:
     - target: {fileID: 224982357089544322, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -172.5
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224966546906594240, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -5990,7 +5990,7 @@ Prefab:
     - target: {fileID: 224711073702186736, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 10.000001
+      value: 197.5
       objectReference: {fileID: 0}
     - target: {fileID: 224649346130423188, guid: b9fe8ae4881a0ee4f9b80d05b82d7f76,
         type: 2}
@@ -15514,10 +15514,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 23
       objectReference: {fileID: 0}
-    - target: {fileID: 1680746705510246, guid: 7721fbe5c428bce4cb340872f93dafe8, type: 2}
-      propertyPath: m_TagString
-      value: CandelLight
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7721fbe5c428bce4cb340872f93dafe8, type: 2}
   m_IsPrefabParent: 0
@@ -17061,41 +17057,41 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: sun
+      propertyPath: npcTypesList.Array.data[0]
       value: 
-      objectReference: {fileID: 1708261562}
-    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 530580999}
+    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: moon
+      propertyPath: npcSpwanLocation
       value: 
-      objectReference: {fileID: 319632111}
-    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 530581003}
+    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: angerParticles
+      propertyPath: RandomTaskList.Array.data[0]
       value: 
-      objectReference: {fileID: 464789420}
-    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 2051196833}
+    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: up
+      propertyPath: RandomTaskList.Array.data[1]
       value: 
-      objectReference: {fileID: 1930232677}
-    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 2051196832}
+    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: up1
+      propertyPath: RandomTaskList.Array.data[2]
       value: 
-      objectReference: {fileID: 1345993066}
-    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 2051196831}
+    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: up2
+      propertyPath: RandomTaskList.Array.data[3]
       value: 
-      objectReference: {fileID: 243496926}
-    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 2051196830}
+    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: down
+      propertyPath: RandomTaskList.Array.data[4]
       value: 
-      objectReference: {fileID: 652308964}
+      objectReference: {fileID: 2051196829}
     - target: {fileID: 114168890426982984, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
       propertyPath: baronRandomTaskList.Array.data[0]
@@ -17136,41 +17132,41 @@ Prefab:
       propertyPath: baronRandomTaskList.Array.data[7]
       value: 
       objectReference: {fileID: 1289452198}
-    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: npcTypesList.Array.data[0]
+      propertyPath: angerParticles
       value: 
-      objectReference: {fileID: 530580999}
-    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 464789420}
+    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: npcSpwanLocation
+      propertyPath: up
       value: 
-      objectReference: {fileID: 530581003}
-    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 1930232677}
+    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: RandomTaskList.Array.data[0]
+      propertyPath: up1
       value: 
-      objectReference: {fileID: 2051196833}
-    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 1345993066}
+    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: RandomTaskList.Array.data[1]
+      propertyPath: up2
       value: 
-      objectReference: {fileID: 2051196832}
-    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 243496926}
+    - target: {fileID: 114986925210087994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: RandomTaskList.Array.data[2]
+      propertyPath: down
       value: 
-      objectReference: {fileID: 2051196831}
-    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 652308964}
+    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: RandomTaskList.Array.data[3]
+      propertyPath: sun
       value: 
-      objectReference: {fileID: 2051196830}
-    - target: {fileID: 114306774098546994, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
+      objectReference: {fileID: 1708261562}
+    - target: {fileID: 114146984165869642, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
-      propertyPath: RandomTaskList.Array.data[4]
+      propertyPath: moon
       value: 
-      objectReference: {fileID: 2051196829}
+      objectReference: {fileID: 319632111}
     - target: {fileID: 114489335311532966, guid: 66e1c5e6ba924334a9de9ce2ae5289f1,
         type: 2}
       propertyPath: staminaBar
