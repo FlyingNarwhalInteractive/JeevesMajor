@@ -32,6 +32,11 @@ public class MainMenuManager : MonoBehaviour {
             {
                 if (pausePanel.activeSelf == false)
                 {
+                    // set all others to false in case we were in one
+                    gameSettingsPanel.SetActive(false);
+                    audioSettingsPanel.SetActive(false);
+                    mainPanel.SetActive(false);
+
                     pausePanel.SetActive(true);
                     Time.timeScale = 0;
                 }

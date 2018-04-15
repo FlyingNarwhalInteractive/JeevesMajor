@@ -385,7 +385,9 @@ public class SaveLoad
         {
             //  oh noes, we failed, load defaults
             // oh wait! new SaveData totally already did this for us! muah ha ah hahahahahaa
-
+            SaveData.cursorInvert = true;
+            SaveData.doubleClickDoors = true;
+            SaveData.rightMousePan = true;
             // save file with defaults.
             Save(filePath);
         }
