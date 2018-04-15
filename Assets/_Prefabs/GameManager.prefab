@@ -74,6 +74,7 @@ MonoBehaviour:
   lightGroupIntensity3: 1
   lightGroupIntensity4: 1
   sun: {fileID: 0}
+  moon: {fileID: 0}
   NightFall: event:/SFX/NightCycle
 --- !u!114 &114168890426982984
 MonoBehaviour:
