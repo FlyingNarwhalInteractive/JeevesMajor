@@ -38,17 +38,20 @@ public class AudioSettings : MonoBehaviour {
         musicSlider.value = MusicVolume;
         sfxSlider.value = SFXVolume;
 
-
-        if (endPanel.activeSelf == false)
+        if (endPanel)
         {
-            Music.setMute(false);
-            SFX.setMute(false);
+            if (endPanel.activeSelf == false)
+            {
+                Music.setMute(false);
+                SFX.setMute(false);
+            }
+            else
+            {
+                Music.setMute(true);
+                SFX.setMute(true);
+            }
         }
-        else
-        {
-            Music.setMute(true);
-            SFX.setMute(true);
-        }
+    
     }
 
     public void MasterVolumeLevel (float newMasterVolume)

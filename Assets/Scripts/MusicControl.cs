@@ -40,19 +40,19 @@ public class MusicControl : MonoBehaviour {
     //Game started, main music loop
     public void MainLoop()
     {
-        musicEv.setParameterValue("Anger", 1f);
+        musicEv.setParameterByName("Anger", 1f);
     }
 
     //Baron's anger is over 50
     public void Anger()
     {
-        musicEv.setParameterValue("Anger", 50f);
+        musicEv.setParameterByName("Anger", 50f);
     }
 
     //Baron Anger >= 100: Game over, end screen showing
     public void EndScreen()
     {
-        musicEv.setParameterValue("Anger", 100f);
+        musicEv.setParameterByName("Anger", 100f);
     }
 
     //Mute Music only
